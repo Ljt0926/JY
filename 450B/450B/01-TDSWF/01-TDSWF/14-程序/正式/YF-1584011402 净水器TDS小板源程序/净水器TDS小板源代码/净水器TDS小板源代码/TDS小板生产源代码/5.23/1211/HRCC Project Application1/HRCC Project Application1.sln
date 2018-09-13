@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# HRIDE Solution File, Format Version 11.00
+Project("{39F91901-BA3E-4766-9ADB-AC16DDCC0D9C}") = "HRCC Project Application1", "HRCC Project Application1\HRCC Project Application1.hrccproj", "{BC716F0B-8375-4F40-B365-84B7225287AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC716F0B-8375-4F40-B365-84B7225287AF}.Debug|x86.ActiveCfg = Debug|x86
+		{BC716F0B-8375-4F40-B365-84B7225287AF}.Debug|x86.Build.0 = Debug|x86
+		{BC716F0B-8375-4F40-B365-84B7225287AF}.Release|x86.ActiveCfg = Release|x86
+		{BC716F0B-8375-4F40-B365-84B7225287AF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

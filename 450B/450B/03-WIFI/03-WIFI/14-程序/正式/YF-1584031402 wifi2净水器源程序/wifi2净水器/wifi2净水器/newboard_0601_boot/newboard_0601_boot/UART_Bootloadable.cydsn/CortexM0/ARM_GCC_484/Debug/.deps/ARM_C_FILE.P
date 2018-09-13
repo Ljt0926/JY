@@ -1,0 +1,38 @@
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/CortexM0/ARM_GCC_484/Debug/CapSense.o : D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_IP.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_PVT.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CyLib.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmFunc.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmInstr.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cyfitter.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cypins.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cytypes.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense.c 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_IP.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_PVT.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmFunc.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmInstr.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cypins.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense.c : 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/CortexM0/ARM_GCC_484/Debug/CapSense_CSHL.o : D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_IP.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_PVT.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CyLib.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmFunc.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/core_cmInstr.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cydevice_trm.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cyfitter.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/cytypes.h D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_CSHL.c 
+
+D:/wifi_work/450B_code/new_board/newboard_0527_boot/UART_Bootloadable.cydsn/Generated_Source/PSoC4/CapSense_CSHL.c : 
+

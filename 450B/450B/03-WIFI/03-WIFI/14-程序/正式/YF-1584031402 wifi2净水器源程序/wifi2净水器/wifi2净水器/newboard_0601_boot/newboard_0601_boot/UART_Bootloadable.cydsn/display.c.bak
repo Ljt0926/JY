@@ -1,0 +1,1128 @@
+/* ========================================
+ *
+ * Copyright YOUR COMPANY, THE YEAR
+ * All Rights Reserved
+ * UNPUBLISHED, LICENSED SOFTWARE.
+ *
+ * CONFIDENTIAL AND PROPRIETARY INFORMATION
+ * WHICH IS THE PROPERTY OF your company.
+ *
+ * ========================================
+*/
+#define _DISPLAY_
+#include "config.h"
+
+/*****************************************************************\
+    74hs164
+\*****************************************************************/
+void S164_Trans_abyte(unsigned long ddata)
+{
+    unsigned char k;
+    unsigned int tm;
+    
+    tm = ddata;
+    
+    for(k=0;k<24;k++)
+    {
+        HCLK_Write(0);
+        
+        HSDA_Write(tm & 0x01);
+        
+        CyDelayUs(2);
+        
+        HCLK_Write(1);
+        
+        CyDelayUs(2);
+        
+        tm >>= 1;
+    }
+    return;
+}
+
+
+/*****************************************************************\
+\*****************************************************************/
+void Led_Digital_Trans(unsigned char dig,unsigned char dt)
+{
+    switch(dt)
+    {
+        case 0:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 1:
+            LedPannelBuf[DIGACON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 2:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGFCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 3:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 4:
+            LedPannelBuf[DIGACON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 5:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 6:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 7:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 8:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 9:
+            LedPannelBuf[DIGACON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGCCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 14:
+            
+            LedPannelBuf[DIGACON]&= ~(0x00000001 << dig);
+            LedPannelBuf[DIGBCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGCCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGDCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGECON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGFCON] &= ~(0x00000001 << dig);
+            LedPannelBuf[DIGGCON] &= ~(0x00000001 << dig);
+             break;
+           
+            
+        default:
+            LedPannelBuf[DIGACON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGBCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGCCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGDCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGECON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGFCON] |= (0x00000001 << dig);
+            LedPannelBuf[DIGGCON] |= (0x00000001 << dig);
+            break;
+    }
+}
+/*****************************************************************\
+       yanshidisplay
+\*****************************************************************/
+void yanshi_Digital_Trans(unsigned char dig,unsigned char dt)
+{
+    switch(dt)
+    {
+        case 0:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] &= ~(0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 1:
+            temp[DIGACON] |= (0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] |= (0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] |= (0x00000001 << dig);
+            temp[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 2:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] |= (0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] &= ~(0x00000001 << dig);
+            temp[DIGFCON] |= (0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 3:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] |= (0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 4:
+            temp[DIGACON] |= (0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] |= (0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 5:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] |= (0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 6:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] |= (0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] &= ~(0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 7:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] |= (0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] |= (0x00000001 << dig);
+            temp[DIGGCON] |= (0x00000001 << dig);
+            break;
+        case 8:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] &= ~(0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 9:
+            temp[DIGACON] &= ~(0x00000001 << dig);
+            temp[DIGBCON] &= ~(0x00000001 << dig);
+            temp[DIGCCON] &= ~(0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+            break;
+        case 14:
+            
+            temp[DIGACON]&= ~(0x00000001 << dig);
+            temp[DIGBCON] |= (0x00000001 << dig);
+            temp[DIGCCON] |= (0x00000001 << dig);
+            temp[DIGDCON] &= ~(0x00000001 << dig);
+            temp[DIGECON] &= ~(0x00000001 << dig);
+            temp[DIGFCON] &= ~(0x00000001 << dig);
+            temp[DIGGCON] &= ~(0x00000001 << dig);
+             break;
+            
+            
+        default:
+            temp[DIGACON] |= (0x00000001 << dig);
+            temp[DIGBCON] |= (0x00000001 << dig);
+            temp[DIGCCON] |= (0x00000001 << dig);
+            temp[DIGDCON] |= (0x00000001 << dig);
+            temp[DIGECON] |= (0x00000001 << dig);
+            temp[DIGFCON] |= (0x00000001 << dig);
+            temp[DIGGCON] |= (0x00000001 << dig);
+            break;
+    }
+}
+
+
+
+
+
+
+
+
+/*****************************************************************\
+\*****************************************************************/
+void Led_Pannel_Updata(void)
+{
+    if(Error_Data.bit.Error_00_flag)//连续工作2小时报警程序
+    {
+        
+        
+        
+        
+        
+        PWM_Start();//蜂鸣器长鸣
+          /*显示E0*/ 
+        Led_Digital_Trans(DIG3,14);
+        
+        
+        
+        Led_Digital_Trans(DIG4,0);
+        /*关掉数码管显示的前两位*/
+        LedPannelBuf[0]|=0x00030000;
+        LedPannelBuf[1]|=0x00030000;
+        LedPannelBuf[2]|=0x00030000;
+        LedPannelBuf[3]|=0x00030000;
+        LedPannelBuf[4]|=0x00030000;
+        LedPannelBuf[5]|=0x00030000;
+        LedPannelBuf[6]|=0x00030000;
+        
+        
+        
+        
+        
+        /*所有显示灯1HZ闪烁*/
+        if(eroorcnt<5)
+        {
+            LedPannelBuf[0]|=0x00001fff;
+            LedPannelBuf[1]|=0x00001fff;
+            LedPannelBuf[2]|=0x00001fff;
+            LedPannelBuf[3]|=0x00001fff;
+            LedPannelBuf[4]|=0x00001fff;
+            LedPannelBuf[5]|=0x00001fff;
+            LedPannelBuf[6]|=0x00001fff;
+        
+        }
+        else if(eroorcnt>5&&eroorcnt<=10)
+        {
+            LedPannelBuf[0]&=0xffffe000;
+            LedPannelBuf[1]&=0xffffe000;
+            LedPannelBuf[2]&=0xffffe000;
+            LedPannelBuf[3]&=0xffffe000;
+            LedPannelBuf[4]&=0xffffe000;
+            LedPannelBuf[5]&=0xffffe000;
+            LedPannelBuf[6]&=0xffffe000;
+       
+            
+            
+        }
+         else if(eroorcnt>10)
+            eroorcnt=0;
+        
+        
+        
+        
+        
+        
+    }
+    else
+    {
+      if(WorkFlag.error&&WorkFlag.zijiansta==1)//有故障时显示故障代码
+        {
+            
+          if(Error_Data.bit.Error_02_flag==1&&Error_Data.bit.Error_01_flag==1) 
+            {
+            
+                Led_Digital_Trans(DIG3,14);
+                Led_Digital_Trans(DIG4,2);
+                Led_Digital_Trans(DIG1,14);
+                Led_Digital_Trans(DIG2,1);
+                
+            
+            
+            }
+            
+            else
+            {          
+                if(Error_Data.bit.Error_02_flag==1)
+                {  /*显示E2*/ 
+                    Led_Digital_Trans(DIG3,14);
+                    Led_Digital_Trans(DIG4,2);
+                    LedPannelBuf[0]|=0x00030000;
+                    LedPannelBuf[1]|=0x00030000;
+                    LedPannelBuf[2]|=0x00030000;
+                    LedPannelBuf[3]|=0x00030000;//关掉数码管的前2位显示
+                    LedPannelBuf[4]|=0x00030000;
+                    LedPannelBuf[5]|=0x00030000;
+                    LedPannelBuf[6]|=0x00030000;
+                }
+                    
+                if(Error_Data.bit.Error_01_flag==1)    
+                {
+                    /*显示E1*/ 
+                    Led_Digital_Trans(DIG3,14);
+                    Led_Digital_Trans(DIG4,1);
+                    LedPannelBuf[0]|=0x00030000;
+                    LedPannelBuf[1]|=0x00030000;
+                    LedPannelBuf[2]|=0x00030000;
+                    LedPannelBuf[3]|=0x00030000;//关掉数码管的前2位显示
+                    LedPannelBuf[4]|=0x00030000;
+                    LedPannelBuf[5]|=0x00030000;
+                    LedPannelBuf[6]|=0x00030000;   
+                }    
+                    
+               
+            }               
+        }
+      else if(WorkFlag01.bit.tds_00_disp==1)
+			  {
+			    display8888(Value_Tds0);
+			    DisFlag.jsll=0;
+			  }
+			else if(WorkFlag01.bit.tds_01_disp==1)
+			  {
+			    display8888(Value_Tds1_bak);
+			    DisFlag.jsll=0;
+			  }
+			else if(WorkFlag01.bit.wifi_state_disp==1)
+				{
+					display8888(Load_Wifi_State(SmarkLink_State)); 
+					DisFlag.jsll=0;
+				}
+     	else if(WorkFlag01.bit.water_consumption_02_disp==1)																		//无故障报警时数码管显示净水流量
+        {
+					display8888(jingshuiliang);
+					DisFlag.jsll=1;
+        }
+
+
+     
+        //led updata百分比显示
+        LedPannelBuf[S_CON] |= (0x000003ff<<S_SHIFT);
+        LedPannelBuf[S_CON] &= ~((0x000003ff >> (10-SPercent))<<S_SHIFT);
+        LedPannelBuf[H_CON] |= (0x000003ff<<H_SHIFT);
+        LedPannelBuf[H_CON] &= ~((0x000003ff >> (10-HPercent))<<H_SHIFT);
+        LedPannelBuf[J_CON] |= (0x000003ff<<J_SHIFT);
+        LedPannelBuf[J_CON] &= ~((0x000003ff >> (10-JPercent))<<J_SHIFT);
+        LedPannelBuf[K_CON] |= (0x000003ff<<K_SHIFT);
+        LedPannelBuf[K_CON] &= ~((0x000003ff >> (10-KPercent))<<K_SHIFT);
+        LedPannelBuf[L_CON] |= (0x000003ff<<L_SHIFT);
+        LedPannelBuf[L_CON] &= ~((0x000003ff >> (10-LPercent))<<L_SHIFT);
+        LedPannelBuf[M_CON] |= (0x000003ff<<M_SHIFT);
+        LedPannelBuf[M_CON] &= ~((0x000003ff >> (10-MPercent))<<M_SHIFT);
+        if(DisFlag.sflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[S_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[S_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[S_CON] &= ~(0x00000003 << 1);
+        }
+        if(DisFlag.hflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[H_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[H_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[H_CON] &= ~(0x00000003 << 1);
+        }
+        if(DisFlag.jflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[J_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[J_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[J_CON] &= ~(0x00000003 << 1);
+        }
+        if(DisFlag.kflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[K_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[K_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[K_CON] &= ~(0x00000003 << 1);
+        }
+        if(DisFlag.lflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[L_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[L_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[L_CON] &= ~(0x00000003 << 1);
+        }
+        if(DisFlag.mflash)
+        {
+            if(DisFlag.flashsta)
+            {
+                LedPannelBuf[M_CON] &= ~(0x00000003 << 1);
+            }else
+            {
+                LedPannelBuf[M_CON] |= (0x00000003 << 1);
+            }
+        }else
+        {
+            LedPannelBuf[M_CON] &= ~(0x00000003 << 1);
+        }
+        if(FlashCnt > TIMER500MS)
+        {
+            FlashCnt = 0;
+            DisFlag.flashsta = !DisFlag.flashsta;
+        }       
+        if(DisFlag.wifierror)
+        {
+            LedPannelBuf[P5_CON] &= ~(1 << P5);
+        }else
+        {
+            LedPannelBuf[P5_CON] |= (1 << P5);
+        }
+        if(DisFlag.wifilinkingsignflash==0)
+        {     
+            if(DisFlag.wifilinkingsign)
+            {
+                LedPannelBuf[N14_CON] &= ~(1 << N14);
+            }else
+            {  
+                LedPannelBuf[N14_CON] |= (1 << N14);
+            }
+        }
+        else
+        {
+           if(DisFlag.sta)
+            {
+                LedPannelBuf[N14_CON] &= ~(1 << N14);
+            }else
+            {
+                LedPannelBuf[N14_CON] |= (1 << N14);
+            }
+        }
+        if(DisFlag.working)
+        {
+            LedPannelBuf[N3_CON] &= ~(1 << N3);
+            LedPannelBuf[N4_CON] &= ~(1 << N4);
+        }else
+        {
+            LedPannelBuf[N3_CON] |= (1 << N3);
+            LedPannelBuf[N4_CON] |= (1 << N4);
+        }
+        if(DisFlag.workingsignflash == 0)
+        {
+            
+            if(DisFlag.workingsign)
+            {
+                LedPannelBuf[N1_CON] &= ~(1 << N1);
+                LedPannelBuf[N2_CON] &= ~(1 << N2);
+            }else
+            {  
+                LedPannelBuf[N1_CON] |= (1 << N1);
+                LedPannelBuf[N2_CON] |= (1 << N2);
+            }
+        }else
+        {
+           if(DisFlag.sta)
+            {
+                LedPannelBuf[N1_CON] &= ~(1 << N1);
+                LedPannelBuf[N2_CON] &= ~(1 << N2);
+            }else
+            {
+                LedPannelBuf[N1_CON] |= (1 << N1);
+                LedPannelBuf[N2_CON] |= (1 << N2);
+            }
+        }
+        
+        if(DisFlag.outofwater)
+        {
+            LedPannelBuf[N5_CON] &= ~(1 << N5);
+            LedPannelBuf[N6_CON] &= ~(1 << N6);
+        }else
+        {
+            LedPannelBuf[N5_CON] |= (1 << N5);
+            LedPannelBuf[N6_CON] |= (1 << N6);
+        }
+        if(DisFlag.outofwatersignflash == 0)
+        {
+            if(DisFlag.outofwatersign)
+            {
+                LedPannelBuf[P3_CON] &= ~(1 << P3);
+                LedPannelBuf[P4_CON] &= ~(1 << P4);
+            }else
+            {
+                LedPannelBuf[P3_CON] |= (1 << P3);
+                LedPannelBuf[P4_CON] |= (1 << P4);
+            }
+        }else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[P3_CON] &= ~(1 << P3);
+                LedPannelBuf[P4_CON] &= ~(1 << P4);
+            }else
+            {
+                LedPannelBuf[P3_CON] |= (1 << P3);
+                LedPannelBuf[P4_CON] |= (1 << P4);
+            }
+        }
+        
+        if(DisFlag.cleaning)
+        {
+            LedPannelBuf[N7_CON] &= ~(1 << N7);
+            LedPannelBuf[N8_CON] &= ~(1 << N8);
+        }else
+        {
+            LedPannelBuf[N7_CON] |= (1 << N7);
+            LedPannelBuf[N8_CON] |= (1 << N8);
+        }
+        
+        if(DisFlag.cleaningsignflash == 0)
+        {
+            if(DisFlag.cleaningsign)
+            {
+                LedPannelBuf[N9_CON] &= ~(1 << N9);
+                LedPannelBuf[N10_CON] &= ~(1 << N10);
+            }else
+            {
+                LedPannelBuf[N9_CON] |= (1 << N9);
+                LedPannelBuf[N10_CON] |= (1 << N10);
+            }
+        }else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[N9_CON] &= ~(1 << N9);
+                LedPannelBuf[N10_CON] &= ~(1 << N10);
+            }else
+            {
+                LedPannelBuf[N9_CON] |= (1 << N9);
+                LedPannelBuf[N10_CON] |= (1 << N10);
+            }
+        }
+        
+        if(DisFlag.error)
+        {
+            LedPannelBuf[N11_CON] &= ~(1 << N11);
+            LedPannelBuf[N12_CON] &= ~(1 << N12);
+        }else
+        {
+            LedPannelBuf[N11_CON] |= (1 << N11);
+            LedPannelBuf[N12_CON] |= (1 << N12);
+        }
+        
+        if(DisFlag.errorsignflash == 0)
+        {
+            if(DisFlag.errorsign)
+            {
+                LedPannelBuf[P1_CON] &= ~(1 << P1);
+                LedPannelBuf[P2_CON] &= ~(1 << P2);
+            }else
+            {
+                LedPannelBuf[P1_CON] |= (1 << P1);
+                LedPannelBuf[P2_CON] |= (1 << P2);
+            }
+        }else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[P1_CON] &= ~(1 << P1);
+                LedPannelBuf[P2_CON] &= ~(1 << P2);
+            }else
+            {
+                LedPannelBuf[P1_CON] |= (1 << P1);
+                LedPannelBuf[P2_CON] |= (1 << P2);
+            }
+        }
+        
+        if(DisFlag.south)
+        {
+            LedPannelBuf[N13_CON] &= ~(1 << N13);
+        }else
+        {
+            LedPannelBuf[N13_CON] |= (1 << N13);
+        }
+        if(DisFlag.north)
+        {
+            LedPannelBuf[N15_CON] &= ~(1 << N15);
+        }else
+        {
+            LedPannelBuf[N15_CON] |= (1 << N15);
+        }
+        
+        if(DisFlag.jsll)
+        {
+            LedPannelBuf[N16_CON] &= ~(1 << N16);
+            LedPannelBuf[N17_CON] &= ~(1 << N17);
+            LedPannelBuf[N18_CON] &= ~(1 << N18);
+            LedPannelBuf[N19_CON] &= ~(1 << N19);
+        }else
+        {
+            LedPannelBuf[N16_CON] |= (1 << N16);
+            LedPannelBuf[N17_CON] |= (1 << N17);
+            LedPannelBuf[N18_CON] |= (1 << N18);
+            LedPannelBuf[N19_CON] |= (1 << N19);
+        }
+        
+        if(DisFlag.slvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {                      
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[S_CON] |= (0x000003ff<<S_SHIFT);
+                LedPannelBuf[S_CON] &= ~((0x000003ff >> (10))<<S_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[S_CON] |= (0x000003ff<<S_SHIFT);
+                LedPannelBuf[S_CON] &= ~((0x000003ff >> (0))<<S_SHIFT);//全灭
+                
+            }
+        }
+        
+        if(DisFlag.hlvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {        
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[H_CON] |= (0x000003ff<<H_SHIFT);
+                LedPannelBuf[H_CON] &= ~((0x000003ff >> (10))<<H_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[H_CON] |= (0x000003ff<<H_SHIFT);
+                LedPannelBuf[H_CON] &= ~((0x000003ff >> (0))<<H_SHIFT);//全灭
+                
+            }
+        }
+        if(DisFlag.jlvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[J_CON] |= (0x000003ff<<J_SHIFT);
+                LedPannelBuf[J_CON] &= ~((0x000003ff >> (10))<<J_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[J_CON] |= (0x000003ff<<J_SHIFT);
+                LedPannelBuf[J_CON] &= ~((0x000003ff >> (0))<<J_SHIFT);//全灭
+                
+            }
+        }
+        if(DisFlag.klvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {
+           
+           
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[K_CON] |= (0x000003ff<<K_SHIFT);
+                LedPannelBuf[K_CON] &= ~((0x000003ff >> (10))<<K_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[K_CON] |= (0x000003ff<<K_SHIFT);
+                LedPannelBuf[K_CON] &= ~((0x000003ff >> (0))<<K_SHIFT);//全灭
+                
+            }
+        }
+        
+        if(DisFlag.llvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {          
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[L_CON] |= (0x000003ff<<L_SHIFT);
+                LedPannelBuf[L_CON] &= ~((0x000003ff >> (10))<<L_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[L_CON] |= (0x000003ff<<L_SHIFT);
+                LedPannelBuf[L_CON] &= ~((0x000003ff >> (0))<<L_SHIFT);//全灭
+                
+            }
+        }
+        if(DisFlag.mlvxinflash == 0)//S滤芯寿命到期时,全部S滤芯开始闪烁
+        {
+           
+           
+        }
+        else
+        {
+            if(DisFlag.sta)
+            {
+                LedPannelBuf[M_CON] |= (0x000003ff<<M_SHIFT);
+                LedPannelBuf[M_CON] &= ~((0x000003ff >> (10))<<M_SHIFT);//全亮
+            }else
+            {
+                LedPannelBuf[M_CON] |= (0x000003ff<<M_SHIFT);
+                LedPannelBuf[M_CON] &= ~((0x000003ff >> (0))<<M_SHIFT);//全灭
+                
+            }
+        }
+       
+    }    
+        
+}
+
+void display8888(uint16 Value)
+{   
+	  unsigned char lpu1;
+    unsigned int lpu2;
+    lpu2 = Value;
+    DisFlag.errorsignflash=0;//无故障故障指示灯不闪烁
+    lpu1 = lpu2 % 10;
+    lpu2 /= 10;
+    Led_Digital_Trans(DIG4,lpu1);
+    lpu1 = lpu2 % 10;
+    lpu2 /= 10;
+    Led_Digital_Trans(DIG3,lpu1);
+    lpu1 = lpu2 % 10;
+    lpu2 /= 10;
+    Led_Digital_Trans(DIG2,lpu1);  
+    lpu1 = lpu2;
+    Led_Digital_Trans(DIG1,lpu1);
+     
+	
+}
+void yanshidisplay(void)
+{
+    
+    
+    if(WorkFlag.error)//有故障时显示故障代码
+        {
+            
+             if(Error_Data.bit.Error_02_flag==1&&Error_Data.bit.Error_01_flag==1) 
+            {
+            
+                yanshi_Digital_Trans(DIG3,14);
+                yanshi_Digital_Trans(DIG4,2);
+                yanshi_Digital_Trans(DIG1,14);
+                yanshi_Digital_Trans(DIG2,1);
+                
+            
+            
+            }
+            
+            else
+            {
+            
+            
+          
+            
+                if(Error_Data.bit.Error_02_flag==1)
+                {  /*显示E2*/ 
+                    yanshi_Digital_Trans(DIG3,14);
+                    yanshi_Digital_Trans(DIG4,2);
+                    temp[0]|=0x00030000;
+                    temp[1]|=0x00030000;
+                    temp[2]|=0x00030000;
+                    temp[3]|=0x00030000;//关掉数码管的前2位显示
+                    temp[4]|=0x00030000;
+                    temp[5]|=0x00030000;
+                    temp[6]|=0x00030000;
+                }
+                    
+                if(Error_Data.bit.Error_01_flag==1)    
+                {
+                    /*显示E1*/ 
+                    yanshi_Digital_Trans(DIG3,14);
+                    yanshi_Digital_Trans(DIG4,1);
+                    temp[0]|=0x00030000;
+                    temp[1]|=0x00030000;
+                    temp[2]|=0x00030000;
+                    temp[3]|=0x00030000;//关掉数码管的前2位显示
+                    temp[4]|=0x00030000;
+                    temp[5]|=0x00030000;
+                    temp[6]|=0x00030000;   
+                }    
+                    
+               
+            }    
+                
+            
+            
+        }
+    
+    
+   //*******************************************************选择对应滤芯时对应滤芯闪烁
+    if(DisFlag.sflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[S_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+           temp[S_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[S_CON] &= ~(0x00000003 << 1);
+    }
+    if(DisFlag.hflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[H_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+            temp[H_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[H_CON] &= ~(0x00000003 << 1);
+    }
+    if(DisFlag.jflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[J_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+           temp[J_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[J_CON] &= ~(0x00000003 << 1);
+    }
+    if(DisFlag.kflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[K_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+            temp[K_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[K_CON] &= ~(0x00000003 << 1);
+    }
+    if(DisFlag.lflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[L_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+            temp[L_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[L_CON] &= ~(0x00000003 << 1);
+    }
+    if(DisFlag.mflash)
+    {
+        if(DisFlag.flashsta)
+        {
+            temp[M_CON] &= ~(0x00000003 << 1);
+        }else
+        {
+            temp[M_CON] |= (0x00000003 << 1);
+        }
+    }else
+    {
+        temp[M_CON] &= ~(0x00000003 << 1);
+    }
+    if(FlashCnt > TIMER500MS)
+    	{
+        FlashCnt = 0;
+        DisFlag.flashsta = !DisFlag.flashsta;
+    	}
+      
+    if(DisFlag.south)
+    	{
+        temp[N13_CON] &= ~(1 << N13);
+    	}
+    else
+     {
+       temp[N13_CON] |= (1 << N13);
+     }
+    if(DisFlag.north)
+    {
+        temp[N15_CON] &= ~(1 << N15);
+    }else
+    {
+        temp[N15_CON] |= (1 << N15);
+    }
+    
+    if(DisFlag.errorsignflash == 0)
+        {
+            if(DisFlag.errorsign)
+            {
+                temp[P1_CON] &= ~(1 << P1);
+                temp[P2_CON] &= ~(1 << P2);
+            }else
+            {
+                temp[P1_CON] |= (1 << P1);
+                temp[P2_CON] |= (1 << P2);
+            }
+        }else
+        {
+            if(DisFlag.sta)
+            {
+                temp[P1_CON] &= ~(1 << P1);
+                temp[P2_CON] &= ~(1 << P2);
+            }else
+            {
+                temp[P1_CON] |= (1 << P1);
+                temp[P2_CON] |= (1 << P2);
+            }
+        }    
+        
+        
+    
+    
+    
+    
+    
+    //*******************************************************演示模式下点按滤芯复位,复位相应的滤芯  
+    temp[S_CON] |= (0x000003ff<<S_SHIFT);
+    temp[S_CON] &= ~((0x000003ff >> temps)<<S_SHIFT);
+    temp[H_CON] |= (0x000003ff<<H_SHIFT);
+    temp[H_CON] &= ~((0x000003ff >> temph)<<H_SHIFT);
+    temp[J_CON] |= (0x000003ff<<J_SHIFT);
+    temp[J_CON] &= ~((0x000003ff >> tempj)<<J_SHIFT);
+    temp[K_CON] |= (0x000003ff<<K_SHIFT);
+    temp[K_CON] &= ~((0x000003ff >> tempk)<<K_SHIFT);
+    temp[L_CON] |= (0x000003ff<<L_SHIFT);
+    temp[L_CON] &= ~((0x000003ff >> templ)<<L_SHIFT);
+    temp[M_CON] |= (0x000003ff<<M_SHIFT);
+    temp[M_CON] &= ~((0x000003ff >> tempm)<<M_SHIFT);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+}
+void Led_Pannel_Initial(void)
+{
+    unsigned char i;
+    
+    for(i=0;i<7;i++)
+        LedPannelBuf[i] = 0xffffffff;
+        
+    DigitalBuf = jingshuiliang;
+}
+void Led_Pannel_Display(void)
+{
+	  if((WorkFlag.poweroff==1)&&(WorkFlag.poweron==0))
+	  	{
+    	COMN_Write(0);
+    	return;
+    	}
+    if(WorkFlag.yanshista == 0&&WorkFlag.standbysta==0&&zijiandisplayfig==1)
+      {
+          Led_Pannel_Updata();    
+ 
+      }  
+    if(WorkFlag.yanshista == 1) 		
+    	{
+    		yanshidisplay();
+    		BUZfkg=1;    		
+    	}  
+    if(WorkFlag.standbysta==0)  
+    {
+        COMN_Write(0);
+
+        if(WorkFlag.yanshista==0)
+            S164_Trans_abyte(LedPannelBuf[LedPannelCnt]);//S164_Trans_abyte
+        else
+            S164_Trans_abyte(temp[LedPannelCnt]);//S164_Trans_abyte
+     
+        
+        COMN_Write(0x40 >> LedPannelCnt);
+        
+        LedPannelCnt++;
+        if(LedPannelCnt >= 7)
+            LedPannelCnt = 0;
+    }
+    else
+    
+         COMN_Write(0);
+
+        
+}
+
+
+/*****************************************************************\
+\*****************************************************************/
+
+
+/* [] END OF FILE */

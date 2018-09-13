@@ -1,0 +1,991 @@
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 4
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"COMN.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.COMN_Write,"ax",%progbits
+  18              		.align	1
+  19              		.global	COMN_Write
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	COMN_Write, %function
+  23              	COMN_Write:
+  24              	.LFB0:
+  25              		.file 1 ".\\Generated_Source\\PSoC4\\COMN.c"
+   1:.\Generated_Source\PSoC4/COMN.c **** /*******************************************************************************
+   2:.\Generated_Source\PSoC4/COMN.c **** * File Name: COMN.c  
+   3:.\Generated_Source\PSoC4/COMN.c **** * Version 2.10
+   4:.\Generated_Source\PSoC4/COMN.c **** *
+   5:.\Generated_Source\PSoC4/COMN.c **** * Description:
+   6:.\Generated_Source\PSoC4/COMN.c **** *  This file contains API to enable firmware control of a Pins component.
+   7:.\Generated_Source\PSoC4/COMN.c **** *
+   8:.\Generated_Source\PSoC4/COMN.c **** * Note:
+   9:.\Generated_Source\PSoC4/COMN.c **** *
+  10:.\Generated_Source\PSoC4/COMN.c **** ********************************************************************************
+  11:.\Generated_Source\PSoC4/COMN.c **** * Copyright 2008-2014, Cypress Semiconductor Corporation.  All rights reserved.
+  12:.\Generated_Source\PSoC4/COMN.c **** * You may use this file only in accordance with the license, terms, conditions, 
+  13:.\Generated_Source\PSoC4/COMN.c **** * disclaimers, and limitations in the end user license agreement accompanying 
+  14:.\Generated_Source\PSoC4/COMN.c **** * the software package with which this file was provided.
+  15:.\Generated_Source\PSoC4/COMN.c **** *******************************************************************************/
+  16:.\Generated_Source\PSoC4/COMN.c **** 
+  17:.\Generated_Source\PSoC4/COMN.c **** #include "cytypes.h"
+  18:.\Generated_Source\PSoC4/COMN.c **** #include "COMN.h"
+  19:.\Generated_Source\PSoC4/COMN.c **** 
+  20:.\Generated_Source\PSoC4/COMN.c **** #define SetP4PinDriveMode(shift, mode)  \
+  21:.\Generated_Source\PSoC4/COMN.c ****     do { \
+  22:.\Generated_Source\PSoC4/COMN.c ****         COMN_PC =   (COMN_PC & \
+  23:.\Generated_Source\PSoC4/COMN.c ****                                 (uint32)(~(uint32)(COMN_DRIVE_MODE_IND_MASK << (COMN_DRIVE_MODE_BIT
+  24:.\Generated_Source\PSoC4/COMN.c ****                                 (uint32)((uint32)(mode) << (COMN_DRIVE_MODE_BITS * (shift))); \
+  25:.\Generated_Source\PSoC4/COMN.c ****     } while (0)
+  26:.\Generated_Source\PSoC4/COMN.c **** 
+  27:.\Generated_Source\PSoC4/COMN.c **** 
+  28:.\Generated_Source\PSoC4/COMN.c **** /*******************************************************************************
+  29:.\Generated_Source\PSoC4/COMN.c **** * Function Name: COMN_Write
+  30:.\Generated_Source\PSoC4/COMN.c **** ********************************************************************************
+  31:.\Generated_Source\PSoC4/COMN.c **** *
+  32:.\Generated_Source\PSoC4/COMN.c **** * Summary:
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 2
+
+
+  33:.\Generated_Source\PSoC4/COMN.c **** *  Assign a new value to the digital port's data output register.  
+  34:.\Generated_Source\PSoC4/COMN.c **** *
+  35:.\Generated_Source\PSoC4/COMN.c **** * Parameters:  
+  36:.\Generated_Source\PSoC4/COMN.c **** *  prtValue:  The value to be assigned to the Digital Port. 
+  37:.\Generated_Source\PSoC4/COMN.c **** *
+  38:.\Generated_Source\PSoC4/COMN.c **** * Return: 
+  39:.\Generated_Source\PSoC4/COMN.c **** *  None 
+  40:.\Generated_Source\PSoC4/COMN.c **** *  
+  41:.\Generated_Source\PSoC4/COMN.c **** *******************************************************************************/
+  42:.\Generated_Source\PSoC4/COMN.c **** void COMN_Write(uint8 value) 
+  43:.\Generated_Source\PSoC4/COMN.c **** {
+  26              		.loc 1 43 0
+  27              		.cfi_startproc
+  28              	.LVL0:
+  44:.\Generated_Source\PSoC4/COMN.c ****     uint8 drVal = (uint8)(COMN_DR & (uint8)(~COMN_MASK));
+  29              		.loc 1 44 0
+  30 0000 044B     		ldr	r3, .L2
+  31 0002 7F22     		mov	r2, #127
+  32 0004 1968     		ldr	r1, [r3]
+  45:.\Generated_Source\PSoC4/COMN.c ****     drVal = (drVal | ((uint8)(value << COMN_SHIFT) & COMN_MASK));
+  46:.\Generated_Source\PSoC4/COMN.c ****     COMN_DR = (uint32)drVal;
+  47:.\Generated_Source\PSoC4/COMN.c **** }
+  33              		.loc 1 47 0
+  34              		@ sp needed
+  44:.\Generated_Source\PSoC4/COMN.c ****     uint8 drVal = (uint8)(COMN_DR & (uint8)(~COMN_MASK));
+  35              		.loc 1 44 0
+  36 0006 9143     		bic	r1, r2
+  37 0008 C9B2     		uxtb	r1, r1
+  38              	.LVL1:
+  45:.\Generated_Source\PSoC4/COMN.c ****     drVal = (drVal | ((uint8)(value << COMN_SHIFT) & COMN_MASK));
+  39              		.loc 1 45 0
+  40 000a 0240     		and	r2, r0
+  46:.\Generated_Source\PSoC4/COMN.c ****     COMN_DR = (uint32)drVal;
+  41              		.loc 1 46 0
+  42 000c 0A43     		orr	r2, r1
+  43 000e 1A60     		str	r2, [r3]
+  44              		.loc 1 47 0
+  45 0010 7047     		bx	lr
+  46              	.L3:
+  47 0012 C046     		.align	2
+  48              	.L2:
+  49 0014 00010440 		.word	1074004224
+  50              		.cfi_endproc
+  51              	.LFE0:
+  52              		.size	COMN_Write, .-COMN_Write
+  53              		.section	.text.COMN_SetDriveMode,"ax",%progbits
+  54              		.align	1
+  55              		.global	COMN_SetDriveMode
+  56              		.code	16
+  57              		.thumb_func
+  58              		.type	COMN_SetDriveMode, %function
+  59              	COMN_SetDriveMode:
+  60              	.LFB1:
+  48:.\Generated_Source\PSoC4/COMN.c **** 
+  49:.\Generated_Source\PSoC4/COMN.c **** 
+  50:.\Generated_Source\PSoC4/COMN.c **** /*******************************************************************************
+  51:.\Generated_Source\PSoC4/COMN.c **** * Function Name: COMN_SetDriveMode
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 3
+
+
+  52:.\Generated_Source\PSoC4/COMN.c **** ********************************************************************************
+  53:.\Generated_Source\PSoC4/COMN.c **** *
+  54:.\Generated_Source\PSoC4/COMN.c **** * Summary:
+  55:.\Generated_Source\PSoC4/COMN.c **** *  Change the drive mode on the pins of the port.
+  56:.\Generated_Source\PSoC4/COMN.c **** * 
+  57:.\Generated_Source\PSoC4/COMN.c **** * Parameters:  
+  58:.\Generated_Source\PSoC4/COMN.c **** *  mode:  Change the pins to one of the following drive modes.
+  59:.\Generated_Source\PSoC4/COMN.c **** *
+  60:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_STRONG     Strong Drive 
+  61:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_OD_HI      Open Drain, Drives High 
+  62:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_OD_LO      Open Drain, Drives Low 
+  63:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_RES_UP     Resistive Pull Up 
+  64:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_RES_DWN    Resistive Pull Down 
+  65:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_RES_UPDWN  Resistive Pull Up/Down 
+  66:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_DIG_HIZ    High Impedance Digital 
+  67:.\Generated_Source\PSoC4/COMN.c **** *  COMN_DM_ALG_HIZ    High Impedance Analog 
+  68:.\Generated_Source\PSoC4/COMN.c **** *
+  69:.\Generated_Source\PSoC4/COMN.c **** * Return: 
+  70:.\Generated_Source\PSoC4/COMN.c **** *  None
+  71:.\Generated_Source\PSoC4/COMN.c **** *
+  72:.\Generated_Source\PSoC4/COMN.c **** *******************************************************************************/
+  73:.\Generated_Source\PSoC4/COMN.c **** void COMN_SetDriveMode(uint8 mode) 
+  74:.\Generated_Source\PSoC4/COMN.c **** {
+  61              		.loc 1 74 0
+  62              		.cfi_startproc
+  63              	.LVL2:
+  75:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__0__SHIFT, mode);
+  64              		.loc 1 75 0
+  65 0000 164B     		ldr	r3, .L5
+  66 0002 0721     		mov	r1, #7
+  67 0004 1A68     		ldr	r2, [r3]
+  74:.\Generated_Source\PSoC4/COMN.c **** {
+  68              		.loc 1 74 0
+  69 0006 10B5     		push	{r4, lr}
+  70              		.cfi_def_cfa_offset 8
+  71              		.cfi_offset 4, -8
+  72              		.cfi_offset 14, -4
+  73              		.loc 1 75 0
+  74 0008 8A43     		bic	r2, r1
+  75 000a 0243     		orr	r2, r0
+  76 000c 1A60     		str	r2, [r3]
+  76:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__1__SHIFT, mode);
+  77              		.loc 1 76 0
+  78 000e 1A68     		ldr	r2, [r3]
+  79 0010 3824     		mov	r4, #56
+  80 0012 C100     		lsl	r1, r0, #3
+  81 0014 A243     		bic	r2, r4
+  82 0016 0A43     		orr	r2, r1
+  83 0018 1A60     		str	r2, [r3]
+  77:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__2__SHIFT, mode);
+  84              		.loc 1 77 0
+  85 001a 1C68     		ldr	r4, [r3]
+  86 001c 104A     		ldr	r2, .L5+4
+  87 001e 8101     		lsl	r1, r0, #6
+  88 0020 2240     		and	r2, r4
+  89 0022 0A43     		orr	r2, r1
+  90 0024 1A60     		str	r2, [r3]
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 4
+
+
+  78:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__3__SHIFT, mode);
+  91              		.loc 1 78 0
+  92 0026 1C68     		ldr	r4, [r3]
+  93 0028 0E4A     		ldr	r2, .L5+8
+  94 002a 4102     		lsl	r1, r0, #9
+  95 002c 2240     		and	r2, r4
+  96 002e 0A43     		orr	r2, r1
+  97 0030 1A60     		str	r2, [r3]
+  79:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__4__SHIFT, mode);
+  98              		.loc 1 79 0
+  99 0032 1C68     		ldr	r4, [r3]
+ 100 0034 0C4A     		ldr	r2, .L5+12
+ 101 0036 0103     		lsl	r1, r0, #12
+ 102 0038 2240     		and	r2, r4
+ 103 003a 0A43     		orr	r2, r1
+ 104 003c 1A60     		str	r2, [r3]
+  80:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__5__SHIFT, mode);
+ 105              		.loc 1 80 0
+ 106 003e 1C68     		ldr	r4, [r3]
+ 107 0040 0A4A     		ldr	r2, .L5+16
+ 108 0042 C103     		lsl	r1, r0, #15
+ 109 0044 2240     		and	r2, r4
+ 110 0046 0A43     		orr	r2, r1
+ 111 0048 1A60     		str	r2, [r3]
+  81:.\Generated_Source\PSoC4/COMN.c **** 	SetP4PinDriveMode(COMN__6__SHIFT, mode);
+ 112              		.loc 1 81 0
+ 113 004a 1C68     		ldr	r4, [r3]
+ 114 004c 0849     		ldr	r1, .L5+20
+ 115 004e 8204     		lsl	r2, r0, #18
+ 116 0050 201C     		mov	r0, r4
+ 117              	.LVL3:
+ 118 0052 0840     		and	r0, r1
+ 119 0054 1043     		orr	r0, r2
+ 120 0056 1860     		str	r0, [r3]
+  82:.\Generated_Source\PSoC4/COMN.c **** }
+ 121              		.loc 1 82 0
+ 122              		@ sp needed
+ 123 0058 10BD     		pop	{r4, pc}
+ 124              	.L6:
+ 125 005a C046     		.align	2
+ 126              	.L5:
+ 127 005c 08010440 		.word	1074004232
+ 128 0060 3FFEFFFF 		.word	-449
+ 129 0064 FFF1FFFF 		.word	-3585
+ 130 0068 FF8FFFFF 		.word	-28673
+ 131 006c FF7FFCFF 		.word	-229377
+ 132 0070 FFFFE3FF 		.word	-1835009
+ 133              		.cfi_endproc
+ 134              	.LFE1:
+ 135              		.size	COMN_SetDriveMode, .-COMN_SetDriveMode
+ 136              		.section	.text.COMN_Read,"ax",%progbits
+ 137              		.align	1
+ 138              		.global	COMN_Read
+ 139              		.code	16
+ 140              		.thumb_func
+ 141              		.type	COMN_Read, %function
+ 142              	COMN_Read:
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 5
+
+
+ 143              	.LFB2:
+  83:.\Generated_Source\PSoC4/COMN.c **** 
+  84:.\Generated_Source\PSoC4/COMN.c **** 
+  85:.\Generated_Source\PSoC4/COMN.c **** /*******************************************************************************
+  86:.\Generated_Source\PSoC4/COMN.c **** * Function Name: COMN_Read
+  87:.\Generated_Source\PSoC4/COMN.c **** ********************************************************************************
+  88:.\Generated_Source\PSoC4/COMN.c **** *
+  89:.\Generated_Source\PSoC4/COMN.c **** * Summary:
+  90:.\Generated_Source\PSoC4/COMN.c **** *  Read the current value on the pins of the Digital Port in right justified 
+  91:.\Generated_Source\PSoC4/COMN.c **** *  form.
+  92:.\Generated_Source\PSoC4/COMN.c **** *
+  93:.\Generated_Source\PSoC4/COMN.c **** * Parameters:  
+  94:.\Generated_Source\PSoC4/COMN.c **** *  None 
+  95:.\Generated_Source\PSoC4/COMN.c **** *
+  96:.\Generated_Source\PSoC4/COMN.c **** * Return: 
+  97:.\Generated_Source\PSoC4/COMN.c **** *  Returns the current value of the Digital Port as a right justified number
+  98:.\Generated_Source\PSoC4/COMN.c **** *  
+  99:.\Generated_Source\PSoC4/COMN.c **** * Note:
+ 100:.\Generated_Source\PSoC4/COMN.c **** *  Macro COMN_ReadPS calls this function. 
+ 101:.\Generated_Source\PSoC4/COMN.c **** *  
+ 102:.\Generated_Source\PSoC4/COMN.c **** *******************************************************************************/
+ 103:.\Generated_Source\PSoC4/COMN.c **** uint8 COMN_Read(void) 
+ 104:.\Generated_Source\PSoC4/COMN.c **** {
+ 144              		.loc 1 104 0
+ 145              		.cfi_startproc
+ 105:.\Generated_Source\PSoC4/COMN.c ****     return (uint8)((COMN_PS & COMN_MASK) >> COMN_SHIFT);
+ 146              		.loc 1 105 0
+ 147 0000 024B     		ldr	r3, .L8
+ 106:.\Generated_Source\PSoC4/COMN.c **** }
+ 148              		.loc 1 106 0
+ 149              		@ sp needed
+ 105:.\Generated_Source\PSoC4/COMN.c ****     return (uint8)((COMN_PS & COMN_MASK) >> COMN_SHIFT);
+ 150              		.loc 1 105 0
+ 151 0002 1868     		ldr	r0, [r3]
+ 152 0004 7F23     		mov	r3, #127
+ 153 0006 1840     		and	r0, r3
+ 154              		.loc 1 106 0
+ 155 0008 7047     		bx	lr
+ 156              	.L9:
+ 157 000a C046     		.align	2
+ 158              	.L8:
+ 159 000c 04010440 		.word	1074004228
+ 160              		.cfi_endproc
+ 161              	.LFE2:
+ 162              		.size	COMN_Read, .-COMN_Read
+ 163              		.section	.text.COMN_ReadDataReg,"ax",%progbits
+ 164              		.align	1
+ 165              		.global	COMN_ReadDataReg
+ 166              		.code	16
+ 167              		.thumb_func
+ 168              		.type	COMN_ReadDataReg, %function
+ 169              	COMN_ReadDataReg:
+ 170              	.LFB3:
+ 107:.\Generated_Source\PSoC4/COMN.c **** 
+ 108:.\Generated_Source\PSoC4/COMN.c **** 
+ 109:.\Generated_Source\PSoC4/COMN.c **** /*******************************************************************************
+ 110:.\Generated_Source\PSoC4/COMN.c **** * Function Name: COMN_ReadDataReg
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 6
+
+
+ 111:.\Generated_Source\PSoC4/COMN.c **** ********************************************************************************
+ 112:.\Generated_Source\PSoC4/COMN.c **** *
+ 113:.\Generated_Source\PSoC4/COMN.c **** * Summary:
+ 114:.\Generated_Source\PSoC4/COMN.c **** *  Read the current value assigned to a Digital Port's data output register
+ 115:.\Generated_Source\PSoC4/COMN.c **** *
+ 116:.\Generated_Source\PSoC4/COMN.c **** * Parameters:  
+ 117:.\Generated_Source\PSoC4/COMN.c **** *  None 
+ 118:.\Generated_Source\PSoC4/COMN.c **** *
+ 119:.\Generated_Source\PSoC4/COMN.c **** * Return: 
+ 120:.\Generated_Source\PSoC4/COMN.c **** *  Returns the current value assigned to the Digital Port's data output register
+ 121:.\Generated_Source\PSoC4/COMN.c **** *  
+ 122:.\Generated_Source\PSoC4/COMN.c **** *******************************************************************************/
+ 123:.\Generated_Source\PSoC4/COMN.c **** uint8 COMN_ReadDataReg(void) 
+ 124:.\Generated_Source\PSoC4/COMN.c **** {
+ 171              		.loc 1 124 0
+ 172              		.cfi_startproc
+ 125:.\Generated_Source\PSoC4/COMN.c ****     return (uint8)((COMN_DR & COMN_MASK) >> COMN_SHIFT);
+ 173              		.loc 1 125 0
+ 174 0000 024B     		ldr	r3, .L11
+ 126:.\Generated_Source\PSoC4/COMN.c **** }
+ 175              		.loc 1 126 0
+ 176              		@ sp needed
+ 125:.\Generated_Source\PSoC4/COMN.c ****     return (uint8)((COMN_DR & COMN_MASK) >> COMN_SHIFT);
+ 177              		.loc 1 125 0
+ 178 0002 1868     		ldr	r0, [r3]
+ 179 0004 7F23     		mov	r3, #127
+ 180 0006 1840     		and	r0, r3
+ 181              		.loc 1 126 0
+ 182 0008 7047     		bx	lr
+ 183              	.L12:
+ 184 000a C046     		.align	2
+ 185              	.L11:
+ 186 000c 00010440 		.word	1074004224
+ 187              		.cfi_endproc
+ 188              	.LFE3:
+ 189              		.size	COMN_ReadDataReg, .-COMN_ReadDataReg
+ 190              		.section	.text.COMN_ClearInterrupt,"ax",%progbits
+ 191              		.align	1
+ 192              		.global	COMN_ClearInterrupt
+ 193              		.code	16
+ 194              		.thumb_func
+ 195              		.type	COMN_ClearInterrupt, %function
+ 196              	COMN_ClearInterrupt:
+ 197              	.LFB4:
+ 127:.\Generated_Source\PSoC4/COMN.c **** 
+ 128:.\Generated_Source\PSoC4/COMN.c **** 
+ 129:.\Generated_Source\PSoC4/COMN.c **** /* If Interrupts Are Enabled for this Pins component */ 
+ 130:.\Generated_Source\PSoC4/COMN.c **** #if defined(COMN_INTSTAT) 
+ 131:.\Generated_Source\PSoC4/COMN.c **** 
+ 132:.\Generated_Source\PSoC4/COMN.c ****     /*******************************************************************************
+ 133:.\Generated_Source\PSoC4/COMN.c ****     * Function Name: COMN_ClearInterrupt
+ 134:.\Generated_Source\PSoC4/COMN.c ****     ********************************************************************************
+ 135:.\Generated_Source\PSoC4/COMN.c ****     *
+ 136:.\Generated_Source\PSoC4/COMN.c ****     * Summary:
+ 137:.\Generated_Source\PSoC4/COMN.c ****     *  Clears any active interrupts attached to port and returns the value of the 
+ 138:.\Generated_Source\PSoC4/COMN.c ****     *  interrupt status register.
+ 139:.\Generated_Source\PSoC4/COMN.c ****     *
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 7
+
+
+ 140:.\Generated_Source\PSoC4/COMN.c ****     * Parameters:  
+ 141:.\Generated_Source\PSoC4/COMN.c ****     *  None 
+ 142:.\Generated_Source\PSoC4/COMN.c ****     *
+ 143:.\Generated_Source\PSoC4/COMN.c ****     * Return: 
+ 144:.\Generated_Source\PSoC4/COMN.c ****     *  Returns the value of the interrupt status register
+ 145:.\Generated_Source\PSoC4/COMN.c ****     *  
+ 146:.\Generated_Source\PSoC4/COMN.c ****     *******************************************************************************/
+ 147:.\Generated_Source\PSoC4/COMN.c ****     uint8 COMN_ClearInterrupt(void) 
+ 148:.\Generated_Source\PSoC4/COMN.c ****     {
+ 198              		.loc 1 148 0
+ 199              		.cfi_startproc
+ 149:.\Generated_Source\PSoC4/COMN.c **** 		uint8 maskedStatus = (uint8)(COMN_INTSTAT & COMN_MASK);
+ 200              		.loc 1 149 0
+ 201 0000 024B     		ldr	r3, .L14
+ 202 0002 7F22     		mov	r2, #127
+ 203 0004 1868     		ldr	r0, [r3]
+ 150:.\Generated_Source\PSoC4/COMN.c **** 		COMN_INTSTAT = maskedStatus;
+ 151:.\Generated_Source\PSoC4/COMN.c ****         return maskedStatus >> COMN_SHIFT;
+ 152:.\Generated_Source\PSoC4/COMN.c ****     }
+ 204              		.loc 1 152 0
+ 205              		@ sp needed
+ 149:.\Generated_Source\PSoC4/COMN.c **** 		uint8 maskedStatus = (uint8)(COMN_INTSTAT & COMN_MASK);
+ 206              		.loc 1 149 0
+ 207 0006 1040     		and	r0, r2
+ 208              	.LVL4:
+ 150:.\Generated_Source\PSoC4/COMN.c **** 		COMN_INTSTAT = maskedStatus;
+ 209              		.loc 1 150 0
+ 210 0008 1860     		str	r0, [r3]
+ 211              		.loc 1 152 0
+ 212 000a 7047     		bx	lr
+ 213              	.L15:
+ 214              		.align	2
+ 215              	.L14:
+ 216 000c 10010440 		.word	1074004240
+ 217              		.cfi_endproc
+ 218              	.LFE4:
+ 219              		.size	COMN_ClearInterrupt, .-COMN_ClearInterrupt
+ 220              		.text
+ 221              	.Letext0:
+ 222              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 223              		.section	.debug_info,"",%progbits
+ 224              	.Ldebug_info0:
+ 225 0000 4E010000 		.4byte	0x14e
+ 226 0004 0400     		.2byte	0x4
+ 227 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 228 000a 04       		.byte	0x4
+ 229 000b 01       		.uleb128 0x1
+ 230 000c 37000000 		.4byte	.LASF24
+ 231 0010 01       		.byte	0x1
+ 232 0011 17000000 		.4byte	.LASF25
+ 233 0015 03010000 		.4byte	.LASF26
+ 234 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 235 001d 00000000 		.4byte	0
+ 236 0021 00000000 		.4byte	.Ldebug_line0
+ 237 0025 02       		.uleb128 0x2
+ 238 0026 01       		.byte	0x1
+ 239 0027 06       		.byte	0x6
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 8
+
+
+ 240 0028 CE010000 		.4byte	.LASF0
+ 241 002c 02       		.uleb128 0x2
+ 242 002d 01       		.byte	0x1
+ 243 002e 08       		.byte	0x8
+ 244 002f B9000000 		.4byte	.LASF1
+ 245 0033 02       		.uleb128 0x2
+ 246 0034 02       		.byte	0x2
+ 247 0035 05       		.byte	0x5
+ 248 0036 B5010000 		.4byte	.LASF2
+ 249 003a 02       		.uleb128 0x2
+ 250 003b 02       		.byte	0x2
+ 251 003c 07       		.byte	0x7
+ 252 003d F0000000 		.4byte	.LASF3
+ 253 0041 02       		.uleb128 0x2
+ 254 0042 04       		.byte	0x4
+ 255 0043 05       		.byte	0x5
+ 256 0044 C5010000 		.4byte	.LASF4
+ 257 0048 02       		.uleb128 0x2
+ 258 0049 04       		.byte	0x4
+ 259 004a 07       		.byte	0x7
+ 260 004b DE000000 		.4byte	.LASF5
+ 261 004f 02       		.uleb128 0x2
+ 262 0050 08       		.byte	0x8
+ 263 0051 05       		.byte	0x5
+ 264 0052 83010000 		.4byte	.LASF6
+ 265 0056 02       		.uleb128 0x2
+ 266 0057 08       		.byte	0x8
+ 267 0058 07       		.byte	0x7
+ 268 0059 67010000 		.4byte	.LASF7
+ 269 005d 03       		.uleb128 0x3
+ 270 005e 04       		.byte	0x4
+ 271 005f 05       		.byte	0x5
+ 272 0060 696E7400 		.ascii	"int\000"
+ 273 0064 02       		.uleb128 0x2
+ 274 0065 04       		.byte	0x4
+ 275 0066 07       		.byte	0x7
+ 276 0067 5A010000 		.4byte	.LASF8
+ 277 006b 04       		.uleb128 0x4
+ 278 006c BF010000 		.4byte	.LASF9
+ 279 0070 02       		.byte	0x2
+ 280 0071 A1       		.byte	0xa1
+ 281 0072 2C000000 		.4byte	0x2c
+ 282 0076 04       		.uleb128 0x4
+ 283 0077 53010000 		.4byte	.LASF10
+ 284 007b 02       		.byte	0x2
+ 285 007c A3       		.byte	0xa3
+ 286 007d 48000000 		.4byte	0x48
+ 287 0081 02       		.uleb128 0x2
+ 288 0082 04       		.byte	0x4
+ 289 0083 04       		.byte	0x4
+ 290 0084 B3000000 		.4byte	.LASF11
+ 291 0088 02       		.uleb128 0x2
+ 292 0089 08       		.byte	0x8
+ 293 008a 04       		.byte	0x4
+ 294 008b 4C010000 		.4byte	.LASF12
+ 295 008f 02       		.uleb128 0x2
+ 296 0090 01       		.byte	0x1
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 9
+
+
+ 297 0091 08       		.byte	0x8
+ 298 0092 9E010000 		.4byte	.LASF13
+ 299 0096 05       		.uleb128 0x5
+ 300 0097 00000000 		.4byte	.LASF14
+ 301 009b 02       		.byte	0x2
+ 302 009c 4D01     		.2byte	0x14d
+ 303 009e A2000000 		.4byte	0xa2
+ 304 00a2 06       		.uleb128 0x6
+ 305 00a3 76000000 		.4byte	0x76
+ 306 00a7 07       		.uleb128 0x7
+ 307 00a8 06000000 		.4byte	.LASF15
+ 308 00ac 01       		.byte	0x1
+ 309 00ad 2A       		.byte	0x2a
+ 310 00ae 00000000 		.4byte	.LFB0
+ 311 00b2 18000000 		.4byte	.LFE0-.LFB0
+ 312 00b6 01       		.uleb128 0x1
+ 313 00b7 9C       		.byte	0x9c
+ 314 00b8 DF000000 		.4byte	0xdf
+ 315 00bc 08       		.uleb128 0x8
+ 316 00bd 11000000 		.4byte	.LASF17
+ 317 00c1 01       		.byte	0x1
+ 318 00c2 2A       		.byte	0x2a
+ 319 00c3 6B000000 		.4byte	0x6b
+ 320 00c7 01       		.uleb128 0x1
+ 321 00c8 50       		.byte	0x50
+ 322 00c9 09       		.uleb128 0x9
+ 323 00ca D8000000 		.4byte	.LASF22
+ 324 00ce 01       		.byte	0x1
+ 325 00cf 2C       		.byte	0x2c
+ 326 00d0 6B000000 		.4byte	0x6b
+ 327 00d4 09       		.uleb128 0x9
+ 328 00d5 70       		.byte	0x70
+ 329 00d6 00       		.sleb128 0
+ 330 00d7 08       		.byte	0x8
+ 331 00d8 7F       		.byte	0x7f
+ 332 00d9 1A       		.byte	0x1a
+ 333 00da 71       		.byte	0x71
+ 334 00db 00       		.sleb128 0
+ 335 00dc 21       		.byte	0x21
+ 336 00dd 9F       		.byte	0x9f
+ 337 00de 00       		.byte	0
+ 338 00df 07       		.uleb128 0x7
+ 339 00e0 A3010000 		.4byte	.LASF16
+ 340 00e4 01       		.byte	0x1
+ 341 00e5 49       		.byte	0x49
+ 342 00e6 00000000 		.4byte	.LFB1
+ 343 00ea 74000000 		.4byte	.LFE1-.LFB1
+ 344 00ee 01       		.uleb128 0x1
+ 345 00ef 9C       		.byte	0x9c
+ 346 00f0 04010000 		.4byte	0x104
+ 347 00f4 0A       		.uleb128 0xa
+ 348 00f5 7E010000 		.4byte	.LASF18
+ 349 00f9 01       		.byte	0x1
+ 350 00fa 49       		.byte	0x49
+ 351 00fb 6B000000 		.4byte	0x6b
+ 352 00ff 00000000 		.4byte	.LLST0
+ 353 0103 00       		.byte	0
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 10
+
+
+ 354 0104 0B       		.uleb128 0xb
+ 355 0105 DA010000 		.4byte	.LASF19
+ 356 0109 01       		.byte	0x1
+ 357 010a 67       		.byte	0x67
+ 358 010b 6B000000 		.4byte	0x6b
+ 359 010f 00000000 		.4byte	.LFB2
+ 360 0113 10000000 		.4byte	.LFE2-.LFB2
+ 361 0117 01       		.uleb128 0x1
+ 362 0118 9C       		.byte	0x9c
+ 363 0119 0B       		.uleb128 0xb
+ 364 011a C7000000 		.4byte	.LASF20
+ 365 011e 01       		.byte	0x1
+ 366 011f 7B       		.byte	0x7b
+ 367 0120 6B000000 		.4byte	0x6b
+ 368 0124 00000000 		.4byte	.LFB3
+ 369 0128 10000000 		.4byte	.LFE3-.LFB3
+ 370 012c 01       		.uleb128 0x1
+ 371 012d 9C       		.byte	0x9c
+ 372 012e 0C       		.uleb128 0xc
+ 373 012f E4010000 		.4byte	.LASF21
+ 374 0133 01       		.byte	0x1
+ 375 0134 93       		.byte	0x93
+ 376 0135 6B000000 		.4byte	0x6b
+ 377 0139 00000000 		.4byte	.LFB4
+ 378 013d 10000000 		.4byte	.LFE4-.LFB4
+ 379 0141 01       		.uleb128 0x1
+ 380 0142 9C       		.byte	0x9c
+ 381 0143 09       		.uleb128 0x9
+ 382 0144 91010000 		.4byte	.LASF23
+ 383 0148 01       		.byte	0x1
+ 384 0149 95       		.byte	0x95
+ 385 014a 6B000000 		.4byte	0x6b
+ 386 014e 01       		.uleb128 0x1
+ 387 014f 50       		.byte	0x50
+ 388 0150 00       		.byte	0
+ 389 0151 00       		.byte	0
+ 390              		.section	.debug_abbrev,"",%progbits
+ 391              	.Ldebug_abbrev0:
+ 392 0000 01       		.uleb128 0x1
+ 393 0001 11       		.uleb128 0x11
+ 394 0002 01       		.byte	0x1
+ 395 0003 25       		.uleb128 0x25
+ 396 0004 0E       		.uleb128 0xe
+ 397 0005 13       		.uleb128 0x13
+ 398 0006 0B       		.uleb128 0xb
+ 399 0007 03       		.uleb128 0x3
+ 400 0008 0E       		.uleb128 0xe
+ 401 0009 1B       		.uleb128 0x1b
+ 402 000a 0E       		.uleb128 0xe
+ 403 000b 55       		.uleb128 0x55
+ 404 000c 17       		.uleb128 0x17
+ 405 000d 11       		.uleb128 0x11
+ 406 000e 01       		.uleb128 0x1
+ 407 000f 10       		.uleb128 0x10
+ 408 0010 17       		.uleb128 0x17
+ 409 0011 00       		.byte	0
+ 410 0012 00       		.byte	0
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 11
+
+
+ 411 0013 02       		.uleb128 0x2
+ 412 0014 24       		.uleb128 0x24
+ 413 0015 00       		.byte	0
+ 414 0016 0B       		.uleb128 0xb
+ 415 0017 0B       		.uleb128 0xb
+ 416 0018 3E       		.uleb128 0x3e
+ 417 0019 0B       		.uleb128 0xb
+ 418 001a 03       		.uleb128 0x3
+ 419 001b 0E       		.uleb128 0xe
+ 420 001c 00       		.byte	0
+ 421 001d 00       		.byte	0
+ 422 001e 03       		.uleb128 0x3
+ 423 001f 24       		.uleb128 0x24
+ 424 0020 00       		.byte	0
+ 425 0021 0B       		.uleb128 0xb
+ 426 0022 0B       		.uleb128 0xb
+ 427 0023 3E       		.uleb128 0x3e
+ 428 0024 0B       		.uleb128 0xb
+ 429 0025 03       		.uleb128 0x3
+ 430 0026 08       		.uleb128 0x8
+ 431 0027 00       		.byte	0
+ 432 0028 00       		.byte	0
+ 433 0029 04       		.uleb128 0x4
+ 434 002a 16       		.uleb128 0x16
+ 435 002b 00       		.byte	0
+ 436 002c 03       		.uleb128 0x3
+ 437 002d 0E       		.uleb128 0xe
+ 438 002e 3A       		.uleb128 0x3a
+ 439 002f 0B       		.uleb128 0xb
+ 440 0030 3B       		.uleb128 0x3b
+ 441 0031 0B       		.uleb128 0xb
+ 442 0032 49       		.uleb128 0x49
+ 443 0033 13       		.uleb128 0x13
+ 444 0034 00       		.byte	0
+ 445 0035 00       		.byte	0
+ 446 0036 05       		.uleb128 0x5
+ 447 0037 16       		.uleb128 0x16
+ 448 0038 00       		.byte	0
+ 449 0039 03       		.uleb128 0x3
+ 450 003a 0E       		.uleb128 0xe
+ 451 003b 3A       		.uleb128 0x3a
+ 452 003c 0B       		.uleb128 0xb
+ 453 003d 3B       		.uleb128 0x3b
+ 454 003e 05       		.uleb128 0x5
+ 455 003f 49       		.uleb128 0x49
+ 456 0040 13       		.uleb128 0x13
+ 457 0041 00       		.byte	0
+ 458 0042 00       		.byte	0
+ 459 0043 06       		.uleb128 0x6
+ 460 0044 35       		.uleb128 0x35
+ 461 0045 00       		.byte	0
+ 462 0046 49       		.uleb128 0x49
+ 463 0047 13       		.uleb128 0x13
+ 464 0048 00       		.byte	0
+ 465 0049 00       		.byte	0
+ 466 004a 07       		.uleb128 0x7
+ 467 004b 2E       		.uleb128 0x2e
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 12
+
+
+ 468 004c 01       		.byte	0x1
+ 469 004d 3F       		.uleb128 0x3f
+ 470 004e 19       		.uleb128 0x19
+ 471 004f 03       		.uleb128 0x3
+ 472 0050 0E       		.uleb128 0xe
+ 473 0051 3A       		.uleb128 0x3a
+ 474 0052 0B       		.uleb128 0xb
+ 475 0053 3B       		.uleb128 0x3b
+ 476 0054 0B       		.uleb128 0xb
+ 477 0055 27       		.uleb128 0x27
+ 478 0056 19       		.uleb128 0x19
+ 479 0057 11       		.uleb128 0x11
+ 480 0058 01       		.uleb128 0x1
+ 481 0059 12       		.uleb128 0x12
+ 482 005a 06       		.uleb128 0x6
+ 483 005b 40       		.uleb128 0x40
+ 484 005c 18       		.uleb128 0x18
+ 485 005d 9742     		.uleb128 0x2117
+ 486 005f 19       		.uleb128 0x19
+ 487 0060 01       		.uleb128 0x1
+ 488 0061 13       		.uleb128 0x13
+ 489 0062 00       		.byte	0
+ 490 0063 00       		.byte	0
+ 491 0064 08       		.uleb128 0x8
+ 492 0065 05       		.uleb128 0x5
+ 493 0066 00       		.byte	0
+ 494 0067 03       		.uleb128 0x3
+ 495 0068 0E       		.uleb128 0xe
+ 496 0069 3A       		.uleb128 0x3a
+ 497 006a 0B       		.uleb128 0xb
+ 498 006b 3B       		.uleb128 0x3b
+ 499 006c 0B       		.uleb128 0xb
+ 500 006d 49       		.uleb128 0x49
+ 501 006e 13       		.uleb128 0x13
+ 502 006f 02       		.uleb128 0x2
+ 503 0070 18       		.uleb128 0x18
+ 504 0071 00       		.byte	0
+ 505 0072 00       		.byte	0
+ 506 0073 09       		.uleb128 0x9
+ 507 0074 34       		.uleb128 0x34
+ 508 0075 00       		.byte	0
+ 509 0076 03       		.uleb128 0x3
+ 510 0077 0E       		.uleb128 0xe
+ 511 0078 3A       		.uleb128 0x3a
+ 512 0079 0B       		.uleb128 0xb
+ 513 007a 3B       		.uleb128 0x3b
+ 514 007b 0B       		.uleb128 0xb
+ 515 007c 49       		.uleb128 0x49
+ 516 007d 13       		.uleb128 0x13
+ 517 007e 02       		.uleb128 0x2
+ 518 007f 18       		.uleb128 0x18
+ 519 0080 00       		.byte	0
+ 520 0081 00       		.byte	0
+ 521 0082 0A       		.uleb128 0xa
+ 522 0083 05       		.uleb128 0x5
+ 523 0084 00       		.byte	0
+ 524 0085 03       		.uleb128 0x3
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 13
+
+
+ 525 0086 0E       		.uleb128 0xe
+ 526 0087 3A       		.uleb128 0x3a
+ 527 0088 0B       		.uleb128 0xb
+ 528 0089 3B       		.uleb128 0x3b
+ 529 008a 0B       		.uleb128 0xb
+ 530 008b 49       		.uleb128 0x49
+ 531 008c 13       		.uleb128 0x13
+ 532 008d 02       		.uleb128 0x2
+ 533 008e 17       		.uleb128 0x17
+ 534 008f 00       		.byte	0
+ 535 0090 00       		.byte	0
+ 536 0091 0B       		.uleb128 0xb
+ 537 0092 2E       		.uleb128 0x2e
+ 538 0093 00       		.byte	0
+ 539 0094 3F       		.uleb128 0x3f
+ 540 0095 19       		.uleb128 0x19
+ 541 0096 03       		.uleb128 0x3
+ 542 0097 0E       		.uleb128 0xe
+ 543 0098 3A       		.uleb128 0x3a
+ 544 0099 0B       		.uleb128 0xb
+ 545 009a 3B       		.uleb128 0x3b
+ 546 009b 0B       		.uleb128 0xb
+ 547 009c 27       		.uleb128 0x27
+ 548 009d 19       		.uleb128 0x19
+ 549 009e 49       		.uleb128 0x49
+ 550 009f 13       		.uleb128 0x13
+ 551 00a0 11       		.uleb128 0x11
+ 552 00a1 01       		.uleb128 0x1
+ 553 00a2 12       		.uleb128 0x12
+ 554 00a3 06       		.uleb128 0x6
+ 555 00a4 40       		.uleb128 0x40
+ 556 00a5 18       		.uleb128 0x18
+ 557 00a6 9742     		.uleb128 0x2117
+ 558 00a8 19       		.uleb128 0x19
+ 559 00a9 00       		.byte	0
+ 560 00aa 00       		.byte	0
+ 561 00ab 0C       		.uleb128 0xc
+ 562 00ac 2E       		.uleb128 0x2e
+ 563 00ad 01       		.byte	0x1
+ 564 00ae 3F       		.uleb128 0x3f
+ 565 00af 19       		.uleb128 0x19
+ 566 00b0 03       		.uleb128 0x3
+ 567 00b1 0E       		.uleb128 0xe
+ 568 00b2 3A       		.uleb128 0x3a
+ 569 00b3 0B       		.uleb128 0xb
+ 570 00b4 3B       		.uleb128 0x3b
+ 571 00b5 0B       		.uleb128 0xb
+ 572 00b6 27       		.uleb128 0x27
+ 573 00b7 19       		.uleb128 0x19
+ 574 00b8 49       		.uleb128 0x49
+ 575 00b9 13       		.uleb128 0x13
+ 576 00ba 11       		.uleb128 0x11
+ 577 00bb 01       		.uleb128 0x1
+ 578 00bc 12       		.uleb128 0x12
+ 579 00bd 06       		.uleb128 0x6
+ 580 00be 40       		.uleb128 0x40
+ 581 00bf 18       		.uleb128 0x18
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 14
+
+
+ 582 00c0 9742     		.uleb128 0x2117
+ 583 00c2 19       		.uleb128 0x19
+ 584 00c3 00       		.byte	0
+ 585 00c4 00       		.byte	0
+ 586 00c5 00       		.byte	0
+ 587              		.section	.debug_loc,"",%progbits
+ 588              	.Ldebug_loc0:
+ 589              	.LLST0:
+ 590 0000 00000000 		.4byte	.LVL2
+ 591 0004 52000000 		.4byte	.LVL3
+ 592 0008 0100     		.2byte	0x1
+ 593 000a 50       		.byte	0x50
+ 594 000b 52000000 		.4byte	.LVL3
+ 595 000f 74000000 		.4byte	.LFE1
+ 596 0013 0400     		.2byte	0x4
+ 597 0015 F3       		.byte	0xf3
+ 598 0016 01       		.uleb128 0x1
+ 599 0017 50       		.byte	0x50
+ 600 0018 9F       		.byte	0x9f
+ 601 0019 00000000 		.4byte	0
+ 602 001d 00000000 		.4byte	0
+ 603              		.section	.debug_aranges,"",%progbits
+ 604 0000 3C000000 		.4byte	0x3c
+ 605 0004 0200     		.2byte	0x2
+ 606 0006 00000000 		.4byte	.Ldebug_info0
+ 607 000a 04       		.byte	0x4
+ 608 000b 00       		.byte	0
+ 609 000c 0000     		.2byte	0
+ 610 000e 0000     		.2byte	0
+ 611 0010 00000000 		.4byte	.LFB0
+ 612 0014 18000000 		.4byte	.LFE0-.LFB0
+ 613 0018 00000000 		.4byte	.LFB1
+ 614 001c 74000000 		.4byte	.LFE1-.LFB1
+ 615 0020 00000000 		.4byte	.LFB2
+ 616 0024 10000000 		.4byte	.LFE2-.LFB2
+ 617 0028 00000000 		.4byte	.LFB3
+ 618 002c 10000000 		.4byte	.LFE3-.LFB3
+ 619 0030 00000000 		.4byte	.LFB4
+ 620 0034 10000000 		.4byte	.LFE4-.LFB4
+ 621 0038 00000000 		.4byte	0
+ 622 003c 00000000 		.4byte	0
+ 623              		.section	.debug_ranges,"",%progbits
+ 624              	.Ldebug_ranges0:
+ 625 0000 00000000 		.4byte	.LFB0
+ 626 0004 18000000 		.4byte	.LFE0
+ 627 0008 00000000 		.4byte	.LFB1
+ 628 000c 74000000 		.4byte	.LFE1
+ 629 0010 00000000 		.4byte	.LFB2
+ 630 0014 10000000 		.4byte	.LFE2
+ 631 0018 00000000 		.4byte	.LFB3
+ 632 001c 10000000 		.4byte	.LFE3
+ 633 0020 00000000 		.4byte	.LFB4
+ 634 0024 10000000 		.4byte	.LFE4
+ 635 0028 00000000 		.4byte	0
+ 636 002c 00000000 		.4byte	0
+ 637              		.section	.debug_line,"",%progbits
+ 638              	.Ldebug_line0:
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 15
+
+
+ 639 0000 B5000000 		.section	.debug_str,"MS",%progbits,1
+ 639      02004300 
+ 639      00000201 
+ 639      FB0E0D00 
+ 639      01010101 
+ 640              	.LASF14:
+ 641 0000 72656733 		.ascii	"reg32\000"
+ 641      3200
+ 642              	.LASF15:
+ 643 0006 434F4D4E 		.ascii	"COMN_Write\000"
+ 643      5F577269 
+ 643      746500
+ 644              	.LASF17:
+ 645 0011 76616C75 		.ascii	"value\000"
+ 645      6500
+ 646              	.LASF25:
+ 647 0017 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\COMN.c\000"
+ 647      6E657261 
+ 647      7465645F 
+ 647      536F7572 
+ 647      63655C50 
+ 648              	.LASF24:
+ 649 0037 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 649      4320342E 
+ 649      382E3420 
+ 649      32303134 
+ 649      30353236 
+ 650 006a 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 650      20726576 
+ 650      6973696F 
+ 650      6E203231 
+ 650      31333538 
+ 651 009d 73202D66 		.ascii	"s -ffunction-sections\000"
+ 651      66756E63 
+ 651      74696F6E 
+ 651      2D736563 
+ 651      74696F6E 
+ 652              	.LASF11:
+ 653 00b3 666C6F61 		.ascii	"float\000"
+ 653      7400
+ 654              	.LASF1:
+ 655 00b9 756E7369 		.ascii	"unsigned char\000"
+ 655      676E6564 
+ 655      20636861 
+ 655      7200
+ 656              	.LASF20:
+ 657 00c7 434F4D4E 		.ascii	"COMN_ReadDataReg\000"
+ 657      5F526561 
+ 657      64446174 
+ 657      61526567 
+ 657      00
+ 658              	.LASF22:
+ 659 00d8 64725661 		.ascii	"drVal\000"
+ 659      6C00
+ 660              	.LASF5:
+ 661 00de 6C6F6E67 		.ascii	"long unsigned int\000"
+ 661      20756E73 
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 16
+
+
+ 661      69676E65 
+ 661      6420696E 
+ 661      7400
+ 662              	.LASF3:
+ 663 00f0 73686F72 		.ascii	"short unsigned int\000"
+ 663      7420756E 
+ 663      7369676E 
+ 663      65642069 
+ 663      6E7400
+ 664              	.LASF26:
+ 665 0103 443A5C77 		.ascii	"D:\\wifi_work\\2.1_project\\bootloader\\UartBootloa"
+ 665      6966695F 
+ 665      776F726B 
+ 665      5C322E31 
+ 665      5F70726F 
+ 666 0132 6465725C 		.ascii	"der\\UART_Bootloader.cydsn\000"
+ 666      55415254 
+ 666      5F426F6F 
+ 666      746C6F61 
+ 666      6465722E 
+ 667              	.LASF12:
+ 668 014c 646F7562 		.ascii	"double\000"
+ 668      6C6500
+ 669              	.LASF10:
+ 670 0153 75696E74 		.ascii	"uint32\000"
+ 670      333200
+ 671              	.LASF8:
+ 672 015a 756E7369 		.ascii	"unsigned int\000"
+ 672      676E6564 
+ 672      20696E74 
+ 672      00
+ 673              	.LASF7:
+ 674 0167 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 674      206C6F6E 
+ 674      6720756E 
+ 674      7369676E 
+ 674      65642069 
+ 675              	.LASF18:
+ 676 017e 6D6F6465 		.ascii	"mode\000"
+ 676      00
+ 677              	.LASF6:
+ 678 0183 6C6F6E67 		.ascii	"long long int\000"
+ 678      206C6F6E 
+ 678      6720696E 
+ 678      7400
+ 679              	.LASF23:
+ 680 0191 6D61736B 		.ascii	"maskedStatus\000"
+ 680      65645374 
+ 680      61747573 
+ 680      00
+ 681              	.LASF13:
+ 682 019e 63686172 		.ascii	"char\000"
+ 682      00
+ 683              	.LASF16:
+ 684 01a3 434F4D4E 		.ascii	"COMN_SetDriveMode\000"
+ 684      5F536574 
+ 684      44726976 
+ARM GAS  C:\Users\kevin\AppData\Local\Temp\ccAKASDb.s 			page 17
+
+
+ 684      654D6F64 
+ 684      6500
+ 685              	.LASF2:
+ 686 01b5 73686F72 		.ascii	"short int\000"
+ 686      7420696E 
+ 686      7400
+ 687              	.LASF9:
+ 688 01bf 75696E74 		.ascii	"uint8\000"
+ 688      3800
+ 689              	.LASF4:
+ 690 01c5 6C6F6E67 		.ascii	"long int\000"
+ 690      20696E74 
+ 690      00
+ 691              	.LASF0:
+ 692 01ce 7369676E 		.ascii	"signed char\000"
+ 692      65642063 
+ 692      68617200 
+ 693              	.LASF19:
+ 694 01da 434F4D4E 		.ascii	"COMN_Read\000"
+ 694      5F526561 
+ 694      6400
+ 695              	.LASF21:
+ 696 01e4 434F4D4E 		.ascii	"COMN_ClearInterrupt\000"
+ 696      5F436C65 
+ 696      6172496E 
+ 696      74657272 
+ 696      75707400 
+ 697              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br

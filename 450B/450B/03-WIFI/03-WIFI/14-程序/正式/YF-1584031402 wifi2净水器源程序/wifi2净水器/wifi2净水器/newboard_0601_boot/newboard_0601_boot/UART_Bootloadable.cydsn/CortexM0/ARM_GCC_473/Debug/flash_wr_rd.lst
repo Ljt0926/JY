@@ -1,0 +1,895 @@
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 4
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"flash_wr_rd.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.section	.text.Flash_Write_aRow_Data,"ax",%progbits
+  18              		.align	1
+  19              		.global	Flash_Write_aRow_Data
+  20              		.code	16
+  21              		.thumb_func
+  22              		.type	Flash_Write_aRow_Data, %function
+  23              	Flash_Write_aRow_Data:
+  24              	.LFB33:
+  25              		.file 1 ".\\flash_wr_rd.c"
+   1:.\flash_wr_rd.c **** /* ========================================
+   2:.\flash_wr_rd.c ****  *
+   3:.\flash_wr_rd.c ****  * Copyright YOUR COMPANY, THE YEAR
+   4:.\flash_wr_rd.c ****  * All Rights Reserved
+   5:.\flash_wr_rd.c ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:.\flash_wr_rd.c ****  *
+   7:.\flash_wr_rd.c ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:.\flash_wr_rd.c ****  * WHICH IS THE PROPERTY OF your company.
+   9:.\flash_wr_rd.c ****  *
+  10:.\flash_wr_rd.c ****  * ========================================
+  11:.\flash_wr_rd.c **** */
+  12:.\flash_wr_rd.c **** #define _FLASH_WR_RD_
+  13:.\flash_wr_rd.c **** #include "flash_wr_rd.h"
+  14:.\flash_wr_rd.c **** #include <project.h>
+  15:.\flash_wr_rd.c **** 
+  16:.\flash_wr_rd.c **** void Flash_Write_aRow_Data(uint8 databuf[])
+  17:.\flash_wr_rd.c **** {
+  26              		.loc 1 17 0
+  27              		.cfi_startproc
+  28              	.LVL0:
+  29 0000 10B5     		push	{r4, lr}
+  30              	.LCFI0:
+  31              		.cfi_def_cfa_offset 8
+  32              		.cfi_offset 4, -8
+  33              		.cfi_offset 14, -4
+  34              		.loc 1 17 0
+  35 0002 041C     		mov	r4, r0
+  18:.\flash_wr_rd.c ****     //uint32 flashWriteResult;
+  19:.\flash_wr_rd.c ****     
+  20:.\flash_wr_rd.c ****     /* Configure the Flash Writes for the current clock frequency */
+  21:.\flash_wr_rd.c ****     CySysFlashSetWaitCycles(48);
+  36              		.loc 1 21 0
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 2
+
+
+  37 0004 3020     		mov	r0, #48
+  38              	.LVL1:
+  39 0006 FFF7FEFF 		bl	CySysFlashSetWaitCycles
+  40              	.LVL2:
+  22:.\flash_wr_rd.c ****             
+  23:.\flash_wr_rd.c ****     /* Write the SRAM array into flash */
+  24:.\flash_wr_rd.c ****     CySysFlashWriteRow(FLASH_DATA_BASE_ROW_NUM, databuf);
+  41              		.loc 1 24 0
+  42 000a 211C     		mov	r1, r4
+  43 000c FE20     		mov	r0, #254
+  44 000e FFF7FEFF 		bl	CySysFlashWriteRow
+  45              	.LVL3:
+  25:.\flash_wr_rd.c **** }
+  46              		.loc 1 25 0
+  47              		@ sp needed for prologue
+  48              	.LVL4:
+  49 0012 10BD     		pop	{r4, pc}
+  50              		.cfi_endproc
+  51              	.LFE33:
+  52              		.size	Flash_Write_aRow_Data, .-Flash_Write_aRow_Data
+  53              		.section	.text.Flagh_Read_aByte,"ax",%progbits
+  54              		.align	1
+  55              		.global	Flagh_Read_aByte
+  56              		.code	16
+  57              		.thumb_func
+  58              		.type	Flagh_Read_aByte, %function
+  59              	Flagh_Read_aByte:
+  60              	.LFB34:
+  26:.\flash_wr_rd.c **** 
+  27:.\flash_wr_rd.c **** 
+  28:.\flash_wr_rd.c **** uint8 Flagh_Read_aByte(uint8 offsetadr)
+  29:.\flash_wr_rd.c **** {
+  61              		.loc 1 29 0
+  62              		.cfi_startproc
+  63              	.LVL5:
+  30:.\flash_wr_rd.c ****     uint8 *pp;
+  31:.\flash_wr_rd.c ****     uint8 redata;
+  32:.\flash_wr_rd.c ****     
+  33:.\flash_wr_rd.c ****     pp = FLASH_DATA_BASE_ROW_START_ADDRESS + offsetadr;
+  34:.\flash_wr_rd.c ****     
+  35:.\flash_wr_rd.c ****     redata = *pp;
+  36:.\flash_wr_rd.c ****     
+  37:.\flash_wr_rd.c ****     return(redata);
+  64              		.loc 1 37 0
+  65 0000 FE23     		mov	r3, #254
+  66 0002 D901     		lsl	r1, r3, #7
+  67 0004 405C     		ldrb	r0, [r0, r1]
+  68              	.LVL6:
+  38:.\flash_wr_rd.c **** }
+  69              		.loc 1 38 0
+  70              		@ sp needed for prologue
+  71 0006 7047     		bx	lr
+  72              		.cfi_endproc
+  73              	.LFE34:
+  74              		.size	Flagh_Read_aByte, .-Flagh_Read_aByte
+  75              		.comm	FlashDataBuf,128,1
+  76              		.text
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 3
+
+
+  77              	.Letext0:
+  78              		.file 2 "./Generated_Source/PSoC4/cytypes.h"
+  79              		.file 3 "./Generated_Source/PSoC4/CyFlash.h"
+  80              		.file 4 ".\\flash_wr_rd.h"
+  81              		.section	.debug_info,"",%progbits
+  82              	.Ldebug_info0:
+  83 0000 A7010000 		.4byte	0x1a7
+  84 0004 0200     		.2byte	0x2
+  85 0006 00000000 		.4byte	.Ldebug_abbrev0
+  86 000a 04       		.byte	0x4
+  87 000b 01       		.uleb128 0x1
+  88 000c 37000000 		.4byte	.LASF21
+  89 0010 01       		.byte	0x1
+  90 0011 C5000000 		.4byte	.LASF22
+  91 0015 DB000000 		.4byte	.LASF23
+  92 0019 00000000 		.4byte	.Ldebug_ranges0+0
+  93 001d 00000000 		.4byte	0
+  94 0021 00000000 		.4byte	0
+  95 0025 00000000 		.4byte	.Ldebug_line0
+  96 0029 02       		.uleb128 0x2
+  97 002a 01       		.byte	0x1
+  98 002b 06       		.byte	0x6
+  99 002c 73010000 		.4byte	.LASF0
+ 100 0030 02       		.uleb128 0x2
+ 101 0031 01       		.byte	0x1
+ 102 0032 08       		.byte	0x8
+ 103 0033 29000000 		.4byte	.LASF1
+ 104 0037 02       		.uleb128 0x2
+ 105 0038 02       		.byte	0x2
+ 106 0039 05       		.byte	0x5
+ 107 003a A3010000 		.4byte	.LASF2
+ 108 003e 02       		.uleb128 0x2
+ 109 003f 02       		.byte	0x2
+ 110 0040 07       		.byte	0x7
+ 111 0041 60010000 		.4byte	.LASF3
+ 112 0045 02       		.uleb128 0x2
+ 113 0046 04       		.byte	0x4
+ 114 0047 05       		.byte	0x5
+ 115 0048 47010000 		.4byte	.LASF4
+ 116 004c 02       		.uleb128 0x2
+ 117 004d 04       		.byte	0x4
+ 118 004e 07       		.byte	0x7
+ 119 004f 86000000 		.4byte	.LASF5
+ 120 0053 02       		.uleb128 0x2
+ 121 0054 08       		.byte	0x8
+ 122 0055 05       		.byte	0x5
+ 123 0056 00000000 		.4byte	.LASF6
+ 124 005a 02       		.uleb128 0x2
+ 125 005b 08       		.byte	0x8
+ 126 005c 07       		.byte	0x7
+ 127 005d AE000000 		.4byte	.LASF7
+ 128 0061 03       		.uleb128 0x3
+ 129 0062 04       		.byte	0x4
+ 130 0063 05       		.byte	0x5
+ 131 0064 696E7400 		.ascii	"int\000"
+ 132 0068 02       		.uleb128 0x2
+ 133 0069 04       		.byte	0x4
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 4
+
+
+ 134 006a 07       		.byte	0x7
+ 135 006b 15000000 		.4byte	.LASF8
+ 136 006f 04       		.uleb128 0x4
+ 137 0070 80000000 		.4byte	.LASF9
+ 138 0074 02       		.byte	0x2
+ 139 0075 5B       		.byte	0x5b
+ 140 0076 30000000 		.4byte	0x30
+ 141 007a 04       		.uleb128 0x4
+ 142 007b 0E000000 		.4byte	.LASF10
+ 143 007f 02       		.byte	0x2
+ 144 0080 5D       		.byte	0x5d
+ 145 0081 4C000000 		.4byte	0x4c
+ 146 0085 02       		.uleb128 0x2
+ 147 0086 04       		.byte	0x4
+ 148 0087 04       		.byte	0x4
+ 149 0088 D5000000 		.4byte	.LASF11
+ 150 008c 02       		.uleb128 0x2
+ 151 008d 08       		.byte	0x8
+ 152 008e 04       		.byte	0x4
+ 153 008f 50010000 		.4byte	.LASF12
+ 154 0093 02       		.uleb128 0x2
+ 155 0094 01       		.byte	0x1
+ 156 0095 08       		.byte	0x8
+ 157 0096 38010000 		.4byte	.LASF13
+ 158 009a 04       		.uleb128 0x4
+ 159 009b 57010000 		.4byte	.LASF14
+ 160 009f 02       		.byte	0x2
+ 161 00a0 E8       		.byte	0xe8
+ 162 00a1 4C000000 		.4byte	0x4c
+ 163 00a5 02       		.uleb128 0x2
+ 164 00a6 04       		.byte	0x4
+ 165 00a7 07       		.byte	0x7
+ 166 00a8 C5010000 		.4byte	.LASF15
+ 167 00ac 05       		.uleb128 0x5
+ 168 00ad 04       		.byte	0x4
+ 169 00ae 6F000000 		.4byte	0x6f
+ 170 00b2 05       		.uleb128 0x5
+ 171 00b3 04       		.byte	0x4
+ 172 00b4 B8000000 		.4byte	0xb8
+ 173 00b8 06       		.uleb128 0x6
+ 174 00b9 6F000000 		.4byte	0x6f
+ 175 00bd 07       		.uleb128 0x7
+ 176 00be 01       		.byte	0x1
+ 177 00bf 98000000 		.4byte	.LASF24
+ 178 00c3 01       		.byte	0x1
+ 179 00c4 10       		.byte	0x10
+ 180 00c5 01       		.byte	0x1
+ 181 00c6 00000000 		.4byte	.LFB33
+ 182 00ca 14000000 		.4byte	.LFE33
+ 183 00ce 00000000 		.4byte	.LLST0
+ 184 00d2 01       		.byte	0x1
+ 185 00d3 11010000 		.4byte	0x111
+ 186 00d7 08       		.uleb128 0x8
+ 187 00d8 23010000 		.4byte	.LASF16
+ 188 00dc 01       		.byte	0x1
+ 189 00dd 10       		.byte	0x10
+ 190 00de AC000000 		.4byte	0xac
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 5
+
+
+ 191 00e2 20000000 		.4byte	.LLST1
+ 192 00e6 09       		.uleb128 0x9
+ 193 00e7 0A000000 		.4byte	.LVL2
+ 194 00eb 7D010000 		.4byte	0x17d
+ 195 00ef FA000000 		.4byte	0xfa
+ 196 00f3 0A       		.uleb128 0xa
+ 197 00f4 01       		.byte	0x1
+ 198 00f5 50       		.byte	0x50
+ 199 00f6 02       		.byte	0x2
+ 200 00f7 08       		.byte	0x8
+ 201 00f8 30       		.byte	0x30
+ 202 00f9 00       		.byte	0
+ 203 00fa 0B       		.uleb128 0xb
+ 204 00fb 12000000 		.4byte	.LVL3
+ 205 00ff 91010000 		.4byte	0x191
+ 206 0103 0A       		.uleb128 0xa
+ 207 0104 01       		.byte	0x1
+ 208 0105 51       		.byte	0x51
+ 209 0106 02       		.byte	0x2
+ 210 0107 74       		.byte	0x74
+ 211 0108 00       		.sleb128 0
+ 212 0109 0A       		.uleb128 0xa
+ 213 010a 01       		.byte	0x1
+ 214 010b 50       		.byte	0x50
+ 215 010c 02       		.byte	0x2
+ 216 010d 08       		.byte	0x8
+ 217 010e FE       		.byte	0xfe
+ 218 010f 00       		.byte	0
+ 219 0110 00       		.byte	0
+ 220 0111 0C       		.uleb128 0xc
+ 221 0112 01       		.byte	0x1
+ 222 0113 92010000 		.4byte	.LASF25
+ 223 0117 01       		.byte	0x1
+ 224 0118 1C       		.byte	0x1c
+ 225 0119 01       		.byte	0x1
+ 226 011a 6F000000 		.4byte	0x6f
+ 227 011e 00000000 		.4byte	.LFB34
+ 228 0122 08000000 		.4byte	.LFE34
+ 229 0126 02       		.byte	0x2
+ 230 0127 7D       		.byte	0x7d
+ 231 0128 00       		.sleb128 0
+ 232 0129 01       		.byte	0x1
+ 233 012a 5B010000 		.4byte	0x15b
+ 234 012e 08       		.uleb128 0x8
+ 235 012f 3D010000 		.4byte	.LASF17
+ 236 0133 01       		.byte	0x1
+ 237 0134 1C       		.byte	0x1c
+ 238 0135 6F000000 		.4byte	0x6f
+ 239 0139 4C000000 		.4byte	.LLST2
+ 240 013d 0D       		.uleb128 0xd
+ 241 013e 707000   		.ascii	"pp\000"
+ 242 0141 01       		.byte	0x1
+ 243 0142 1E       		.byte	0x1e
+ 244 0143 AC000000 		.4byte	0xac
+ 245 0147 6D000000 		.4byte	.LLST3
+ 246 014b 0E       		.uleb128 0xe
+ 247 014c 22000000 		.4byte	.LASF18
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 6
+
+
+ 248 0150 01       		.byte	0x1
+ 249 0151 1F       		.byte	0x1f
+ 250 0152 6F000000 		.4byte	0x6f
+ 251 0156 89000000 		.4byte	.LLST4
+ 252 015a 00       		.byte	0
+ 253 015b 0F       		.uleb128 0xf
+ 254 015c 6F000000 		.4byte	0x6f
+ 255 0160 6B010000 		.4byte	0x16b
+ 256 0164 10       		.uleb128 0x10
+ 257 0165 A5000000 		.4byte	0xa5
+ 258 0169 7F       		.byte	0x7f
+ 259 016a 00       		.byte	0
+ 260 016b 11       		.uleb128 0x11
+ 261 016c 2B010000 		.4byte	.LASF26
+ 262 0170 04       		.byte	0x4
+ 263 0171 17       		.byte	0x17
+ 264 0172 5B010000 		.4byte	0x15b
+ 265 0176 01       		.byte	0x1
+ 266 0177 05       		.byte	0x5
+ 267 0178 03       		.byte	0x3
+ 268 0179 00000000 		.4byte	FlashDataBuf
+ 269 017d 12       		.uleb128 0x12
+ 270 017e 01       		.byte	0x1
+ 271 017f AD010000 		.4byte	.LASF19
+ 272 0183 03       		.byte	0x3
+ 273 0184 1D       		.byte	0x1d
+ 274 0185 01       		.byte	0x1
+ 275 0186 01       		.byte	0x1
+ 276 0187 91010000 		.4byte	0x191
+ 277 018b 13       		.uleb128 0x13
+ 278 018c 7A000000 		.4byte	0x7a
+ 279 0190 00       		.byte	0
+ 280 0191 14       		.uleb128 0x14
+ 281 0192 01       		.byte	0x1
+ 282 0193 7F010000 		.4byte	.LASF20
+ 283 0197 03       		.byte	0x3
+ 284 0198 1C       		.byte	0x1c
+ 285 0199 01       		.byte	0x1
+ 286 019a 9A000000 		.4byte	0x9a
+ 287 019e 01       		.byte	0x1
+ 288 019f 13       		.uleb128 0x13
+ 289 01a0 7A000000 		.4byte	0x7a
+ 290 01a4 13       		.uleb128 0x13
+ 291 01a5 B2000000 		.4byte	0xb2
+ 292 01a9 00       		.byte	0
+ 293 01aa 00       		.byte	0
+ 294              		.section	.debug_abbrev,"",%progbits
+ 295              	.Ldebug_abbrev0:
+ 296 0000 01       		.uleb128 0x1
+ 297 0001 11       		.uleb128 0x11
+ 298 0002 01       		.byte	0x1
+ 299 0003 25       		.uleb128 0x25
+ 300 0004 0E       		.uleb128 0xe
+ 301 0005 13       		.uleb128 0x13
+ 302 0006 0B       		.uleb128 0xb
+ 303 0007 03       		.uleb128 0x3
+ 304 0008 0E       		.uleb128 0xe
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 7
+
+
+ 305 0009 1B       		.uleb128 0x1b
+ 306 000a 0E       		.uleb128 0xe
+ 307 000b 55       		.uleb128 0x55
+ 308 000c 06       		.uleb128 0x6
+ 309 000d 11       		.uleb128 0x11
+ 310 000e 01       		.uleb128 0x1
+ 311 000f 52       		.uleb128 0x52
+ 312 0010 01       		.uleb128 0x1
+ 313 0011 10       		.uleb128 0x10
+ 314 0012 06       		.uleb128 0x6
+ 315 0013 00       		.byte	0
+ 316 0014 00       		.byte	0
+ 317 0015 02       		.uleb128 0x2
+ 318 0016 24       		.uleb128 0x24
+ 319 0017 00       		.byte	0
+ 320 0018 0B       		.uleb128 0xb
+ 321 0019 0B       		.uleb128 0xb
+ 322 001a 3E       		.uleb128 0x3e
+ 323 001b 0B       		.uleb128 0xb
+ 324 001c 03       		.uleb128 0x3
+ 325 001d 0E       		.uleb128 0xe
+ 326 001e 00       		.byte	0
+ 327 001f 00       		.byte	0
+ 328 0020 03       		.uleb128 0x3
+ 329 0021 24       		.uleb128 0x24
+ 330 0022 00       		.byte	0
+ 331 0023 0B       		.uleb128 0xb
+ 332 0024 0B       		.uleb128 0xb
+ 333 0025 3E       		.uleb128 0x3e
+ 334 0026 0B       		.uleb128 0xb
+ 335 0027 03       		.uleb128 0x3
+ 336 0028 08       		.uleb128 0x8
+ 337 0029 00       		.byte	0
+ 338 002a 00       		.byte	0
+ 339 002b 04       		.uleb128 0x4
+ 340 002c 16       		.uleb128 0x16
+ 341 002d 00       		.byte	0
+ 342 002e 03       		.uleb128 0x3
+ 343 002f 0E       		.uleb128 0xe
+ 344 0030 3A       		.uleb128 0x3a
+ 345 0031 0B       		.uleb128 0xb
+ 346 0032 3B       		.uleb128 0x3b
+ 347 0033 0B       		.uleb128 0xb
+ 348 0034 49       		.uleb128 0x49
+ 349 0035 13       		.uleb128 0x13
+ 350 0036 00       		.byte	0
+ 351 0037 00       		.byte	0
+ 352 0038 05       		.uleb128 0x5
+ 353 0039 0F       		.uleb128 0xf
+ 354 003a 00       		.byte	0
+ 355 003b 0B       		.uleb128 0xb
+ 356 003c 0B       		.uleb128 0xb
+ 357 003d 49       		.uleb128 0x49
+ 358 003e 13       		.uleb128 0x13
+ 359 003f 00       		.byte	0
+ 360 0040 00       		.byte	0
+ 361 0041 06       		.uleb128 0x6
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 8
+
+
+ 362 0042 26       		.uleb128 0x26
+ 363 0043 00       		.byte	0
+ 364 0044 49       		.uleb128 0x49
+ 365 0045 13       		.uleb128 0x13
+ 366 0046 00       		.byte	0
+ 367 0047 00       		.byte	0
+ 368 0048 07       		.uleb128 0x7
+ 369 0049 2E       		.uleb128 0x2e
+ 370 004a 01       		.byte	0x1
+ 371 004b 3F       		.uleb128 0x3f
+ 372 004c 0C       		.uleb128 0xc
+ 373 004d 03       		.uleb128 0x3
+ 374 004e 0E       		.uleb128 0xe
+ 375 004f 3A       		.uleb128 0x3a
+ 376 0050 0B       		.uleb128 0xb
+ 377 0051 3B       		.uleb128 0x3b
+ 378 0052 0B       		.uleb128 0xb
+ 379 0053 27       		.uleb128 0x27
+ 380 0054 0C       		.uleb128 0xc
+ 381 0055 11       		.uleb128 0x11
+ 382 0056 01       		.uleb128 0x1
+ 383 0057 12       		.uleb128 0x12
+ 384 0058 01       		.uleb128 0x1
+ 385 0059 40       		.uleb128 0x40
+ 386 005a 06       		.uleb128 0x6
+ 387 005b 9742     		.uleb128 0x2117
+ 388 005d 0C       		.uleb128 0xc
+ 389 005e 01       		.uleb128 0x1
+ 390 005f 13       		.uleb128 0x13
+ 391 0060 00       		.byte	0
+ 392 0061 00       		.byte	0
+ 393 0062 08       		.uleb128 0x8
+ 394 0063 05       		.uleb128 0x5
+ 395 0064 00       		.byte	0
+ 396 0065 03       		.uleb128 0x3
+ 397 0066 0E       		.uleb128 0xe
+ 398 0067 3A       		.uleb128 0x3a
+ 399 0068 0B       		.uleb128 0xb
+ 400 0069 3B       		.uleb128 0x3b
+ 401 006a 0B       		.uleb128 0xb
+ 402 006b 49       		.uleb128 0x49
+ 403 006c 13       		.uleb128 0x13
+ 404 006d 02       		.uleb128 0x2
+ 405 006e 06       		.uleb128 0x6
+ 406 006f 00       		.byte	0
+ 407 0070 00       		.byte	0
+ 408 0071 09       		.uleb128 0x9
+ 409 0072 898201   		.uleb128 0x4109
+ 410 0075 01       		.byte	0x1
+ 411 0076 11       		.uleb128 0x11
+ 412 0077 01       		.uleb128 0x1
+ 413 0078 31       		.uleb128 0x31
+ 414 0079 13       		.uleb128 0x13
+ 415 007a 01       		.uleb128 0x1
+ 416 007b 13       		.uleb128 0x13
+ 417 007c 00       		.byte	0
+ 418 007d 00       		.byte	0
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 9
+
+
+ 419 007e 0A       		.uleb128 0xa
+ 420 007f 8A8201   		.uleb128 0x410a
+ 421 0082 00       		.byte	0
+ 422 0083 02       		.uleb128 0x2
+ 423 0084 0A       		.uleb128 0xa
+ 424 0085 9142     		.uleb128 0x2111
+ 425 0087 0A       		.uleb128 0xa
+ 426 0088 00       		.byte	0
+ 427 0089 00       		.byte	0
+ 428 008a 0B       		.uleb128 0xb
+ 429 008b 898201   		.uleb128 0x4109
+ 430 008e 01       		.byte	0x1
+ 431 008f 11       		.uleb128 0x11
+ 432 0090 01       		.uleb128 0x1
+ 433 0091 31       		.uleb128 0x31
+ 434 0092 13       		.uleb128 0x13
+ 435 0093 00       		.byte	0
+ 436 0094 00       		.byte	0
+ 437 0095 0C       		.uleb128 0xc
+ 438 0096 2E       		.uleb128 0x2e
+ 439 0097 01       		.byte	0x1
+ 440 0098 3F       		.uleb128 0x3f
+ 441 0099 0C       		.uleb128 0xc
+ 442 009a 03       		.uleb128 0x3
+ 443 009b 0E       		.uleb128 0xe
+ 444 009c 3A       		.uleb128 0x3a
+ 445 009d 0B       		.uleb128 0xb
+ 446 009e 3B       		.uleb128 0x3b
+ 447 009f 0B       		.uleb128 0xb
+ 448 00a0 27       		.uleb128 0x27
+ 449 00a1 0C       		.uleb128 0xc
+ 450 00a2 49       		.uleb128 0x49
+ 451 00a3 13       		.uleb128 0x13
+ 452 00a4 11       		.uleb128 0x11
+ 453 00a5 01       		.uleb128 0x1
+ 454 00a6 12       		.uleb128 0x12
+ 455 00a7 01       		.uleb128 0x1
+ 456 00a8 40       		.uleb128 0x40
+ 457 00a9 0A       		.uleb128 0xa
+ 458 00aa 9742     		.uleb128 0x2117
+ 459 00ac 0C       		.uleb128 0xc
+ 460 00ad 01       		.uleb128 0x1
+ 461 00ae 13       		.uleb128 0x13
+ 462 00af 00       		.byte	0
+ 463 00b0 00       		.byte	0
+ 464 00b1 0D       		.uleb128 0xd
+ 465 00b2 34       		.uleb128 0x34
+ 466 00b3 00       		.byte	0
+ 467 00b4 03       		.uleb128 0x3
+ 468 00b5 08       		.uleb128 0x8
+ 469 00b6 3A       		.uleb128 0x3a
+ 470 00b7 0B       		.uleb128 0xb
+ 471 00b8 3B       		.uleb128 0x3b
+ 472 00b9 0B       		.uleb128 0xb
+ 473 00ba 49       		.uleb128 0x49
+ 474 00bb 13       		.uleb128 0x13
+ 475 00bc 02       		.uleb128 0x2
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 10
+
+
+ 476 00bd 06       		.uleb128 0x6
+ 477 00be 00       		.byte	0
+ 478 00bf 00       		.byte	0
+ 479 00c0 0E       		.uleb128 0xe
+ 480 00c1 34       		.uleb128 0x34
+ 481 00c2 00       		.byte	0
+ 482 00c3 03       		.uleb128 0x3
+ 483 00c4 0E       		.uleb128 0xe
+ 484 00c5 3A       		.uleb128 0x3a
+ 485 00c6 0B       		.uleb128 0xb
+ 486 00c7 3B       		.uleb128 0x3b
+ 487 00c8 0B       		.uleb128 0xb
+ 488 00c9 49       		.uleb128 0x49
+ 489 00ca 13       		.uleb128 0x13
+ 490 00cb 02       		.uleb128 0x2
+ 491 00cc 06       		.uleb128 0x6
+ 492 00cd 00       		.byte	0
+ 493 00ce 00       		.byte	0
+ 494 00cf 0F       		.uleb128 0xf
+ 495 00d0 01       		.uleb128 0x1
+ 496 00d1 01       		.byte	0x1
+ 497 00d2 49       		.uleb128 0x49
+ 498 00d3 13       		.uleb128 0x13
+ 499 00d4 01       		.uleb128 0x1
+ 500 00d5 13       		.uleb128 0x13
+ 501 00d6 00       		.byte	0
+ 502 00d7 00       		.byte	0
+ 503 00d8 10       		.uleb128 0x10
+ 504 00d9 21       		.uleb128 0x21
+ 505 00da 00       		.byte	0
+ 506 00db 49       		.uleb128 0x49
+ 507 00dc 13       		.uleb128 0x13
+ 508 00dd 2F       		.uleb128 0x2f
+ 509 00de 0B       		.uleb128 0xb
+ 510 00df 00       		.byte	0
+ 511 00e0 00       		.byte	0
+ 512 00e1 11       		.uleb128 0x11
+ 513 00e2 34       		.uleb128 0x34
+ 514 00e3 00       		.byte	0
+ 515 00e4 03       		.uleb128 0x3
+ 516 00e5 0E       		.uleb128 0xe
+ 517 00e6 3A       		.uleb128 0x3a
+ 518 00e7 0B       		.uleb128 0xb
+ 519 00e8 3B       		.uleb128 0x3b
+ 520 00e9 0B       		.uleb128 0xb
+ 521 00ea 49       		.uleb128 0x49
+ 522 00eb 13       		.uleb128 0x13
+ 523 00ec 3F       		.uleb128 0x3f
+ 524 00ed 0C       		.uleb128 0xc
+ 525 00ee 02       		.uleb128 0x2
+ 526 00ef 0A       		.uleb128 0xa
+ 527 00f0 00       		.byte	0
+ 528 00f1 00       		.byte	0
+ 529 00f2 12       		.uleb128 0x12
+ 530 00f3 2E       		.uleb128 0x2e
+ 531 00f4 01       		.byte	0x1
+ 532 00f5 3F       		.uleb128 0x3f
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 11
+
+
+ 533 00f6 0C       		.uleb128 0xc
+ 534 00f7 03       		.uleb128 0x3
+ 535 00f8 0E       		.uleb128 0xe
+ 536 00f9 3A       		.uleb128 0x3a
+ 537 00fa 0B       		.uleb128 0xb
+ 538 00fb 3B       		.uleb128 0x3b
+ 539 00fc 0B       		.uleb128 0xb
+ 540 00fd 27       		.uleb128 0x27
+ 541 00fe 0C       		.uleb128 0xc
+ 542 00ff 3C       		.uleb128 0x3c
+ 543 0100 0C       		.uleb128 0xc
+ 544 0101 01       		.uleb128 0x1
+ 545 0102 13       		.uleb128 0x13
+ 546 0103 00       		.byte	0
+ 547 0104 00       		.byte	0
+ 548 0105 13       		.uleb128 0x13
+ 549 0106 05       		.uleb128 0x5
+ 550 0107 00       		.byte	0
+ 551 0108 49       		.uleb128 0x49
+ 552 0109 13       		.uleb128 0x13
+ 553 010a 00       		.byte	0
+ 554 010b 00       		.byte	0
+ 555 010c 14       		.uleb128 0x14
+ 556 010d 2E       		.uleb128 0x2e
+ 557 010e 01       		.byte	0x1
+ 558 010f 3F       		.uleb128 0x3f
+ 559 0110 0C       		.uleb128 0xc
+ 560 0111 03       		.uleb128 0x3
+ 561 0112 0E       		.uleb128 0xe
+ 562 0113 3A       		.uleb128 0x3a
+ 563 0114 0B       		.uleb128 0xb
+ 564 0115 3B       		.uleb128 0x3b
+ 565 0116 0B       		.uleb128 0xb
+ 566 0117 27       		.uleb128 0x27
+ 567 0118 0C       		.uleb128 0xc
+ 568 0119 49       		.uleb128 0x49
+ 569 011a 13       		.uleb128 0x13
+ 570 011b 3C       		.uleb128 0x3c
+ 571 011c 0C       		.uleb128 0xc
+ 572 011d 00       		.byte	0
+ 573 011e 00       		.byte	0
+ 574 011f 00       		.byte	0
+ 575              		.section	.debug_loc,"",%progbits
+ 576              	.Ldebug_loc0:
+ 577              	.LLST0:
+ 578 0000 00000000 		.4byte	.LFB33
+ 579 0004 02000000 		.4byte	.LCFI0
+ 580 0008 0200     		.2byte	0x2
+ 581 000a 7D       		.byte	0x7d
+ 582 000b 00       		.sleb128 0
+ 583 000c 02000000 		.4byte	.LCFI0
+ 584 0010 14000000 		.4byte	.LFE33
+ 585 0014 0200     		.2byte	0x2
+ 586 0016 7D       		.byte	0x7d
+ 587 0017 08       		.sleb128 8
+ 588 0018 00000000 		.4byte	0
+ 589 001c 00000000 		.4byte	0
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 12
+
+
+ 590              	.LLST1:
+ 591 0020 00000000 		.4byte	.LVL0
+ 592 0024 06000000 		.4byte	.LVL1
+ 593 0028 0100     		.2byte	0x1
+ 594 002a 50       		.byte	0x50
+ 595 002b 06000000 		.4byte	.LVL1
+ 596 002f 12000000 		.4byte	.LVL4
+ 597 0033 0100     		.2byte	0x1
+ 598 0035 54       		.byte	0x54
+ 599 0036 12000000 		.4byte	.LVL4
+ 600 003a 14000000 		.4byte	.LFE33
+ 601 003e 0400     		.2byte	0x4
+ 602 0040 F3       		.byte	0xf3
+ 603 0041 01       		.uleb128 0x1
+ 604 0042 50       		.byte	0x50
+ 605 0043 9F       		.byte	0x9f
+ 606 0044 00000000 		.4byte	0
+ 607 0048 00000000 		.4byte	0
+ 608              	.LLST2:
+ 609 004c 00000000 		.4byte	.LVL5
+ 610 0050 06000000 		.4byte	.LVL6
+ 611 0054 0100     		.2byte	0x1
+ 612 0056 50       		.byte	0x50
+ 613 0057 06000000 		.4byte	.LVL6
+ 614 005b 08000000 		.4byte	.LFE34
+ 615 005f 0400     		.2byte	0x4
+ 616 0061 F3       		.byte	0xf3
+ 617 0062 01       		.uleb128 0x1
+ 618 0063 50       		.byte	0x50
+ 619 0064 9F       		.byte	0x9f
+ 620 0065 00000000 		.4byte	0
+ 621 0069 00000000 		.4byte	0
+ 622              	.LLST3:
+ 623 006d 00000000 		.4byte	.LVL5
+ 624 0071 06000000 		.4byte	.LVL6
+ 625 0075 0A00     		.2byte	0xa
+ 626 0077 70       		.byte	0x70
+ 627 0078 00       		.sleb128 0
+ 628 0079 08       		.byte	0x8
+ 629 007a FF       		.byte	0xff
+ 630 007b 1A       		.byte	0x1a
+ 631 007c 23       		.byte	0x23
+ 632 007d 80FE01   		.uleb128 0x7f00
+ 633 0080 9F       		.byte	0x9f
+ 634 0081 00000000 		.4byte	0
+ 635 0085 00000000 		.4byte	0
+ 636              	.LLST4:
+ 637 0089 00000000 		.4byte	.LVL5
+ 638 008d 06000000 		.4byte	.LVL6
+ 639 0091 0900     		.2byte	0x9
+ 640 0093 70       		.byte	0x70
+ 641 0094 00       		.sleb128 0
+ 642 0095 08       		.byte	0x8
+ 643 0096 FF       		.byte	0xff
+ 644 0097 1A       		.byte	0x1a
+ 645 0098 23       		.byte	0x23
+ 646 0099 80FE01   		.uleb128 0x7f00
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 13
+
+
+ 647 009c 00000000 		.4byte	0
+ 648 00a0 00000000 		.4byte	0
+ 649              		.section	.debug_aranges,"",%progbits
+ 650 0000 24000000 		.4byte	0x24
+ 651 0004 0200     		.2byte	0x2
+ 652 0006 00000000 		.4byte	.Ldebug_info0
+ 653 000a 04       		.byte	0x4
+ 654 000b 00       		.byte	0
+ 655 000c 0000     		.2byte	0
+ 656 000e 0000     		.2byte	0
+ 657 0010 00000000 		.4byte	.LFB33
+ 658 0014 14000000 		.4byte	.LFE33-.LFB33
+ 659 0018 00000000 		.4byte	.LFB34
+ 660 001c 08000000 		.4byte	.LFE34-.LFB34
+ 661 0020 00000000 		.4byte	0
+ 662 0024 00000000 		.4byte	0
+ 663              		.section	.debug_ranges,"",%progbits
+ 664              	.Ldebug_ranges0:
+ 665 0000 00000000 		.4byte	.LFB33
+ 666 0004 14000000 		.4byte	.LFE33
+ 667 0008 00000000 		.4byte	.LFB34
+ 668 000c 08000000 		.4byte	.LFE34
+ 669 0010 00000000 		.4byte	0
+ 670 0014 00000000 		.4byte	0
+ 671              		.section	.debug_line,"",%progbits
+ 672              	.Ldebug_line0:
+ 673 0000 96000000 		.section	.debug_str,"MS",%progbits,1
+ 673      02006C00 
+ 673      00000201 
+ 673      FB0E0D00 
+ 673      01010101 
+ 674              	.LASF6:
+ 675 0000 6C6F6E67 		.ascii	"long long int\000"
+ 675      206C6F6E 
+ 675      6720696E 
+ 675      7400
+ 676              	.LASF10:
+ 677 000e 75696E74 		.ascii	"uint32\000"
+ 677      333200
+ 678              	.LASF8:
+ 679 0015 756E7369 		.ascii	"unsigned int\000"
+ 679      676E6564 
+ 679      20696E74 
+ 679      00
+ 680              	.LASF18:
+ 681 0022 72656461 		.ascii	"redata\000"
+ 681      746100
+ 682              	.LASF1:
+ 683 0029 756E7369 		.ascii	"unsigned char\000"
+ 683      676E6564 
+ 683      20636861 
+ 683      7200
+ 684              	.LASF21:
+ 685 0037 474E5520 		.ascii	"GNU C 4.7.3 20130312 (release) [ARM/embedded-4_7-br"
+ 685      4320342E 
+ 685      372E3320 
+ 685      32303133 
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 14
+
+
+ 685      30333132 
+ 686 006a 616E6368 		.ascii	"anch revision 196615]\000"
+ 686      20726576 
+ 686      6973696F 
+ 686      6E203139 
+ 686      36363135 
+ 687              	.LASF9:
+ 688 0080 75696E74 		.ascii	"uint8\000"
+ 688      3800
+ 689              	.LASF5:
+ 690 0086 6C6F6E67 		.ascii	"long unsigned int\000"
+ 690      20756E73 
+ 690      69676E65 
+ 690      6420696E 
+ 690      7400
+ 691              	.LASF24:
+ 692 0098 466C6173 		.ascii	"Flash_Write_aRow_Data\000"
+ 692      685F5772 
+ 692      6974655F 
+ 692      61526F77 
+ 692      5F446174 
+ 693              	.LASF7:
+ 694 00ae 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 694      206C6F6E 
+ 694      6720756E 
+ 694      7369676E 
+ 694      65642069 
+ 695              	.LASF22:
+ 696 00c5 2E5C666C 		.ascii	".\\flash_wr_rd.c\000"
+ 696      6173685F 
+ 696      77725F72 
+ 696      642E6300 
+ 697              	.LASF11:
+ 698 00d5 666C6F61 		.ascii	"float\000"
+ 698      7400
+ 699              	.LASF23:
+ 700 00db 453A5C63 		.ascii	"E:\\code\\wifi\\1.6\\UartBootloader\\UART_Bootloade"
+ 700      6F64655C 
+ 700      77696669 
+ 700      5C312E36 
+ 700      5C556172 
+ 701 0109 725C5541 		.ascii	"r\\UART_Bootloadable.cydsn\000"
+ 701      52545F42 
+ 701      6F6F746C 
+ 701      6F616461 
+ 701      626C652E 
+ 702              	.LASF16:
+ 703 0123 64617461 		.ascii	"databuf\000"
+ 703      62756600 
+ 704              	.LASF26:
+ 705 012b 466C6173 		.ascii	"FlashDataBuf\000"
+ 705      68446174 
+ 705      61427566 
+ 705      00
+ 706              	.LASF13:
+ 707 0138 63686172 		.ascii	"char\000"
+ 707      00
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccRxgc5X.s 			page 15
+
+
+ 708              	.LASF17:
+ 709 013d 6F666673 		.ascii	"offsetadr\000"
+ 709      65746164 
+ 709      7200
+ 710              	.LASF4:
+ 711 0147 6C6F6E67 		.ascii	"long int\000"
+ 711      20696E74 
+ 711      00
+ 712              	.LASF12:
+ 713 0150 646F7562 		.ascii	"double\000"
+ 713      6C6500
+ 714              	.LASF14:
+ 715 0157 63797374 		.ascii	"cystatus\000"
+ 715      61747573 
+ 715      00
+ 716              	.LASF3:
+ 717 0160 73686F72 		.ascii	"short unsigned int\000"
+ 717      7420756E 
+ 717      7369676E 
+ 717      65642069 
+ 717      6E7400
+ 718              	.LASF0:
+ 719 0173 7369676E 		.ascii	"signed char\000"
+ 719      65642063 
+ 719      68617200 
+ 720              	.LASF20:
+ 721 017f 43795379 		.ascii	"CySysFlashWriteRow\000"
+ 721      73466C61 
+ 721      73685772 
+ 721      69746552 
+ 721      6F7700
+ 722              	.LASF25:
+ 723 0192 466C6167 		.ascii	"Flagh_Read_aByte\000"
+ 723      685F5265 
+ 723      61645F61 
+ 723      42797465 
+ 723      00
+ 724              	.LASF2:
+ 725 01a3 73686F72 		.ascii	"short int\000"
+ 725      7420696E 
+ 725      7400
+ 726              	.LASF19:
+ 727 01ad 43795379 		.ascii	"CySysFlashSetWaitCycles\000"
+ 727      73466C61 
+ 727      73685365 
+ 727      74576169 
+ 727      74437963 
+ 728              	.LASF15:
+ 729 01c5 73697A65 		.ascii	"sizetype\000"
+ 729      74797065 
+ 729      00
+ 730              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br

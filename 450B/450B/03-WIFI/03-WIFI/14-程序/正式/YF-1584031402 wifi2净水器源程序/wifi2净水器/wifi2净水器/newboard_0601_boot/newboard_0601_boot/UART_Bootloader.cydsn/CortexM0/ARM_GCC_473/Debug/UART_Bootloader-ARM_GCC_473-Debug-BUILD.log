@@ -1,0 +1,8 @@
+--------------- Build Started: 01/08/2015 13:10:36 Project: UART_Bootloader, Configuration: ARM GCC 4.7.3 Debug ---------------
+The code generation step is up to date.
+The compile step is up to date, no work needs to be done.
+The link step is up to date, no work needs to be done.
+cyelftool.exe -S E:\code\wifi\1.8\UartBootloader\UART_Bootloader\UART_Bootloader.cydsn\CortexM0\ARM_GCC_473\Debug\UART_Bootloader.elf
+Flash used: 3312 of 32768 bytes (10.1%).
+SRAM used: 1552 of 4096 bytes (37.9%).
+--------------- Build Succeeded: 01/08/2015 13:10:45 ---------------

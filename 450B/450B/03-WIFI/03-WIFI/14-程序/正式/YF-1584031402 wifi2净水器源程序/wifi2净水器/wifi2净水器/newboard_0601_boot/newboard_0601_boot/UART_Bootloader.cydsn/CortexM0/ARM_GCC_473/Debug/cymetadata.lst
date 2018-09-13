@@ -1,0 +1,518 @@
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 1
+
+
+   1              		.cpu cortex-m0
+   2              		.fpu softvfp
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 4
+  10              		.eabi_attribute 34, 0
+  11              		.eabi_attribute 18, 4
+  12              		.code	16
+  13              		.file	"cymetadata.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.global	cy_meta_chipprotect
+  18              		.global	cy_metadata
+  19              		.global	cy_meta_flashprotect
+  20              		.global	cy_meta_loader
+  21              		.section	.cyloadermeta,"a",%progbits
+  22              		.type	cy_meta_loader, %object
+  23              		.size	cy_meta_loader, 64
+  24              	cy_meta_loader:
+  25 0000 00       		.byte	0
+  26 0001 00       		.byte	0
+  27 0002 00       		.byte	0
+  28 0003 00       		.byte	0
+  29 0004 00       		.byte	0
+  30 0005 00       		.byte	0
+  31 0006 00       		.byte	0
+  32 0007 00       		.byte	0
+  33 0008 00       		.byte	0
+  34 0009 00       		.byte	0
+  35 000a 00       		.byte	0
+  36 000b 00       		.byte	0
+  37 000c 00       		.byte	0
+  38 000d 00       		.byte	0
+  39 000e 00       		.byte	0
+  40 000f 00       		.byte	0
+  41 0010 00       		.byte	0
+  42 0011 00       		.byte	0
+  43 0012 00       		.byte	0
+  44 0013 00       		.byte	0
+  45 0014 01       		.byte	1
+  46 0015 00       		.byte	0
+  47 0016 00       		.byte	0
+  48 0017 00       		.byte	0
+  49 0018 00       		.byte	0
+  50 0019 00       		.byte	0
+  51 001a 00       		.byte	0
+  52 001b 00       		.byte	0
+  53 001c 00       		.byte	0
+  54 001d 00       		.byte	0
+  55 001e 00       		.byte	0
+  56 001f 00       		.byte	0
+  57 0020 00       		.byte	0
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 2
+
+
+  58 0021 00       		.byte	0
+  59 0022 00       		.byte	0
+  60 0023 00       		.byte	0
+  61 0024 00       		.byte	0
+  62 0025 00       		.byte	0
+  63 0026 00       		.byte	0
+  64 0027 00       		.byte	0
+  65 0028 00       		.byte	0
+  66 0029 00       		.byte	0
+  67 002a 00       		.byte	0
+  68 002b 00       		.byte	0
+  69 002c 00       		.byte	0
+  70 002d 00       		.byte	0
+  71 002e 00       		.byte	0
+  72 002f 00       		.byte	0
+  73 0030 00       		.byte	0
+  74 0031 00       		.byte	0
+  75 0032 00       		.byte	0
+  76 0033 00       		.byte	0
+  77 0034 00       		.byte	0
+  78 0035 00       		.byte	0
+  79 0036 00       		.byte	0
+  80 0037 00       		.byte	0
+  81 0038 00       		.byte	0
+  82 0039 00       		.byte	0
+  83 003a 00       		.byte	0
+  84 003b 00       		.byte	0
+  85 003c 00       		.byte	0
+  86 003d 00       		.byte	0
+  87 003e 00       		.byte	0
+  88 003f 00       		.byte	0
+  89              		.section	.cychipprotect,"a",%progbits
+  90              		.type	cy_meta_chipprotect, %object
+  91              		.size	cy_meta_chipprotect, 1
+  92              	cy_meta_chipprotect:
+  93 0000 01       		.byte	1
+  94              		.section	.cymeta,"a",%progbits
+  95              		.type	cy_metadata, %object
+  96              		.size	cy_metadata, 12
+  97              	cy_metadata:
+  98 0000 00       		.byte	0
+  99 0001 02       		.byte	2
+ 100 0002 04       		.byte	4
+ 101 0003 16       		.byte	22
+ 102 0004 11       		.byte	17
+ 103 0005 93       		.byte	-109
+ 104 0006 11       		.byte	17
+ 105 0007 01       		.byte	1
+ 106 0008 00       		.byte	0
+ 107 0009 00       		.byte	0
+ 108 000a 00       		.byte	0
+ 109 000b 00       		.byte	0
+ 110              		.section	.cyflashprotect,"a",%progbits
+ 111              		.type	cy_meta_flashprotect, %object
+ 112              		.size	cy_meta_flashprotect, 32
+ 113              	cy_meta_flashprotect:
+ 114 0000 00000000 		.space	32
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 3
+
+
+ 114      00000000 
+ 114      00000000 
+ 114      00000000 
+ 114      00000000 
+ 115              		.text
+ 116              	.Letext0:
+ 117              		.file 1 ".\\Generated_Source\\PSoC4\\cymetadata.c"
+ 118              		.file 2 ".\\Generated_Source\\PSoC4\\cytypes.h"
+ 119              		.section	.debug_info,"",%progbits
+ 120              	.Ldebug_info0:
+ 121 0000 23010000 		.4byte	0x123
+ 122 0004 0200     		.2byte	0x2
+ 123 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 124 000a 04       		.byte	0x4
+ 125 000b 01       		.uleb128 0x1
+ 126 000c 40010000 		.4byte	.LASF17
+ 127 0010 01       		.byte	0x1
+ 128 0011 6F000000 		.4byte	.LASF18
+ 129 0015 CE000000 		.4byte	.LASF19
+ 130 0019 00000000 		.4byte	.Ldebug_line0
+ 131 001d 02       		.uleb128 0x2
+ 132 001e 01       		.byte	0x1
+ 133 001f 06       		.byte	0x6
+ 134 0020 92010000 		.4byte	.LASF0
+ 135 0024 02       		.uleb128 0x2
+ 136 0025 01       		.byte	0x1
+ 137 0026 08       		.byte	0x8
+ 138 0027 35000000 		.4byte	.LASF1
+ 139 002b 02       		.uleb128 0x2
+ 140 002c 02       		.byte	0x2
+ 141 002d 05       		.byte	0x5
+ 142 002e 30010000 		.4byte	.LASF2
+ 143 0032 02       		.uleb128 0x2
+ 144 0033 02       		.byte	0x2
+ 145 0034 07       		.byte	0x7
+ 146 0035 55000000 		.4byte	.LASF3
+ 147 0039 02       		.uleb128 0x2
+ 148 003a 04       		.byte	0x4
+ 149 003b 05       		.byte	0x5
+ 150 003c 89010000 		.4byte	.LASF4
+ 151 0040 02       		.uleb128 0x2
+ 152 0041 04       		.byte	0x4
+ 153 0042 07       		.byte	0x7
+ 154 0043 43000000 		.4byte	.LASF5
+ 155 0047 02       		.uleb128 0x2
+ 156 0048 08       		.byte	0x8
+ 157 0049 05       		.byte	0x5
+ 158 004a 1D010000 		.4byte	.LASF6
+ 159 004e 02       		.uleb128 0x2
+ 160 004f 08       		.byte	0x8
+ 161 0050 07       		.byte	0x7
+ 162 0051 A2000000 		.4byte	.LASF7
+ 163 0055 03       		.uleb128 0x3
+ 164 0056 04       		.byte	0x4
+ 165 0057 05       		.byte	0x5
+ 166 0058 696E7400 		.ascii	"int\000"
+ 167 005c 02       		.uleb128 0x2
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 4
+
+
+ 168 005d 04       		.byte	0x4
+ 169 005e 07       		.byte	0x7
+ 170 005f 95000000 		.4byte	.LASF8
+ 171 0063 04       		.uleb128 0x4
+ 172 0064 3A010000 		.4byte	.LASF20
+ 173 0068 02       		.byte	0x2
+ 174 0069 5B       		.byte	0x5b
+ 175 006a 24000000 		.4byte	0x24
+ 176 006e 02       		.uleb128 0x2
+ 177 006f 04       		.byte	0x4
+ 178 0070 04       		.byte	0x4
+ 179 0071 2F000000 		.4byte	.LASF9
+ 180 0075 02       		.uleb128 0x2
+ 181 0076 08       		.byte	0x8
+ 182 0077 04       		.byte	0x4
+ 183 0078 68000000 		.4byte	.LASF10
+ 184 007c 02       		.uleb128 0x2
+ 185 007d 01       		.byte	0x1
+ 186 007e 08       		.byte	0x8
+ 187 007f 2B010000 		.4byte	.LASF11
+ 188 0083 05       		.uleb128 0x5
+ 189 0084 63000000 		.4byte	0x63
+ 190 0088 93000000 		.4byte	0x93
+ 191 008c 06       		.uleb128 0x6
+ 192 008d 93000000 		.4byte	0x93
+ 193 0091 3F       		.byte	0x3f
+ 194 0092 00       		.byte	0
+ 195 0093 02       		.uleb128 0x2
+ 196 0094 04       		.byte	0x4
+ 197 0095 07       		.byte	0x7
+ 198 0096 14010000 		.4byte	.LASF12
+ 199 009a 07       		.uleb128 0x7
+ 200 009b 14000000 		.4byte	.LASF13
+ 201 009f 01       		.byte	0x1
+ 202 00a0 1C       		.byte	0x1c
+ 203 00a1 AC000000 		.4byte	0xac
+ 204 00a5 01       		.byte	0x1
+ 205 00a6 05       		.byte	0x5
+ 206 00a7 03       		.byte	0x3
+ 207 00a8 00000000 		.4byte	cy_meta_loader
+ 208 00ac 08       		.uleb128 0x8
+ 209 00ad 83000000 		.4byte	0x83
+ 210 00b1 05       		.uleb128 0x5
+ 211 00b2 63000000 		.4byte	0x63
+ 212 00b6 C1000000 		.4byte	0xc1
+ 213 00ba 06       		.uleb128 0x6
+ 214 00bb 93000000 		.4byte	0x93
+ 215 00bf 1F       		.byte	0x1f
+ 216 00c0 00       		.byte	0
+ 217 00c1 07       		.uleb128 0x7
+ 218 00c2 B9000000 		.4byte	.LASF14
+ 219 00c6 01       		.byte	0x1
+ 220 00c7 2E       		.byte	0x2e
+ 221 00c8 D3000000 		.4byte	0xd3
+ 222 00cc 01       		.byte	0x1
+ 223 00cd 05       		.byte	0x5
+ 224 00ce 03       		.byte	0x3
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 5
+
+
+ 225 00cf 00000000 		.4byte	cy_meta_flashprotect
+ 226 00d3 08       		.uleb128 0x8
+ 227 00d4 B1000000 		.4byte	0xb1
+ 228 00d8 05       		.uleb128 0x5
+ 229 00d9 63000000 		.4byte	0x63
+ 230 00dd E8000000 		.4byte	0xe8
+ 231 00e1 06       		.uleb128 0x6
+ 232 00e2 93000000 		.4byte	0x93
+ 233 00e6 0B       		.byte	0xb
+ 234 00e7 00       		.byte	0
+ 235 00e8 07       		.uleb128 0x7
+ 236 00e9 23000000 		.4byte	.LASF15
+ 237 00ed 01       		.byte	0x1
+ 238 00ee 3C       		.byte	0x3c
+ 239 00ef FA000000 		.4byte	0xfa
+ 240 00f3 01       		.byte	0x1
+ 241 00f4 05       		.byte	0x5
+ 242 00f5 03       		.byte	0x3
+ 243 00f6 00000000 		.4byte	cy_metadata
+ 244 00fa 08       		.uleb128 0x8
+ 245 00fb D8000000 		.4byte	0xd8
+ 246 00ff 05       		.uleb128 0x5
+ 247 0100 63000000 		.4byte	0x63
+ 248 0104 0F010000 		.4byte	0x10f
+ 249 0108 06       		.uleb128 0x6
+ 250 0109 93000000 		.4byte	0x93
+ 251 010d 00       		.byte	0
+ 252 010e 00       		.byte	0
+ 253 010f 07       		.uleb128 0x7
+ 254 0110 00000000 		.4byte	.LASF16
+ 255 0114 01       		.byte	0x1
+ 256 0115 48       		.byte	0x48
+ 257 0116 21010000 		.4byte	0x121
+ 258 011a 01       		.byte	0x1
+ 259 011b 05       		.byte	0x5
+ 260 011c 03       		.byte	0x3
+ 261 011d 00000000 		.4byte	cy_meta_chipprotect
+ 262 0121 08       		.uleb128 0x8
+ 263 0122 FF000000 		.4byte	0xff
+ 264 0126 00       		.byte	0
+ 265              		.section	.debug_abbrev,"",%progbits
+ 266              	.Ldebug_abbrev0:
+ 267 0000 01       		.uleb128 0x1
+ 268 0001 11       		.uleb128 0x11
+ 269 0002 01       		.byte	0x1
+ 270 0003 25       		.uleb128 0x25
+ 271 0004 0E       		.uleb128 0xe
+ 272 0005 13       		.uleb128 0x13
+ 273 0006 0B       		.uleb128 0xb
+ 274 0007 03       		.uleb128 0x3
+ 275 0008 0E       		.uleb128 0xe
+ 276 0009 1B       		.uleb128 0x1b
+ 277 000a 0E       		.uleb128 0xe
+ 278 000b 10       		.uleb128 0x10
+ 279 000c 06       		.uleb128 0x6
+ 280 000d 00       		.byte	0
+ 281 000e 00       		.byte	0
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 6
+
+
+ 282 000f 02       		.uleb128 0x2
+ 283 0010 24       		.uleb128 0x24
+ 284 0011 00       		.byte	0
+ 285 0012 0B       		.uleb128 0xb
+ 286 0013 0B       		.uleb128 0xb
+ 287 0014 3E       		.uleb128 0x3e
+ 288 0015 0B       		.uleb128 0xb
+ 289 0016 03       		.uleb128 0x3
+ 290 0017 0E       		.uleb128 0xe
+ 291 0018 00       		.byte	0
+ 292 0019 00       		.byte	0
+ 293 001a 03       		.uleb128 0x3
+ 294 001b 24       		.uleb128 0x24
+ 295 001c 00       		.byte	0
+ 296 001d 0B       		.uleb128 0xb
+ 297 001e 0B       		.uleb128 0xb
+ 298 001f 3E       		.uleb128 0x3e
+ 299 0020 0B       		.uleb128 0xb
+ 300 0021 03       		.uleb128 0x3
+ 301 0022 08       		.uleb128 0x8
+ 302 0023 00       		.byte	0
+ 303 0024 00       		.byte	0
+ 304 0025 04       		.uleb128 0x4
+ 305 0026 16       		.uleb128 0x16
+ 306 0027 00       		.byte	0
+ 307 0028 03       		.uleb128 0x3
+ 308 0029 0E       		.uleb128 0xe
+ 309 002a 3A       		.uleb128 0x3a
+ 310 002b 0B       		.uleb128 0xb
+ 311 002c 3B       		.uleb128 0x3b
+ 312 002d 0B       		.uleb128 0xb
+ 313 002e 49       		.uleb128 0x49
+ 314 002f 13       		.uleb128 0x13
+ 315 0030 00       		.byte	0
+ 316 0031 00       		.byte	0
+ 317 0032 05       		.uleb128 0x5
+ 318 0033 01       		.uleb128 0x1
+ 319 0034 01       		.byte	0x1
+ 320 0035 49       		.uleb128 0x49
+ 321 0036 13       		.uleb128 0x13
+ 322 0037 01       		.uleb128 0x1
+ 323 0038 13       		.uleb128 0x13
+ 324 0039 00       		.byte	0
+ 325 003a 00       		.byte	0
+ 326 003b 06       		.uleb128 0x6
+ 327 003c 21       		.uleb128 0x21
+ 328 003d 00       		.byte	0
+ 329 003e 49       		.uleb128 0x49
+ 330 003f 13       		.uleb128 0x13
+ 331 0040 2F       		.uleb128 0x2f
+ 332 0041 0B       		.uleb128 0xb
+ 333 0042 00       		.byte	0
+ 334 0043 00       		.byte	0
+ 335 0044 07       		.uleb128 0x7
+ 336 0045 34       		.uleb128 0x34
+ 337 0046 00       		.byte	0
+ 338 0047 03       		.uleb128 0x3
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 7
+
+
+ 339 0048 0E       		.uleb128 0xe
+ 340 0049 3A       		.uleb128 0x3a
+ 341 004a 0B       		.uleb128 0xb
+ 342 004b 3B       		.uleb128 0x3b
+ 343 004c 0B       		.uleb128 0xb
+ 344 004d 49       		.uleb128 0x49
+ 345 004e 13       		.uleb128 0x13
+ 346 004f 3F       		.uleb128 0x3f
+ 347 0050 0C       		.uleb128 0xc
+ 348 0051 02       		.uleb128 0x2
+ 349 0052 0A       		.uleb128 0xa
+ 350 0053 00       		.byte	0
+ 351 0054 00       		.byte	0
+ 352 0055 08       		.uleb128 0x8
+ 353 0056 26       		.uleb128 0x26
+ 354 0057 00       		.byte	0
+ 355 0058 49       		.uleb128 0x49
+ 356 0059 13       		.uleb128 0x13
+ 357 005a 00       		.byte	0
+ 358 005b 00       		.byte	0
+ 359 005c 00       		.byte	0
+ 360              		.section	.debug_aranges,"",%progbits
+ 361 0000 14000000 		.4byte	0x14
+ 362 0004 0200     		.2byte	0x2
+ 363 0006 00000000 		.4byte	.Ldebug_info0
+ 364 000a 04       		.byte	0x4
+ 365 000b 00       		.byte	0
+ 366 000c 0000     		.2byte	0
+ 367 000e 0000     		.2byte	0
+ 368 0010 00000000 		.4byte	0
+ 369 0014 00000000 		.4byte	0
+ 370              		.section	.debug_line,"",%progbits
+ 371              	.Ldebug_line0:
+ 372 0000 4F000000 		.section	.debug_str,"MS",%progbits,1
+ 372      02004900 
+ 372      00000201 
+ 372      FB0E0D00 
+ 372      01010101 
+ 373              	.LASF16:
+ 374 0000 63795F6D 		.ascii	"cy_meta_chipprotect\000"
+ 374      6574615F 
+ 374      63686970 
+ 374      70726F74 
+ 374      65637400 
+ 375              	.LASF13:
+ 376 0014 63795F6D 		.ascii	"cy_meta_loader\000"
+ 376      6574615F 
+ 376      6C6F6164 
+ 376      657200
+ 377              	.LASF15:
+ 378 0023 63795F6D 		.ascii	"cy_metadata\000"
+ 378      65746164 
+ 378      61746100 
+ 379              	.LASF9:
+ 380 002f 666C6F61 		.ascii	"float\000"
+ 380      7400
+ 381              	.LASF1:
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 8
+
+
+ 382 0035 756E7369 		.ascii	"unsigned char\000"
+ 382      676E6564 
+ 382      20636861 
+ 382      7200
+ 383              	.LASF5:
+ 384 0043 6C6F6E67 		.ascii	"long unsigned int\000"
+ 384      20756E73 
+ 384      69676E65 
+ 384      6420696E 
+ 384      7400
+ 385              	.LASF3:
+ 386 0055 73686F72 		.ascii	"short unsigned int\000"
+ 386      7420756E 
+ 386      7369676E 
+ 386      65642069 
+ 386      6E7400
+ 387              	.LASF10:
+ 388 0068 646F7562 		.ascii	"double\000"
+ 388      6C6500
+ 389              	.LASF18:
+ 390 006f 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\cymetadata.c\000"
+ 390      6E657261 
+ 390      7465645F 
+ 390      536F7572 
+ 390      63655C50 
+ 391              	.LASF8:
+ 392 0095 756E7369 		.ascii	"unsigned int\000"
+ 392      676E6564 
+ 392      20696E74 
+ 392      00
+ 393              	.LASF7:
+ 394 00a2 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 394      206C6F6E 
+ 394      6720756E 
+ 394      7369676E 
+ 394      65642069 
+ 395              	.LASF14:
+ 396 00b9 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 396      6574615F 
+ 396      666C6173 
+ 396      6870726F 
+ 396      74656374 
+ 397              	.LASF19:
+ 398 00ce 453A5C63 		.ascii	"E:\\code\\wifi\\1.6\\UartBootloader\\UART_Bootloade"
+ 398      6F64655C 
+ 398      77696669 
+ 398      5C312E36 
+ 398      5C556172 
+ 399 00fc 725C5541 		.ascii	"r\\UART_Bootloader.cydsn\000"
+ 399      52545F42 
+ 399      6F6F746C 
+ 399      6F616465 
+ 399      722E6379 
+ 400              	.LASF12:
+ 401 0114 73697A65 		.ascii	"sizetype\000"
+ 401      74797065 
+ 401      00
+ARM GAS  C:\Users\ZHANGM~1\AppData\Local\Temp\ccB1ZyLh.s 			page 9
+
+
+ 402              	.LASF6:
+ 403 011d 6C6F6E67 		.ascii	"long long int\000"
+ 403      206C6F6E 
+ 403      6720696E 
+ 403      7400
+ 404              	.LASF11:
+ 405 012b 63686172 		.ascii	"char\000"
+ 405      00
+ 406              	.LASF2:
+ 407 0130 73686F72 		.ascii	"short int\000"
+ 407      7420696E 
+ 407      7400
+ 408              	.LASF20:
+ 409 013a 75696E74 		.ascii	"uint8\000"
+ 409      3800
+ 410              	.LASF17:
+ 411 0140 474E5520 		.ascii	"GNU C 4.7.3 20130312 (release) [ARM/embedded-4_7-br"
+ 411      4320342E 
+ 411      372E3320 
+ 411      32303133 
+ 411      30333132 
+ 412 0173 616E6368 		.ascii	"anch revision 196615]\000"
+ 412      20726576 
+ 412      6973696F 
+ 412      6E203139 
+ 412      36363135 
+ 413              	.LASF4:
+ 414 0189 6C6F6E67 		.ascii	"long int\000"
+ 414      20696E74 
+ 414      00
+ 415              	.LASF0:
+ 416 0192 7369676E 		.ascii	"signed char\000"
+ 416      65642063 
+ 416      68617200 
+ 417              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.7.3 20130312 (release) [ARM/embedded-4_7-br

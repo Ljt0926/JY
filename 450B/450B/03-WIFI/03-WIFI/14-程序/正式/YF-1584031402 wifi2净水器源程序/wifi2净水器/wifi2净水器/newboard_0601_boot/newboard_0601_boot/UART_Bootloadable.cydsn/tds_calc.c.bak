@@ -1,0 +1,58 @@
+/* ========================================
+ *
+ * Copyright YOUR COMPANY, THE YEAR
+ * All Rights Reserved
+ * UNPUBLISHED, LICENSED SOFTWARE.
+ *
+ * CONFIDENTIAL AND PROPRIETARY INFORMATION
+ * WHICH IS THE PROPERTY OF your company.
+ *
+ * ========================================
+*/
+
+    
+void Tds_Scan(void)
+{
+    ram_tds_late++;
+    if(ram_tds_late>=250)//5ms*250=1.25s
+    {
+        ram_tds_late=0;
+        //--------------------------------------
+        ram_tds_in_remainder=ram_tds_in%10//进水
+        ram_tds_in_disp=ram_tds/10
+        //******************************************
+        if(ram_tds_in_disp>=339)
+            ram_tds_in_disp=339;
+        //******************************************
+        if(ram_tds_in_disp<20//
+            ram_tds_in_disp+=0;     //
+        else if(ram_tds_in_disp>=20&&(ram_tds_in_disp<256))
+            ram_tds_in_disp=ram_tds_in_disp+Tab_tds_in_01[ram_tds_in_disp];     
+        else if(ram_tds_in_disp>=256)
+            ram_tds_in_disp=ram_tds_in_disp+Tab_tds_in_02[ram_tds_in_disp-256]+ram_tds_in_remainder/3;//ram_tds_in_remainder/3为随机尾数
+        //*****************************************
+        if(ram_tds_in_disp>=995)
+            ram_tds_in_disp=999;
+    //------------------------------------------
+        ram_tds_out_disp=ram_tds_out/10;//出水
+        ram_tds_out=0;//
+    //---------------------------------------
+        if(ram_tds_out_disp>=79)//
+        ram_tds_out_disp=79;
+        //*******************************
+        if(ram_tds_out_disp<20)
+            ram_tds_out_disp=ram_tds_out_disp-Tab_tds_out[ram_tds_out_disp];
+        else if(ram_tds_out_disp>=20)&&(ram_tds_out_disp<30))
+            ram_tds_out_disp+=0;
+        else if((ram_tds_out_disp>=30))
+            ram_tds_out_disp=ram_tds_out_disp+Tab_tds_out[ram_tds_out_disp];
+            //*****************************
+            if(ram_tds_out_disp>=98)
+            ram_tds_out_disp=99
+    }
+}
+        
+        
+    }
+}
+/* [] END OF FILE */

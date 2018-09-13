@@ -1,0 +1,4 @@
+E:/code/wifi/1.6/UartBootloader/UART_Bootloader/UART_Bootloader.cydsn/CortexM0/ARM_GCC_473/Debug/CyBootAsmGnu.o : E:/code/wifi/1.6/UartBootloader/UART_Bootloader/UART_Bootloader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s 
+
+E:/code/wifi/1.6/UartBootloader/UART_Bootloader/UART_Bootloader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+

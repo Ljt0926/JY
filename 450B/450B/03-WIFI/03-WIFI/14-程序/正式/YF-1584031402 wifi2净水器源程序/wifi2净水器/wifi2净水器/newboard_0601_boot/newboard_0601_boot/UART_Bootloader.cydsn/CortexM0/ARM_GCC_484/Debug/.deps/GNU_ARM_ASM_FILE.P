@@ -1,0 +1,8 @@
+E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/CortexM0/ARM_GCC_484/Debug/CyBootAsmGnu.o : E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/cyfittergnu.inc E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s 
+
+E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/cydevicegnu_trm.inc : 
+
+E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/cyfittergnu.inc : 
+
+E:/code/newboardwifi/newboard_0514_boot/UART_Bootloader.cydsn/Generated_Source/PSoC4/CyBootAsmGnu.s : 
+

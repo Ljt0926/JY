@@ -1,0 +1,2492 @@
+Archive member included because of file (symbol)
+
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+                              .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o (cyfitter_cfg)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (Bootloadable_Load)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o) (CyDelayCycles)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+                              .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o (CySysFlashWriteRow)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (CySysWdtLock)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (CC_ISR_StartEx)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (CapSense_Stop)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (CapSense_InitializeAllBaselines)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o) (CapSense_ISR)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (GYWD_Read)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (DYWD_Read)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (K1_Write)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (K2_Write)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (PWM_Stop)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (JS_Read)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+                              .\CortexM0\ARM_GCC_473\Debug\fun.o (CX_Read)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (Timer_Stop)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (UART_1_UartInit)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                              .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o (UART_0_SpiUartGetTxBufferSize)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+                              .\CortexM0\ARM_GCC_473\Debug\main.o (UART_0_UartInit)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o) (CapSense_SampleClk_Start)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o) (CapSense_SenseClk_Start)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+                              .\CortexM0\ARM_GCC_473\Debug\display.o (HCLK_Write)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+                              .\CortexM0\ARM_GCC_473\Debug\display.o (HSDA_Write)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+                              .\CortexM0\ARM_GCC_473\Debug\display.o (COMN_Write)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o) (UART_1_SpiUartReadRxData)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o) (UART_1_SPI_UART_ISR)
+.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+                              .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o) (UART_0_SPI_UART_ISR)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                              .\CortexM0\ARM_GCC_473\Debug\display.o (__gnu_thumb1_case_uqi)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+                              .\CortexM0\ARM_GCC_473\Debug\display.o (__aeabi_uidiv)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__register_exitproc)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_fini_array)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o) (_global_impure_ptr)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+                              .\CortexM0\ARM_GCC_473\Debug\module.o (memcpy)
+c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+                              c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+MPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+CapSense_csdTrim1   0x1               .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+SP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+giTDSBOARDDATALength
+                    0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Work_State_Num_L    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Error_Counter       0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Tds_Dispcnt         0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+UartRx              0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+NBmint              0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+NBfig               0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+eefig               0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+CapSense_lowBaselineResetCnt
+                    0x4               .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+LData               0x4               .\CortexM0\ARM_GCC_473\Debug\display.o
+lXXZcnt_fig         0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+LXXZstandcnt        0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+gctdsboardCommunState
+                    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+n                   0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+SPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+u8LinkState         0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+JP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+PressFlag           0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Frame_Num           0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+DYWDfig1            0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+CapSense_sensorEnableMaskBackup
+                    0x1               .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+KP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Work_State_Num_H    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+standkeycnt         0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+DisFlag             0x8               .\CortexM0\ARM_GCC_473\Debug\display.o
+Ack_Timer           0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+T10msSign           0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+GYfig1              0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+chongxicnt          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Hfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+WifiPressCnt        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+onemincnt           0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+dismode             0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+cleareepromArrayflag
+                    0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+HP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+faststa             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Value_Loushui_Ad    0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Value_Tds0          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BtnFlag             0x4               .\CortexM0\ARM_GCC_473\Debug\module.o
+templvxin           0x6               .\CortexM0\ARM_GCC_473\Debug\display.o
+u8SmartLinkState    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+workstartfig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+GYfig               0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+eroorcnt            0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BUZqueshuifkg       0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+KPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+V24fig              0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+jingshuicnt         0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+giWIFIDATALength    0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+jixingnumber        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+gcTDSBOARDCTL       0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+DigitalBuf          0x4               .\CortexM0\ARM_GCC_473\Debug\display.o
+KP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BootloaderSign      0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+BtnData             0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+temp                0x1c              .\CortexM0\ARM_GCC_473\Debug\display.o
+WorkFlag02          0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+iSendCounter        0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+SP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Value_Tds1          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Error_Data_Buf      0x12              .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Filter_Manage_Num   0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+DYWDcnt             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+NbPressCnt          0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+Sfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+gcWIFICTL           0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+tempk               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+PowerOnCnt00        0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Value_Flow          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+zijiandisplayfig    0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+onehourcnt          0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BtnData2            0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+BtnData1            0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+CapSense_unscannedSnsDriveMode
+                    0x4               .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+V24Vcnt             0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+V24cnt              0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+FlashDataBuf        0x80              .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+LvXinNum            0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+LedPannelBuf        0x1c              .\CortexM0\ARM_GCC_473\Debug\display.o
+jishihour           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Filter_Changed_Num  0x18              .\CortexM0\ARM_GCC_473\Debug\fun.o
+XzPressCnt          0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+AdcData             0x4               .\CortexM0\ARM_GCC_473\Debug\module.o
+liucheng2           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+tempj               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+Value_T             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+ATTdsReceBuffer     0x20              .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Tds_Ack_Timer       0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+standstar_fig       0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+V24dengdai          0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+giWIFICommand       0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+cpSendBufPtr        0x4               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Mfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+lvxinbaojingcnt     0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+DYWDcnt1            0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+ErrorFlag           0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+jserrorcnt          0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Dly1                0x4               .\CortexM0\ARM_GCC_473\Debug\main.o
+LPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+fastjishifig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+poweroverfig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+KData               0x4               .\CortexM0\ARM_GCC_473\Debug\display.o
+LP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+standflashcnt       0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+liucheng3           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BUZfkgtemp          0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+iUartSendLen        0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+MP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+SmarkLink_State     0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Error_Data          0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+liucheng1           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Jfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+NBPressStart        0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+AdcReady            0x4               .\CortexM0\ARM_GCC_473\Debug\module.o
+eepfig              0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+waterfullfig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+LedPannelCnt        0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+ATReceBuffer        0x66              .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+fastfig             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+GYcnt               0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Send_Interval_Counter
+                    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+Lfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+zijianstacnt        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+WifiWorkFlag        0x4               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+HP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+NBstandcnt          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+AdcBuf              0x4               .\CortexM0\ARM_GCC_473\Debug\module.o
+WorkFlag            0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+temps               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+Cmd_Function_Num    0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+standkeyfig         0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+BUZfkg              0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+lvxindaoqifig       0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Filter_Full_Data_Buf
+                    0xc               .\CortexM0\ARM_GCC_473\Debug\fun.o
+WorkFlag01          0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BuzzerCnt           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+rxx                 0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+jserrorcntfig       0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+PowerOnOneHourCnt   0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+LP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+templ               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+standflashfig       0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+HPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+yanshifig           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+PowerOnCnt01        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+WorkFlag01_Dispcnt  0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+DYWDfig             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+array               0x80              .\CortexM0\ARM_GCC_473\Debug\module.o
+liucheng4           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Kfig                0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+LvxinJishi          0x18              .\CortexM0\ARM_GCC_473\Debug\main.o
+StaFlashCnt         0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+CapSense_rawFilterData1
+                    0x8               .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+chongxifig          0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+StandByCnt          0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+shuibumanfig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+temph               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+giTDSBOARDCommand   0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+EEgyfullcnt         0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Dly                 0x4               .\CortexM0\ARM_GCC_473\Debug\main.o
+LianXuJiShi         0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+fastcnt             0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+MP_N                0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+HData               0x4               .\CortexM0\ARM_GCC_473\Debug\display.o
+yanshicnt           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+GYcnt1              0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Work_State          0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+WifidatagramWorkFlag
+                    0x4               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+BtnCnt              0x1               .\CortexM0\ARM_GCC_473\Debug\module.o
+Cmd_Function_Buf    0x10              .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+AdcTemp             0x8               .\CortexM0\ARM_GCC_473\Debug\module.o
+NBPressCnt          0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+JP                  0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+BuzzerFlag          0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+gyfullcnt           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+JPercent            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+fastjishicnt        0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+gcWifiCommunState   0x1               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+LvXinNum1           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+ch                  0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+Cmd_Function        0x2               .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+tempm               0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+BuzzerNum           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+FlashCnt            0x1               .\CortexM0\ARM_GCC_473\Debug\display.o
+Counter_Key         0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+Switch_Data         0x4               .\CortexM0\ARM_GCC_473\Debug\fun.o
+EEjingshuiliang     0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+jingshuiliang       0x2               .\CortexM0\ARM_GCC_473\Debug\fun.o
+qushui_BUZcnt       0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+BuzzerDly           0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+yanshidisfig        0x1               .\CortexM0\ARM_GCC_473\Debug\fun.o
+JData               0x4               .\CortexM0\ARM_GCC_473\Debug\display.o
+LXXZOUT_fig         0x1               .\CortexM0\ARM_GCC_473\Debug\main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .data          0x00000000        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text          0x00000000       0x74 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_0_Init
+                0x00000000        0x8 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_0_Stop
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_0_SetCustomInterruptHandler
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_1_Init
+                0x00000000        0x8 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_1_Stop
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.UART_1_SetCustomInterruptHandler
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.isr_wdt  0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text.isr_lowpower_Interrupt
+                0x00000000        0x8 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .text.Flash_Write_aRow_Data
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ COMMON         0x00000000       0x80 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .text.write1   0x00000000       0x9c .\CortexM0\ARM_GCC_473\Debug\module.o
+ .text.Stop_All_Module
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .text.cleareepromArray
+                0x00000000       0x54 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .text.clearwdt
+                0x00000000       0x12 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text.Sum_Verify
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text.Comm_Uart_1_PrintHex8
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text.Uart_1_Putchar
+                0x00000000        0x2 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text.WifiSendAck
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text.Load_Wifi_State
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .rodata        0x00000000       0x12 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .text._exit    0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .text.Bootloadable_SetFlashByte
+                0x00000000       0x2e .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .text.CySysFlashHandleLoadResult
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .text.CySysFlashWriteRow
+                0x00000000      0x158 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .text.CySysFlashSetWaitCycles
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkImoStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkImoStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkIloStart
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkIloStop
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkWriteHfclkDirect
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkWriteSysclkDiv
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtLock
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtUnlock
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadEnabledStatus
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtWriteMode
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtWriteClearOnMatch
+                0x00000000       0x3c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadClearOnMatch
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtEnable
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtDisable
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtWriteCascade
+                0x00000000       0x44 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadCascade
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtWriteToggleBit
+                0x00000000       0x3c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadToggleBit
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadMatch
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtReadCount
+                0x00000000       0x34 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtGetInterruptSource
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtClearInterrupt
+                0x00000000       0x80 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtResetCounters
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysLvdEnable
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysLvdDisable
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysLvdGetInterruptSource
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysLvdClearInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysGetResetReason
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyDisableInts
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyEnableInts
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntSetSysVector
+                0x00000000       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntGetSysVector
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntGetVector
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntGetPriority
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntGetState
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntSetPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyIntClearPending
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyHalt   0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysWdtWriteMatch
+                0x00000000       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CySysClkWriteImoFreq
+                0x00000000      0x13c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text.CyDelayFreq
+                0x00000000       0x48 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .rodata        0x00000000       0x2e .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_Interrupt
+                0x00000000        0x2 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_Stop
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_SetVector
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_GetVector
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_Start
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_GetPriority
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_Enable
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_GetState
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_Disable
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_SetPending
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text.CC_ISR_ClearPending
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_Stop
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_ReadSensorRaw
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_WriteSensorRaw
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetScanResolution
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_SetPinDriveMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_SetDriveModeAllPins
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_RestoreDriveModeAllPins
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_EnableShieldElectrode
+                0x00000000       0x34 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_ReadCurrentScanningSensor
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_ScanWidget
+                0x00000000       0x68 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetSenseClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetModulatorClkDivider
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetModulationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetCompensationIDAC
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_GetIDACRange
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text.CapSense_SetUnscannedSensorState
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .data          0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_InitializeEnabledBaselines
+                0x00000000       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_UpdateSensorBaseline
+                0x00000000        0x8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetBaselineData
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_SetBaselineData
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetDiffCountData
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_SetDiffCountData
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetFingerThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetNoiseThreshold
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetFingerHysteresis
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetNegativeNoiseThreshold
+                0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_CheckIsAnyWidgetActive
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_EnableWidget
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_DisableWidget
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_IIR4Filter
+                0x00000000        0xa .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetWidgetNumber
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetLowBaselineReset
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text.CapSense_GetDebounce
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .text.GYWD_Write
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .text.GYWD_SetDriveMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .text.GYWD_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .text.GYWD_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .text.DYWD_Write
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .text.DYWD_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .text.DYWD_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .text.DYWD_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .text.K1_SetDriveMode
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .text.K1_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .text.K1_ClearInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .text.K2_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .text.K2_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .text.K2_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetQDMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPrescaler
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetOneShot
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPWMMode
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPWMSyncKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPWMStopOnKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPWMDeadTime
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPWMInvert
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_WriteCounter
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadCounter
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetCounterMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_WritePeriod
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadPeriod
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetCompareSwap
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_WritePeriodBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadPeriodBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetPeriodSwap
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_WriteCompare
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadCompare
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_WriteCompareBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadCompareBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadCapture
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadCaptureBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetCaptureMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetReloadMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetStartMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetStopMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetCountMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ReadStatus
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetInterruptMode
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_GetInterruptSourceMasked
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_GetInterruptSource
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_ClearInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text.PWM_SetInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .text.JS_Write
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .text.JS_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .text.JS_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .text.JS_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .text.CX_Write
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .text.CX_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .text.CX_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .text.CX_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_Stop
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetQDMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPrescaler
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetOneShot
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPWMMode
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPWMSyncKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPWMStopOnKill
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPWMDeadTime
+                0x00000000       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPWMInvert
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_WriteCounter
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadCounter
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetCounterMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_WritePeriod
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadPeriod
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetCompareSwap
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_WritePeriodBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadPeriodBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetPeriodSwap
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_WriteCompare
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadCompare
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_WriteCompareBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadCompareBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadCapture
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadCaptureBuf
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetCaptureMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetReloadMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetStartMode
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetStopMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetCountMode
+                0x00000000       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_ReadStatus
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetInterruptMode
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_GetInterruptSourceMasked
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_GetInterruptSource
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text.Timer_SetInterrupt
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text.UART_1_UartSetRxAddress
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text.UART_1_UartSetRxAddressMask
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text.UART_1_UartGetChar
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text.UART_1_UartPutString
+                0x00000000       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text.UART_1_UartPutCRLF
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text.UART_0_SpiUartClearRxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text.UART_0_SpiUartWriteTxData
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text.UART_0_SpiUartPutArray
+                0x00000000       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text.UART_0_SpiUartClearTxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text.UART_0_SpiUartDisableIntTx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text.UART_0_UartSetRxAddress
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text.UART_0_UartSetRxAddressMask
+                0x00000000       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text.UART_0_UartGetChar
+                0x00000000       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text.UART_0_UartPutString
+                0x00000000       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text.UART_0_UartPutCRLF
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .text.CapSense_SampleClk_GetDividerRegister
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .text.CapSense_SampleClk_GetFractionalDividerRegister
+                0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .text.CapSense_SenseClk_GetDividerRegister
+                0x00000000        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .text.CapSense_SenseClk_GetFractionalDividerRegister
+                0x00000000        0x4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .text.HCLK_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .text.HCLK_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .text.HCLK_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .text.HCLK_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .text.HSDA_SetDriveMode
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .text.HSDA_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .text.HSDA_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .text.HSDA_ClearInterrupt
+                0x00000000       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .text.COMN_SetDriveMode
+                0x00000000       0x74 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .text.COMN_Read
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .text.COMN_ReadDataReg
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .text.COMN_ClearInterrupt
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartClearRxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartWriteTxData
+                0x00000000       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartPutArray
+                0x00000000       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartGetTxBufferSize
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartClearTxBuffer
+                0x00000000       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text.UART_1_SpiUartDisableIntTx
+                0x00000000       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .text          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+ .data          0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+ .bss           0x00000000        0x0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .text.__register_exitproc
+                0x00000000       0x18 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x30 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000       0x64 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .rodata.str1.1
+                0x00000000        0x2 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x00000000         0x00008000         xr
+ram              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+START GROUP
+LOAD .\CortexM0\ARM_GCC_473\Debug\main.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\display.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\fun.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\module.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+LOAD .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a
+LOAD C:\Program Files\Cypress\PSoC Creator\3.0\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_473\Debug\CyComponentLibrary.a
+END GROUP
+START GROUP
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a
+END GROUP
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+START GROUP
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc.a
+LOAD c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libnosys.a
+END GROUP
+                0x00000000                CY_APPL_ORIGIN = 0x0
+                0x00000080                CY_FLASH_ROW_SIZE = 0x80
+                0x00000001                CY_APPL_NUM = 0x1
+                0x00000040                CY_METADATA_SIZE = 0x40
+                0x200004e0                PROVIDE (__cy_heap_start, _end)
+                0x00000001                PROVIDE (__cy_region_num, ((__cy_regions_end - __cy_regions) / 0x10))
+                0x20001000                PROVIDE (__cy_stack, (ORIGIN (ram) + 0x1000))
+                0x20000c00                PROVIDE (__cy_heap_end, (__cy_stack - 0x400))
+
+.cybootloader   0x00000000     0x1b00
+ *(.cybootloader)
+ .cybootloader  0x00000000     0x1b00 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x00000000                cy_bootloader
+                0x00001b00                appl1_start = CY_APPL_ORIGIN?CY_APPL_ORIGIN:ALIGN (CY_FLASH_ROW_SIZE)
+                0x00004d00                appl2_start = (appl1_start + ALIGN ((((0x8000 - appl1_start) - (0x2 * CY_FLASH_ROW_SIZE)) / 0x2), CY_FLASH_ROW_SIZE))
+                0x00001b00                appl_start = (CY_APPL_NUM == 0x1)?appl1_start:appl2_start
+
+.text           0x00001b00     0x4be4
+ CREATE_OBJECT_SYMBOLS
+                0x00001b00                PROVIDE (__cy_interrupt_vector, RomVectors)
+ *(.romvectors)
+ .romvectors    0x00001b00       0x10 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001b00                RomVectors
+                0x00000001                ASSERT ((. != __cy_interrupt_vector), No interrupt vector)
+                0x00000001                ASSERT (CY_APPL_ORIGIN?(SIZEOF (.cybootloader) <= CY_APPL_ORIGIN):0x1, Wrong image location)
+                0x00001b10                PROVIDE (__cy_reset, Reset)
+ *(.text.Reset)
+ .text.Reset    0x00001b10       0x10 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00001b10                Reset
+                0x00000001                ASSERT ((. != __cy_reset), No reset code)
+ *(.psocinit)
+ .psocinit      0x00001b20      0x2a4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+                0x00001b20                cyfitter_cfg
+                0x00001dc4                . = MAX (., 0x100)
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00001dc4       0x60 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .text.UART_ISR_1_FUN
+                0x00001e24       0x40 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001e24                UART_ISR_1_FUN
+ .text.UART_ISR_0_FUN
+                0x00001e64       0x34 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001e64                UART_ISR_0_FUN
+ .text.UART_0_Enable
+                0x00001e98       0x1c .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001e98                UART_0_Enable
+ .text.UART_0_Start
+                0x00001eb4       0x1c .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001eb4                UART_0_Start
+ .text.UART_1_Enable
+                0x00001ed0       0x1c .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001ed0                UART_1_Enable
+ .text.UART_1_Start
+                0x00001eec       0x1c .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001eec                UART_1_Start
+ .text.Open_UART_WIFI_ISR
+                0x00001f08       0x20 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001f08                Open_UART_WIFI_ISR
+ .text.Open_UART_TDS_ISR
+                0x00001f28       0x20 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001f28                Open_UART_TDS_ISR
+ .text.startup.main
+                0x00001f48       0xfc .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x00001f48                main
+ .text.S164_Trans_abyte
+                0x00002044       0x34 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002044                S164_Trans_abyte
+ .text.Led_Digital_Trans
+                0x00002078      0x1b0 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002078                Led_Digital_Trans
+ .text.yanshi_Digital_Trans
+                0x00002228      0x1b0 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002228                yanshi_Digital_Trans
+ .text.display8888
+                0x000023d8       0x68 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x000023d8                display8888
+ .text.Led_Pannel_Updata
+                0x00002440      0x5c8 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002440                Led_Pannel_Updata
+ .text.yanshidisplay
+                0x00002a08      0x2dc .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002a08                yanshidisplay
+ .text.Led_Pannel_Initial
+                0x00002ce4       0x2c .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002ce4                Led_Pannel_Initial
+ .text.Led_Pannel_Display
+                0x00002d10       0x94 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x00002d10                Led_Pannel_Display
+ .text.Flagh_Read_aByte
+                0x00002da4        0x8 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+                0x00002da4                Flagh_Read_aByte
+ .text.Buzzer_Fun
+                0x00002dac       0x88 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00002dac                Buzzer_Fun
+ .text.Timer_Isr_Fun
+                0x00002e34      0x4d4 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00002e34                Timer_Isr_Fun
+ .text.stand    0x00003308      0x128 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003308                stand
+ .text.LXPercent
+                0x00003430      0x3e8 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003430                LXPercent
+ .text.lvxin_panduan
+                0x00003818       0xc8 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003818                lvxin_panduan
+ .text.error_alm
+                0x000038e0       0xcc .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x000038e0                error_alm
+ .text.queshui_alm
+                0x000039ac      0x1cc .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x000039ac                queshui_alm
+ .text.jixing   0x00003b78       0x40 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003b78                jixing
+ .text.init     0x00003bb8       0xb4 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003bb8                init
+ .text.key      0x00003c6c      0x624 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00003c6c                key
+ .text.Work_Init_Fun
+                0x00004290       0x5c .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00004290                Work_Init_Fun
+ .text.Wifi_Fun
+                0x000042ec       0x5c .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x000042ec                Wifi_Fun
+ .text.Work_Fun
+                0x00004348      0x5d4 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x00004348                Work_Fun
+ .text.InterruptHandler
+                0x0000491c       0x14 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x0000491c                InterruptHandler
+ .text.Caps_Initial
+                0x00004930        0xc .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x00004930                Caps_Initial
+ .text.Caps_Scan
+                0x0000493c       0x80 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x0000493c                Caps_Scan
+ .text.Timer_Initial
+                0x000049bc       0x14 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x000049bc                Timer_Initial
+ .text.Pwm_Initial
+                0x000049d0        0x2 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x000049d0                Pwm_Initial
+ *fill*         0x000049d2        0x2 00
+ .text.read     0x000049d4       0xcc .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x000049d4                read
+ .text.clean_ram
+                0x00004aa0       0x94 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x00004aa0                clean_ram
+ .text.Sum_Make_Verify
+                0x00004b34       0x24 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004b34                Sum_Make_Verify
+ .text.LoadUARTData
+                0x00004b58      0x108 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004b58                LoadUARTData
+ .text.LoadTDSBoardData
+                0x00004c60      0x11c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004c60                LoadTDSBoardData
+ .text.UART_SendData
+                0x00004d7c       0x30 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004d7c                UART_SendData
+ .text.Comm_Uart_0_PrintHex8
+                0x00004dac       0x1c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004dac                Comm_Uart_0_PrintHex8
+ .text.Uart_0_Putchar
+                0x00004dc8       0x48 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004dc8                Uart_0_Putchar
+ .text.SendDataToWifi
+                0x00004e10       0x94 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004e10                SendDataToWifi
+ .text.Mcu_Handshake_Data
+                0x00004ea4       0x24 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004ea4                Mcu_Handshake_Data
+ .text.App_Host_State
+                0x00004ec8       0x60 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004ec8                App_Host_State
+ .text.App_Filter_Changed_Data
+                0x00004f28       0x2e .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004f28                App_Filter_Changed_Data
+ *fill*         0x00004f56        0x2 00
+ .text.App_Error_Data
+                0x00004f58       0x38 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004f58                App_Error_Data
+ .text.App_Filter_Used_Time_Data
+                0x00004f90       0x3a .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004f90                App_Filter_Used_Time_Data
+ *fill*         0x00004fca        0x2 00
+ .text.Wifi_Senddingstate_Data
+                0x00004fcc       0x1c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004fcc                Wifi_Senddingstate_Data
+ .text.App_Search_Filter_Manage_Num
+                0x00004fe8       0x20 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00004fe8                App_Search_Filter_Manage_Num
+ .text.App_Download_Filter_Manage_Num
+                0x00005008       0x16 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005008                App_Download_Filter_Manage_Num
+ .text.App_Poweron
+                0x0000501e       0x16 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000501e                App_Poweron
+ .text.App_Poweroff
+                0x00005034       0x16 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005034                App_Poweroff
+ *fill*         0x0000504a        0x2 00
+ .text.Mcu_Poweronsmartlink_Data
+                0x0000504c       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000504c                Mcu_Poweronsmartlink_Data
+ .text.Mcu_Firmware_Update
+                0x00005060       0x1c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005060                Mcu_Firmware_Update
+ .text.Host_State_Data
+                0x0000507c       0x5c .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000507c                Host_State_Data
+ .text.Host_Filter_Changed_Data
+                0x000050d8       0x30 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000050d8                Host_Filter_Changed_Data
+ .text.Host_Filter_Used_Time_Data
+                0x00005108       0x38 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005108                Host_Filter_Used_Time_Data
+ .text.Host_E0_Data
+                0x00005140       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005140                Host_E0_Data
+ .text.Host_E1_Data
+                0x00005154       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005154                Host_E1_Data
+ .text.Host_E2_Data
+                0x00005168       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005168                Host_E2_Data
+ .text.Host_E3_Data
+                0x0000517c       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000517c                Host_E3_Data
+ .text.Host_E4_Data
+                0x00005190       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005190                Host_E4_Data
+ .text.Host_E5_Data
+                0x000051a4       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000051a4                Host_E5_Data
+ .text.Host_E6_Data
+                0x000051b8       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000051b8                Host_E6_Data
+ .text.Host_E7_Data
+                0x000051cc       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000051cc                Host_E7_Data
+ .text.Host_E8_Data
+                0x000051e0       0x14 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000051e0                Host_E8_Data
+ .text.Load_Command
+                0x000051f4       0x20 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x000051f4                Load_Command
+ .text.Load_Error
+                0x00005214       0x20 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005214                Load_Error
+ .text.Uart_Exception_Handl
+                0x00005234       0x24 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005234                Uart_Exception_Handl
+ .text.Send_To_WifiUart
+                0x00005258      0x1f4 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005258                Send_To_WifiUart
+ .text.Process_From_Wifi_Ctl_Ack_Data
+                0x0000544c       0xf8 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000544c                Process_From_Wifi_Ctl_Ack_Data
+ .text.Process_From_Wifi_Noa_Data
+                0x00005544       0x58 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005544                Process_From_Wifi_Noa_Data
+ .text.Process_From_Wifi_Ack_Data
+                0x0000559c       0xfc .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000559c                Process_From_Wifi_Ack_Data
+ .text.Process_From_Tdsboard_Data
+                0x00005698       0xd4 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x00005698                Process_From_Tdsboard_Data
+ .text.Process_From_Wifi_Data
+                0x0000576c       0x24 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x0000576c                Process_From_Wifi_Data
+ .text.IntDefaultHandler
+                0x00005790        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00005790                IntDefaultHandler
+ .text.Start_c  0x00005794       0x48 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x00005794                Start_c
+ .text.startup.initialize_psoc
+                0x000057dc       0x54 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x000057dc                initialize_psoc
+ .text.SetAnalogRoutingPumps
+                0x00005830       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+                0x00005830                SetAnalogRoutingPumps
+ .text.Bootloadable_Load
+                0x00005870       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+                0x00005870                Bootloadable_Load
+ *fill*         0x00005884        0x4 00
+ .text          0x00005888       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+                0x00005888                CyDelayCycles
+                0x0000589a                CyEnterCriticalSection
+                0x000058a2                CyExitCriticalSection
+ .text.CyIntSetVector
+                0x000058a8       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x000058a8                CyIntSetVector
+ .text.CyIntSetPriority
+                0x000058c0       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x000058c0                CyIntSetPriority
+ .text.CyIntEnable
+                0x00005900       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x00005900                CyIntEnable
+ .text.CyIntDisable
+                0x00005914       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x00005914                CyIntDisable
+ .text.CySoftwareReset
+                0x00005928       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x00005928                CySoftwareReset
+ .text.CyDelay  0x00005940       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x00005940                CyDelay
+ .text.CyDelayUs
+                0x0000596c       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x0000596c                CyDelayUs
+ .text.CC_ISR_SetPriority
+                0x00005980       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+                0x00005980                CC_ISR_SetPriority
+ .text.CC_ISR_StartEx
+                0x000059a0       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+                0x000059a0                CC_ISR_StartEx
+ .text.CapSense_CsdHwBlockInit
+                0x000059c8       0x78 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x000059c8                CapSense_CsdHwBlockInit
+ .text.CapSense_Enable
+                0x00005a40       0x3c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005a40                CapSense_Enable
+ .text.CapSense_IsBusy
+                0x00005a7c       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005a7c                CapSense_IsBusy
+ .text.CapSense_EnableSensor
+                0x00005a8c       0x44 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005a8c                CapSense_EnableSensor
+ .text.CapSense_DisableSensor
+                0x00005ad0       0x74 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005ad0                CapSense_DisableSensor
+ .text.CapSense_ClearSensors
+                0x00005b44       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005b44                CapSense_ClearSensors
+ .text.CapSense_PreScan
+                0x00005b60       0xa0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005b60                CapSense_PreScan
+ .text.CapSense_ScanSensor
+                0x00005c00       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005c00                CapSense_ScanSensor
+ .text.CapSense_PostScan
+                0x00005c1c       0x54 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005c1c                CapSense_PostScan
+ .text.CapSense_SetShieldDelay
+                0x00005c70       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005c70                CapSense_SetShieldDelay
+ .text.CapSense_Init
+                0x00005c84       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005c84                CapSense_Init
+ .text.CapSense_GetBitValue
+                0x00005ca8       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005ca8                CapSense_GetBitValue
+ .text.CapSense_FindNextSensor
+                0x00005cbc       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005cbc                CapSense_FindNextSensor
+ .text.CapSense_ScanEnabledWidgets
+                0x00005ce0       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005ce0                CapSense_ScanEnabledWidgets
+ .text.CapSense_SetBitValue
+                0x00005d10       0x22 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005d10                CapSense_SetBitValue
+ *fill*         0x00005d32        0x2 00
+ .text.CapSense_GetSensorRaw
+                0x00005d34       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005d34                CapSense_GetSensorRaw
+ .text.CapSense_CalibrateSensor
+                0x00005d50       0x32 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005d50                CapSense_CalibrateSensor
+ *fill*         0x00005d82        0x2 00
+ .text.CapSense_Start
+                0x00005d84       0x94 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00005d84                CapSense_Start
+ .text.CapSense_BaseInit
+                0x00005e18       0x3c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005e18                CapSense_BaseInit
+ .text.CapSense_InitializeSensorBaseline
+                0x00005e54       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005e54                CapSense_InitializeSensorBaseline
+ .text.CapSense_InitializeAllBaselines
+                0x00005e6c       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005e6c                CapSense_InitializeAllBaselines
+ .text.CapSense_UpdateBaselineNoThreshold
+                0x00005e88       0xcc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005e88                CapSense_UpdateBaselineNoThreshold
+ .text.CapSense_UpdateEnabledBaselines
+                0x00005f54       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005f54                CapSense_UpdateEnabledBaselines
+ .text.CapSense_CheckIsSensorActive
+                0x00005f78       0x9c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00005f78                CapSense_CheckIsSensorActive
+ .text.CapSense_CheckIsWidgetActive
+                0x00006014       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x00006014                CapSense_CheckIsWidgetActive
+ .text.CapSense_ISR
+                0x0000603c       0x78 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+                0x0000603c                CapSense_ISR
+ .text.GYWD_Read
+                0x000060b4       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+                0x000060b4                GYWD_Read
+ .text.DYWD_Read
+                0x000060c4       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+                0x000060c4                DYWD_Read
+ .text.K1_Write
+                0x000060d4       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+                0x000060d4                K1_Write
+ .text.K1_Read  0x000060ec       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+                0x000060ec                K1_Read
+ .text.K2_Write
+                0x000060fc       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+                0x000060fc                K2_Write
+ .text.K2_Read  0x00006114       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+                0x00006114                K2_Read
+ .text.PWM_Init
+                0x00006124       0x48 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x00006124                PWM_Init
+ .text.PWM_Stop
+                0x0000616c       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x0000616c                PWM_Stop
+ .text.PWM_TriggerCommand
+                0x00006188       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x00006188                PWM_TriggerCommand
+ .text.PWM_Enable
+                0x000061a4       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x000061a4                PWM_Enable
+ .text.PWM_Start
+                0x000061c8       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x000061c8                PWM_Start
+ .text.JS_Read  0x000061e4       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+                0x000061e4                JS_Read
+ .text.CX_Read  0x000061f4       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+                0x000061f4                CX_Read
+ .text.Timer_Init
+                0x00006204       0x34 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x00006204                Timer_Init
+ .text.Timer_TriggerCommand
+                0x00006238       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x00006238                Timer_TriggerCommand
+ .text.Timer_Enable
+                0x00006254       0x24 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x00006254                Timer_Enable
+ .text.Timer_Start
+                0x00006278       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x00006278                Timer_Start
+ .text.Timer_ClearInterrupt
+                0x00006294        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x00006294                Timer_ClearInterrupt
+ .text.UART_1_UartInit
+                0x000062a0       0xac .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+                0x000062a0                UART_1_UartInit
+ .text.UART_1_UartGetByte
+                0x0000634c       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+                0x0000634c                UART_1_UartGetByte
+ .text.UART_0_SpiUartReadRxData
+                0x0000638c        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                0x0000638c                UART_0_SpiUartReadRxData
+ .text.UART_0_SpiUartGetRxBufferSize
+                0x00006398       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                0x00006398                UART_0_SpiUartGetRxBufferSize
+ .text.UART_0_SpiUartGetTxBufferSize
+                0x000063a8       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                0x000063a8                UART_0_SpiUartGetTxBufferSize
+ .text.UART_0_SpiUartDisableIntRx
+                0x000063b8       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                0x000063b8                UART_0_SpiUartDisableIntRx
+ .text.UART_0_UartInit
+                0x000063c8       0xac .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+                0x000063c8                UART_0_UartInit
+ .text.UART_0_UartGetByte
+                0x00006474       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+                0x00006474                UART_0_UartGetByte
+ .text.CapSense_SampleClk_Start
+                0x000064b4       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+                0x000064b4                CapSense_SampleClk_Start
+ .text.CapSense_SampleClk_Stop
+                0x000064c8       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+                0x000064c8                CapSense_SampleClk_Stop
+ .text.CapSense_SampleClk_SetFractionalDividerRegister
+                0x000064d8       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+                0x000064d8                CapSense_SampleClk_SetFractionalDividerRegister
+ .text.CapSense_SenseClk_Start
+                0x000064ec       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+                0x000064ec                CapSense_SenseClk_Start
+ .text.CapSense_SenseClk_Stop
+                0x00006500       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+                0x00006500                CapSense_SenseClk_Stop
+ .text.CapSense_SenseClk_SetFractionalDividerRegister
+                0x00006510       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+                0x00006510                CapSense_SenseClk_SetFractionalDividerRegister
+ .text.HCLK_Write
+                0x00006524       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+                0x00006524                HCLK_Write
+ .text.HSDA_Write
+                0x0000653c       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+                0x0000653c                HSDA_Write
+ .text.COMN_Write
+                0x00006554       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+                0x00006554                COMN_Write
+ .text.UART_1_SpiUartReadRxData
+                0x0000656c        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+                0x0000656c                UART_1_SpiUartReadRxData
+ .text.UART_1_SpiUartGetRxBufferSize
+                0x00006578       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+                0x00006578                UART_1_SpiUartGetRxBufferSize
+ .text.UART_1_SpiUartDisableIntRx
+                0x00006588       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+                0x00006588                UART_1_SpiUartDisableIntRx
+ .text.UART_1_SPI_UART_ISR
+                0x00006598       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+                0x00006598                UART_1_SPI_UART_ISR
+ .text.UART_0_SPI_UART_ISR
+                0x000065ac       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+                0x000065ac                UART_0_SPI_UART_ISR
+ .text          0x000065c0       0x14 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+                0x000065c0                __gnu_thumb1_case_uqi
+ .text          0x000065d4       0x9c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+                0x000065d4                __aeabi_uidiv
+                0x000065d4                __udivsi3
+                0x0000665c                __aeabi_uidivmod
+ .text          0x00006670        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+                0x00006670                __aeabi_idiv0
+                0x00006670                __aeabi_ldiv0
+ .text.__libc_init_array
+                0x00006674       0x4c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+                0x00006674                __libc_init_array
+ .text.memcpy   0x000066c0       0x12 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+                0x000066c0                memcpy
+ .text.memset   0x000066d2       0x12 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+                0x000066d2                memset
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.bootloader)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+
+.v4_bx          0x000066e4        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000066e4        0x0
+ .iplt          0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame       0x000066e4        0x4
+ *(.eh_frame)
+ .eh_frame      0x000066e4        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .eh_frame      0x000066e4        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+                0x000066e8                PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x000066e8                __exidx_end = .
+
+.rodata         0x000066e8      0x118
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000066e8       0x58 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .rodata        0x00006740       0x70 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x00006740                CapSense_widgetResolution
+                0x00006750                CapSense_portTable
+                0x00006754                CapSense_pinShiftTbl
+                0x00006758                CapSense_prtSelTbl
+                0x0000676c                CapSense_prtCfgTbl
+                0x00006780                CapSense_prtDRTbl
+                0x00006794                CapSense_widgetNumber
+                0x00006798                CapSense_sampleClkDividerVal
+                0x0000679c                CapSense_senseClkDividerVal
+                0x000067a0                CapSense_maskTable
+ .rodata        0x000067b0       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x000067b0                CapSense_debounce
+                0x000067b4                CapSense_noiseThreshold
+                0x000067b8                CapSense_fingerThreshold
+                0x000067bc                CapSense_hysteresis
+                0x000067c0                CapSense_rawDataIndex
+                0x000067c4                CapSense_numberOfSensors
+                0x000067c8                . = ALIGN (0x4)
+ *(.init)
+ .init          0x000067c8        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x000067c8                _init
+ .init          0x000067cc        0x8 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x000067d4                . = ALIGN (0x4)
+                0x000067d4                __preinit_array_start = .
+ *(.preinit_array)
+                0x000067d4                __preinit_array_end = .
+                0x000067d4                . = ALIGN (0x4)
+                0x000067d4                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x000067d4        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .init_array    0x000067d8        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x000067dc                __init_array_end = .
+                0x000067dc                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x000067dc        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+                0x000067dc                _fini
+ .fini          0x000067e0        0x8 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+                0x000067e8                . = ALIGN (0x4)
+                0x000067e8                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x000067e8        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x000067ec                __fini_array_end = .
+                0x000067ec                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000067ec                . = ALIGN (0x4)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x000067ec                . = ALIGN (0x4)
+                0x000067ec                __cy_regions = .
+                0x000067ec        0x4 LONG 0x6800 __cy_region_init_ram
+                0x000067f0        0x4 LONG 0x200000d0 __cy_region_start_data
+                0x000067f4        0x4 LONG 0x30 __cy_region_init_size_ram
+                0x000067f8        0x4 LONG 0x3e0 __cy_region_zero_size_ram
+                0x000067fc                __cy_regions_end = .
+                0x00006800                . = ALIGN (0x8)
+ *fill*         0x000067fc        0x4 00
+                0x00006800                _etext = .
+
+.ramvectors     0x20000000       0xc0
+                0x20000000                __cy_region_start_ram = .
+ *(.ramvectors)
+ .ramvectors    0x20000000       0xc0 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x20000000                CyRamVectors
+
+.btldr_run      0x200000c0        0x4
+ *(.bootloaderruntype)
+ .bootloaderruntype
+                0x200000c0        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                0x200000c0                cyBtldrRunType
+
+.noinit         0x200000c8        0x4
+ *(.noinit)
+ .noinit        0x200000c8        0x4 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+
+.data           0x200000d0       0x30 load address 0x00006800
+                0x200000d0                __cy_region_start_data = .
+ *(.jcr)
+ .jcr           0x200000d0        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .jcr           0x200000d0        0x4 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x200000d4       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                0x200000d4                cydelay32kMs
+                0x200000d8                cydelayFreqKhz
+                0x200000dc                cydelayFreqMhz
+                0x200000e0                cydelayFreqHz
+ .data          0x200000e4       0x1c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x200000e4                CapSense_modulationIDAC
+                0x200000e8                CapSense_compensationIDAC
+                0x200000ec                CapSense_sensorEnableMask
+                0x200000f0                CapSense_pcTable
+                0x20000100                . = ALIGN (0x8)
+ *(.ram)
+                0x20000100                _edata = .
+
+.igot.plt       0x20000100        0x0 load address 0x00006830
+ .igot.plt      0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.bss            0x20000100      0x3e0 load address 0x00006830
+                0x20000100                PROVIDE (__bss_start__, .)
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000100       0x1c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .bss           0x2000011c       0x10 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x2000011c                UART_0_initVar
+                0x20000120                UART_0_customIntrHandler
+                0x20000124                UART_1_initVar
+                0x20000128                UART_1_customIntrHandler
+ .bss           0x2000012c       0x64 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .bss           0x20000190        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x20000190                CapSense_csdStatusVar
+                0x20000192                CapSense_sensorRaw
+                0x2000019a                CapSense_sensorIndex
+ .bss           0x2000019c       0x16 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x2000019c                CapSense_sensorBaseline
+                0x200001a4                CapSense_sensorBaselineLow
+                0x200001a8                CapSense_sensorSignal
+                0x200001b1                CapSense_sensorOnMask
+ .bss           0x200001b2        0x1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .bss           0x200001b3        0x1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                0x200001b3                PWM_initVar
+ .bss           0x200001b4        0x1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                0x200001b4                Timer_initVar
+ *(COMMON)
+ *fill*         0x200001b5        0x3 00
+ COMMON         0x200001b8       0x38 .\CortexM0\ARM_GCC_473\Debug\main.o
+                0x200001b8                UartRx
+                0x200001b9                NBfig
+                0x200001ba                lXXZcnt_fig
+                0x200001bb                Ack_Timer
+                0x200001bc                dismode
+                0x200001bd                cleareepromArrayflag
+                0x200001be                BUZqueshuifkg
+                0x200001bf                V24fig
+                0x200001c0                BootloaderSign
+                0x200001c1                NbPressCnt
+                0x200001c2                V24Vcnt
+                0x200001c3                V24dengdai
+                0x200001c4                Dly1
+                0x200001c8                BUZfkgtemp
+                0x200001c9                NBPressStart
+                0x200001ca                standkeyfig
+                0x200001cb                BUZfkg
+                0x200001cc                rxx
+                0x200001cd                standflashfig
+                0x200001ce                LvxinJishi
+                0x200001e8                Dly
+                0x200001ec                NBPressCnt
+                0x200001ed                ch
+                0x200001ee                qushui_BUZcnt
+                0x200001ef                LXXZOUT_fig
+ COMMON         0x200001f0       0x78 .\CortexM0\ARM_GCC_473\Debug\display.o
+                0x200001f0                MPercent
+                0x200001f4                LData
+                0x200001f8                SPercent
+                0x200001fc                DisFlag
+                0x20000204                templvxin
+                0x2000020a                KPercent
+                0x2000020c                DigitalBuf
+                0x20000210                temp
+                0x2000022c                tempk
+                0x20000230                LedPannelBuf
+                0x2000024c                tempj
+                0x2000024d                LPercent
+                0x20000250                KData
+                0x20000254                LedPannelCnt
+                0x20000255                temps
+                0x20000256                templ
+                0x20000257                HPercent
+                0x20000258                StaFlashCnt
+                0x20000259                temph
+                0x2000025c                HData
+                0x20000260                JPercent
+                0x20000261                tempm
+                0x20000262                FlashCnt
+                0x20000264                JData
+ COMMON         0x20000268       0xe6 .\CortexM0\ARM_GCC_473\Debug\fun.o
+                0x20000268                SP
+                0x2000026a                Error_Counter
+                0x2000026c                Tds_Dispcnt
+                0x2000026e                NBmint
+                0x20000270                eefig
+                0x20000272                LXXZstandcnt
+                0x20000274                n
+                0x20000276                JP_N
+                0x20000278                PressFlag
+                0x2000027c                DYWDfig1
+                0x2000027e                KP
+                0x20000280                standkeycnt
+                0x20000282                GYfig1
+                0x20000284                chongxicnt
+                0x20000286                Hfig
+                0x20000287                WifiPressCnt
+                0x20000288                onemincnt
+                0x2000028a                HP_N
+                0x2000028c                faststa
+                0x2000028e                Value_Loushui_Ad
+                0x20000290                Value_Tds0
+                0x20000292                workstartfig
+                0x20000293                GYfig
+                0x20000294                eroorcnt
+                0x20000296                jingshuicnt
+                0x20000298                jixingnumber
+                0x2000029a                KP_N
+                0x2000029c                WorkFlag02
+                0x200002a0                SP_N
+                0x200002a2                Value_Tds1
+                0x200002a4                Filter_Manage_Num
+                0x200002a5                DYWDcnt
+                0x200002a6                Sfig
+                0x200002a8                PowerOnCnt00
+                0x200002aa                Value_Flow
+                0x200002ac                zijiandisplayfig
+                0x200002ad                onehourcnt
+                0x200002ae                V24cnt
+                0x200002b0                LvXinNum
+                0x200002b1                jishihour
+                0x200002b2                Filter_Changed_Num
+                0x200002ca                XzPressCnt
+                0x200002cb                liucheng2
+                0x200002cc                Value_T
+                0x200002cd                Tds_Ack_Timer
+                0x200002ce                standstar_fig
+                0x200002cf                Mfig
+                0x200002d0                lvxinbaojingcnt
+                0x200002d2                DYWDcnt1
+                0x200002d4                ErrorFlag
+                0x200002d8                jserrorcnt
+                0x200002d9                fastjishifig
+                0x200002da                poweroverfig
+                0x200002dc                LP
+                0x200002de                standflashcnt
+                0x200002e0                liucheng3
+                0x200002e2                MP
+                0x200002e4                Error_Data
+                0x200002e8                liucheng1
+                0x200002e9                Jfig
+                0x200002ea                waterfullfig
+                0x200002eb                fastfig
+                0x200002ec                GYcnt
+                0x200002ed                Lfig
+                0x200002ee                zijianstacnt
+                0x200002f0                HP
+                0x200002f2                NBstandcnt
+                0x200002f4                WorkFlag
+                0x200002f8                lvxindaoqifig
+                0x200002fa                Filter_Full_Data_Buf
+                0x20000308                WorkFlag01
+                0x2000030c                BuzzerCnt
+                0x2000030d                jserrorcntfig
+                0x20000310                PowerOnOneHourCnt
+                0x20000314                LP_N
+                0x20000316                yanshifig
+                0x20000317                PowerOnCnt01
+                0x20000318                WorkFlag01_Dispcnt
+                0x20000319                DYWDfig
+                0x2000031a                liucheng4
+                0x2000031b                Kfig
+                0x2000031c                chongxifig
+                0x2000031e                StandByCnt
+                0x20000320                shuibumanfig
+                0x20000321                EEgyfullcnt
+                0x20000324                LianXuJiShi
+                0x20000328                fastcnt
+                0x2000032a                MP_N
+                0x2000032c                yanshicnt
+                0x2000032d                GYcnt1
+                0x20000330                Work_State
+                0x20000334                JP
+                0x20000338                BuzzerFlag
+                0x2000033c                gyfullcnt
+                0x2000033e                fastjishicnt
+                0x20000340                LvXinNum1
+                0x20000341                BuzzerNum
+                0x20000342                Counter_Key
+                0x20000344                Switch_Data
+                0x20000348                EEjingshuiliang
+                0x2000034a                jingshuiliang
+                0x2000034c                BuzzerDly
+                0x2000034d                yanshidisfig
+ *fill*         0x2000034e        0x2 00
+ COMMON         0x20000350       0xa4 .\CortexM0\ARM_GCC_473\Debug\module.o
+                0x20000350                T10msSign
+                0x20000354                BtnFlag
+                0x20000358                BtnData
+                0x20000359                BtnData2
+                0x2000035a                BtnData1
+                0x2000035c                AdcData
+                0x20000360                AdcReady
+                0x20000364                eepfig
+                0x20000366                AdcBuf
+                0x2000036a                array
+                0x200003ea                BtnCnt
+                0x200003ec                AdcTemp
+ COMMON         0x200003f4       0xd4 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                0x200003f4                giTDSBOARDDATALength
+                0x200003f6                Work_State_Num_L
+                0x200003f7                gctdsboardCommunState
+                0x200003f8                u8LinkState
+                0x200003f9                Frame_Num
+                0x200003fa                Work_State_Num_H
+                0x200003fb                u8SmartLinkState
+                0x200003fc                giWIFIDATALength
+                0x200003fe                gcTDSBOARDCTL
+                0x20000400                iSendCounter
+                0x20000402                Error_Data_Buf
+                0x20000414                gcWIFICTL
+                0x20000416                ATTdsReceBuffer
+                0x20000436                giWIFICommand
+                0x20000438                cpSendBufPtr
+                0x2000043c                iUartSendLen
+                0x2000043e                SmarkLink_State
+                0x20000440                ATReceBuffer
+                0x200004a6                Send_Interval_Counter
+                0x200004a8                WifiWorkFlag
+                0x200004ac                Cmd_Function_Num
+                0x200004ae                giTDSBOARDCommand
+                0x200004b0                WifidatagramWorkFlag
+                0x200004b4                Cmd_Function_Buf
+                0x200004c4                gcWifiCommunState
+                0x200004c6                Cmd_Function
+ COMMON         0x200004c8        0x6 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                0x200004c8                CapSense_csdTrim1
+                0x200004c9                CapSense_sensorEnableMaskBackup
+                0x200004ca                CapSense_unscannedSnsDriveMode
+ COMMON         0x200004ce        0xc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                0x200004ce                CapSense_lowBaselineResetCnt
+                0x200004d2                CapSense_rawFilterData1
+                0x200004e0                . = ALIGN (0x8)
+ *fill*         0x200004da        0x6 00
+ *(.ram.b)
+                0x200004e0                _end = .
+                0x200004e0                __end = .
+                0x200004e0                PROVIDE (end, .)
+                0x200004e0                PROVIDE (__bss_end__, .)
+                0x00006800                __cy_region_init_ram = LOADADDR (.data)
+                0x00000030                __cy_region_init_size_ram = (_edata - ADDR (.data))
+                0x000003e0                __cy_region_zero_size_ram = (_end - _edata)
+
+.heap           0x200004e0      0x100 load address 0x00006830
+                0x200004e0                . = _end
+                0x200005e0                . = (. + 0x100)
+ *fill*         0x200004e0      0x100 00
+                0x200005e0                __cy_heap_limit = .
+
+.stack          0x20000c00      0x400
+                0x20000c00                __cy_stack_limit = .
+                0x20001000                . = (. + 0x400)
+ *fill*         0x20000c00      0x400 00
+                0x00000001                ASSERT ((__cy_stack_limit >= __cy_heap_limit), region RAM overflowed with stack)
+
+.cyloadermeta   0xf0000000       0x40
+ *(.cyloadermeta)
+ .cyloadermeta  0xf0000000       0x40 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0xf0000000                cy_meta_loader
+
+.cyloadablemeta
+                0x00007fc0       0x40
+ *(.cyloadablemeta)
+ .cyloadablemeta
+                0x00007fc0       0x40 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+                0x00007fc0                cy_meta_loadable
+
+.cyflashprotect
+                0x90400000       0x20
+ *(.cyflashprotect)
+ .cyflashprotect
+                0x90400000       0x20 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90400000                cy_meta_flashprotect
+
+.cymeta         0x90500000        0xc
+ *(.cymeta)
+ .cymeta        0x90500000        0xc .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90500000                cy_metadata
+
+.cychipprotect  0x90600000        0x4
+ *(.cychipprotect)
+ .cychipprotect
+                0x90600000        0x4 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                0x90600000                cy_meta_chipprotect
+
+.rel.dyn        0x00008000        0x0 load address 0x90600004
+ .rel.iplt      0x00000000        0x0 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0xff0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0xa0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_aranges
+                0x000000a0       0x58 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_aranges
+                0x000000f8       0x28 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_aranges
+                0x00000120       0x80 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_aranges
+                0x000001a0       0x70 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_aranges
+                0x00000210      0x180 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_aranges
+                0x00000390       0x18 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_aranges
+                0x000003a8       0x18 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_aranges
+                0x000003c0       0x40 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_aranges
+                0x00000400       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_aranges
+                0x00000428       0x28 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_aranges
+                0x00000450       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .debug_aranges
+                0x00000470       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_aranges
+                0x000004a0      0x1a0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_aranges
+                0x00000640       0x80 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_aranges
+                0x000006c0      0x128 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_aranges
+                0x000007e8       0xd8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_aranges
+                0x000008c0       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_aranges
+                0x000008e0       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_aranges
+                0x00000920       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_aranges
+                0x00000960       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_aranges
+                0x000009a0       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_aranges
+                0x000009e0      0x158 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_aranges
+                0x00000b38       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_aranges
+                0x00000b78       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_aranges
+                0x00000bb8      0x158 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_aranges
+                0x00000d10       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_aranges
+                0x00000d60       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_aranges
+                0x00000dc0       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_aranges
+                0x00000e10       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_aranges
+                0x00000e50       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_aranges
+                0x00000e90       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_aranges
+                0x00000ed0       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_aranges
+                0x00000f10       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_aranges
+                0x00000f50       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_aranges
+                0x00000fb0       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_aranges
+                0x00000fd0       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0xc0be
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xd19 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_info    0x00000d19      0xcac .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_info    0x000019c5      0x1ab .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_info    0x00001b70     0x16d7 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_info    0x00003247      0x76f .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_info    0x000039b6     0x1537 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_info    0x00004eed      0x152 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_info    0x0000503f       0xb2 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_info    0x000050f1      0x320 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_info    0x00005411      0x54a .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_info    0x0000595b      0x1c4 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_info    0x00005b1f       0x98 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .debug_info    0x00005bb7      0x5f3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_info    0x000061aa      0xee8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_info    0x00007092      0x38e .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_info    0x00007420     0x1003 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_info    0x00008423      0xa8f .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_info    0x00008eb2      0x1c8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_info    0x0000907a      0x163 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_info    0x000091dd      0x164 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_info    0x00009341      0x165 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_info    0x000094a6      0x164 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_info    0x0000960a      0x9f1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_info    0x00009ffb      0x164 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_info    0x0000a15f      0x164 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_info    0x0000a2c3      0x9f1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_info    0x0000acb4      0x381 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_info    0x0000b035      0x242 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_info    0x0000b277      0x381 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_info    0x0000b5f8      0x166 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_info    0x0000b75e      0x166 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_info    0x0000b8c4      0x168 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_info    0x0000ba2c      0x164 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_info    0x0000bb90      0x166 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_info    0x0000bcf6      0x242 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_info    0x0000bf38       0xc3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_info    0x0000bffb       0xc3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_abbrev   0x00000000     0x33e8
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x263 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_abbrev  0x00000263      0x1eb .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_abbrev  0x0000044e      0x120 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_abbrev  0x0000056e      0x1dc .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_abbrev  0x0000074a      0x21d .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_abbrev  0x00000967      0x255 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_abbrev  0x00000bbc       0x77 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_abbrev  0x00000c33       0x5d .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_abbrev  0x00000c90      0x1b7 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_abbrev  0x00000e47      0x2a3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_abbrev  0x000010ea      0x118 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_abbrev  0x00001202       0x14 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00001216      0x292 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_abbrev  0x000014a8      0x317 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_abbrev  0x000017bf      0x249 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_abbrev  0x00001a08      0x2eb .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_abbrev  0x00001cf3      0x2ba .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_abbrev  0x00001fad       0xf7 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_abbrev  0x000020a4       0xb9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_abbrev  0x0000215d       0xd3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_abbrev  0x00002230       0xbb .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_abbrev  0x000022eb       0xd3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_abbrev  0x000023be      0x1c9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_abbrev  0x00002587       0xd3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_abbrev  0x0000265a       0xd3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_abbrev  0x0000272d      0x1c9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_abbrev  0x000028f6      0x1ac .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_abbrev  0x00002aa2      0x16b .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_abbrev  0x00002c0d      0x1ac .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_abbrev  0x00002db9       0xb9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_abbrev  0x00002e72       0xb9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_abbrev  0x00002f2b       0xc6 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_abbrev  0x00002ff1       0xd3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_abbrev  0x000030c4       0xd5 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_abbrev  0x00003199      0x16b .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_abbrev  0x00003304       0x72 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_abbrev  0x00003376       0x72 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_line     0x00000000     0x46b0
+ *(.debug_line)
+ .debug_line    0x00000000      0x335 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_line    0x00000335      0x4b4 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_line    0x000007e9       0x9a .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_line    0x00000883      0x795 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_line    0x00001018      0x363 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_line    0x0000137b      0x61a .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_line    0x00001995       0x55 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .debug_line    0x000019ea       0x53 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .debug_line    0x00001a3d      0x188 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_line    0x00001bc5      0x225 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_line    0x00001dea       0xb8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_line    0x00001ea2       0x68 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .debug_line    0x00001f0a      0x172 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_line    0x0000207c      0x581 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_line    0x000025fd      0x1c8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_line    0x000027c5      0x516 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_line    0x00002cdb      0x34e .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_line    0x00003029       0x7f .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_line    0x000030a8       0xb3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_line    0x0000315b       0xb5 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_line    0x00003210       0xb1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_line    0x000032c1       0xb3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_line    0x00003374      0x413 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_line    0x00003787       0xb3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_line    0x0000383a       0xb3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_line    0x000038ed      0x403 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_line    0x00003cf0      0x161 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_line    0x00003e51      0x129 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_line    0x00003f7a      0x161 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_line    0x000040db       0xc2 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_line    0x0000419d       0xc1 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_line    0x0000425e       0xb5 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_line    0x00004313       0xb5 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_line    0x000043c8       0xb9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_line    0x00004481      0x129 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_line    0x000045aa       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_line    0x0000462d       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_frame    0x00000000     0x2850
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x1f0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_frame   0x000001f0      0x100 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_frame   0x000002f0       0x3c .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_frame   0x0000032c      0x1b0 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_frame   0x000004dc      0x144 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_frame   0x00000620      0x558 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_frame   0x00000b78       0x98 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_frame   0x00000c10       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_frame   0x00000c60       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_frame   0x00000cb0       0x70 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_frame   0x00000d20      0x468 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_frame   0x00001188      0x104 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_frame   0x0000128c      0x378 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_frame   0x00001604      0x248 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_frame   0x0000184c       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_frame   0x0000187c       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_frame   0x000018dc       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_frame   0x00001948       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_frame   0x000019a8       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_frame   0x00001a14      0x384 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_frame   0x00001d98       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_frame   0x00001e04       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_frame   0x00001e70      0x384 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_frame   0x000021f4       0xbc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_frame   0x000022b0       0xb8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_frame   0x00002368       0xbc .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_frame   0x00002424       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_frame   0x00002484       0x60 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_frame   0x000024e4       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_frame   0x00002550       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_frame   0x000025bc       0x6c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_frame   0x00002628       0xb8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_frame   0x000026e0       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_frame   0x0000270c       0x2c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+ .debug_frame   0x00002738       0x20 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00002758       0x28 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .debug_frame   0x00002780       0x28 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .debug_frame   0x000027a8       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .debug_frame   0x000027d4       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .debug_frame   0x00002800       0x28 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .debug_frame   0x00002828       0x28 c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x3c64
+ *(.debug_str)
+ .debug_str     0x00000000      0x6fc .\CortexM0\ARM_GCC_473\Debug\main.o
+                                0x754 (size before relaxing)
+ .debug_str     0x000006fc      0x39d .\CortexM0\ARM_GCC_473\Debug\display.o
+                                0x652 (size before relaxing)
+ .debug_str     0x00000a99       0x91 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+                                0x1ce (size before relaxing)
+ .debug_str     0x00000b2a      0x53f .\CortexM0\ARM_GCC_473\Debug\fun.o
+                                0xc04 (size before relaxing)
+ .debug_str     0x00001069      0x1ad .\CortexM0\ARM_GCC_473\Debug\module.o
+                                0x428 (size before relaxing)
+ .debug_str     0x00001216      0x56f .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+                                0x9a1 (size before relaxing)
+ .debug_str     0x00001785       0x7a .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+                                0x1b0 (size before relaxing)
+ .debug_str     0x000017ff       0x37 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+                                0x16d (size before relaxing)
+ .debug_str     0x00001836      0x11f .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+                                0x28d (size before relaxing)
+ .debug_str     0x00001955      0x19a .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+                                0x33e (size before relaxing)
+ .debug_str     0x00001aef       0x61 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+                                0x203 (size before relaxing)
+ .debug_str     0x00001b50      0x1a5 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+                                0x350 (size before relaxing)
+ .debug_str     0x00001cf5      0x431 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+                                0x6a8 (size before relaxing)
+ .debug_str     0x00002126       0xf6 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+                                0x2af (size before relaxing)
+ .debug_str     0x0000221c      0x6f8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+                                0x938 (size before relaxing)
+ .debug_str     0x00002914      0x3dd .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+                                0x6ab (size before relaxing)
+ .debug_str     0x00002cf1       0x4a .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+                                0x246 (size before relaxing)
+ .debug_str     0x00002d3b       0x75 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00002db0       0x62 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00002e12       0x4f .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+                                0x1b8 (size before relaxing)
+ .debug_str     0x00002e61       0x4f .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+                                0x1b8 (size before relaxing)
+ .debug_str     0x00002eb0      0x379 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+                                0x514 (size before relaxing)
+ .debug_str     0x00003229       0x58 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+                                0x1b8 (size before relaxing)
+ .debug_str     0x00003281       0x58 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+                                0x1b8 (size before relaxing)
+ .debug_str     0x000032d9      0x2fd .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+                                0x568 (size before relaxing)
+ .debug_str     0x000035d6      0x157 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+                                0x2ff (size before relaxing)
+ .debug_str     0x0000372d      0x118 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+                                0x299 (size before relaxing)
+ .debug_str     0x00003845       0x96 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+                                0x2ff (size before relaxing)
+ .debug_str     0x000038db       0xac .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+                                0x24e (size before relaxing)
+ .debug_str     0x00003987       0x81 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+                                0x248 (size before relaxing)
+ .debug_str     0x00003a08       0x61 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00003a69       0x61 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00003aca       0x61 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+                                0x1c4 (size before relaxing)
+ .debug_str     0x00003b2b       0xb3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+                                0x299 (size before relaxing)
+ .debug_str     0x00003bde       0x43 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+                                0x199 (size before relaxing)
+ .debug_str     0x00003c21       0x43 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+                                0x199 (size before relaxing)
+
+.debug_loc      0x00000000     0x5e05
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x225 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_loc     0x00000225      0x51f .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_loc     0x00000744       0xa4 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_loc     0x000007e8      0x1ac .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_loc     0x00000994      0x1ea .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_loc     0x00000b7e      0x836 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_loc     0x000013b4      0x142 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_loc     0x000014f6      0x1c8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_loc     0x000016be      0x129 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_loc     0x000017e7      0x4b3 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_loc     0x00001c9a      0xe17 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_loc     0x00002ab1      0x10a .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_loc     0x00002bbb      0xe49 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_loc     0x00003a04      0x95d .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_loc     0x00004361       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_loc     0x00004381       0x63 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_loc     0x000043e4       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_loc     0x00004467       0x5c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_loc     0x000044c3       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_loc     0x00004546      0x7c7 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_loc     0x00004d0d       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_loc     0x00004d90       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_loc     0x00004e13      0x7c7 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_loc     0x000055da      0x1d2 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_loc     0x000057ac       0xf9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_loc     0x000058a5      0x1d2 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_loc     0x00005a77       0x5c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_loc     0x00005ad3       0x5c .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_loc     0x00005b2f       0x9d .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_loc     0x00005bcc       0x83 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_loc     0x00005c4f       0x7d .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_loc     0x00005ccc       0xf9 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_loc     0x00005dc5       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_loc     0x00005de5       0x20 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_ranges   0x00000000     0x1140
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xc0 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .debug_ranges  0x000000c0       0x48 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .debug_ranges  0x00000108       0x18 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .debug_ranges  0x00000120       0x70 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .debug_ranges  0x00000190       0x60 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .debug_ranges  0x000001f0      0x170 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .debug_ranges  0x00000360       0x30 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .debug_ranges  0x00000390      0x100 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .debug_ranges  0x00000490       0x18 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .debug_ranges  0x000004a8       0xb8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .debug_ranges  0x00000560      0x1f8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .debug_ranges  0x00000758      0x160 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .debug_ranges  0x000008b8      0x118 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .debug_ranges  0x000009d0       0xc8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .debug_ranges  0x00000a98       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .debug_ranges  0x00000aa8       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .debug_ranges  0x00000ad8       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .debug_ranges  0x00000b08       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .debug_ranges  0x00000b38       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .debug_ranges  0x00000b68      0x1a0 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .debug_ranges  0x00000d08       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .debug_ranges  0x00000d38       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .debug_ranges  0x00000d68      0x1a8 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .debug_ranges  0x00000f10       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .debug_ranges  0x00000f50       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .debug_ranges  0x00000fa0       0x40 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .debug_ranges  0x00000fe0       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .debug_ranges  0x00001010       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .debug_ranges  0x00001040       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .debug_ranges  0x00001070       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .debug_ranges  0x000010a0       0x30 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .debug_ranges  0x000010d0       0x50 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .debug_ranges  0x00001120       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .debug_ranges  0x00001130       0x10 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 .\CortexM0\ARM_GCC_473\Debug\main.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .comment       0x00000000       0x71 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x28
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x1e c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000066       0x31 .\CortexM0\ARM_GCC_473\Debug\main.o
+ .ARM.attributes
+                0x00000097       0x31 .\CortexM0\ARM_GCC_473\Debug\display.o
+ .ARM.attributes
+                0x000000c8       0x31 .\CortexM0\ARM_GCC_473\Debug\flash_wr_rd.o
+ .ARM.attributes
+                0x000000f9       0x31 .\CortexM0\ARM_GCC_473\Debug\fun.o
+ .ARM.attributes
+                0x0000012a       0x31 .\CortexM0\ARM_GCC_473\Debug\module.o
+ .ARM.attributes
+                0x0000015b       0x31 .\CortexM0\ARM_GCC_473\Debug\uart_wifi.o
+ .ARM.attributes
+                0x0000018c       0x31 .\CortexM0\ARM_GCC_473\Debug\cybootloader.o
+ .ARM.attributes
+                0x000001bd       0x31 .\CortexM0\ARM_GCC_473\Debug\cymetadata.o
+ .ARM.attributes
+                0x000001ee       0x31 .\CortexM0\ARM_GCC_473\Debug\Cm0Start.o
+ .ARM.attributes
+                0x0000021f       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(cyfitter_cfg.o)
+ .ARM.attributes
+                0x00000250       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Bootloadable.o)
+ .ARM.attributes
+                0x00000281       0x21 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyBootAsmGnu.o)
+ .ARM.attributes
+                0x000002a2       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyFlash.o)
+ .ARM.attributes
+                0x000002d3       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CyLib.o)
+ .ARM.attributes
+                0x00000304       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CC_ISR.o)
+ .ARM.attributes
+                0x00000335       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense.o)
+ .ARM.attributes
+                0x00000366       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_CSHL.o)
+ .ARM.attributes
+                0x00000397       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_INT.o)
+ .ARM.attributes
+                0x000003c8       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(GYWD.o)
+ .ARM.attributes
+                0x000003f9       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(DYWD.o)
+ .ARM.attributes
+                0x0000042a       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K1.o)
+ .ARM.attributes
+                0x0000045b       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(K2.o)
+ .ARM.attributes
+                0x0000048c       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(PWM.o)
+ .ARM.attributes
+                0x000004bd       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(JS.o)
+ .ARM.attributes
+                0x000004ee       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CX.o)
+ .ARM.attributes
+                0x0000051f       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(Timer.o)
+ .ARM.attributes
+                0x00000550       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_UART.o)
+ .ARM.attributes
+                0x00000581       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART.o)
+ .ARM.attributes
+                0x000005b2       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_UART.o)
+ .ARM.attributes
+                0x000005e3       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SampleClk.o)
+ .ARM.attributes
+                0x00000614       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(CapSense_SenseClk.o)
+ .ARM.attributes
+                0x00000645       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HCLK.o)
+ .ARM.attributes
+                0x00000676       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(HSDA.o)
+ .ARM.attributes
+                0x000006a7       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(COMN.o)
+ .ARM.attributes
+                0x000006d8       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART.o)
+ .ARM.attributes
+                0x00000709       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_1_SPI_UART_INT.o)
+ .ARM.attributes
+                0x0000073a       0x31 .\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.a(UART_0_SPI_UART_INT.o)
+ .ARM.attributes
+                0x0000076b       0x1e c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x00000789       0x1e c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000007a7       0x1e c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000007c5       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-__atexit2.o)
+ .ARM.attributes
+                0x000007f1       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000081d       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000849       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000875       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-init.o)
+ .ARM.attributes
+                0x000008a1       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000008cd       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/armv6-m\libc_s.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000008f9       0x2c c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000925       0x1e c:/program files/cypress/psoc creator/3.0/psoc creator/import/gnu_cs/arm/4.7.3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(.\CortexM0\ARM_GCC_473\Debug\UART_Bootloadable.elf elf32-littlearm)

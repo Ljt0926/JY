@@ -1,0 +1,6 @@
+E:\code\newboardwifi\newboard_0514_boot\UART_Bootloader.cydsn\UART_Bootloader.cyprj|6ad48858-d166-48f9-bd42-e93ac879953f
+C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|31df8039-ac99-4b04-a472-5d6841005a56
+C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b7ed1069-159b-4649-9221-cb671f023ebd
+C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|a3dcd47c-84ed-4674-aef8-35ab21094d58
+C:\Program Files\Cypress\PSoC Creator\3.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6aafd318-99f3-4c07-9015-6b1a5f034a52
+E:\code\newboardwifi\newboard_0514_boot\UART_Bootloadable.cydsn\UART_Bootloadable.cyprj|d18bb62a-8209-4ac9-8098-3d3133c654ad
